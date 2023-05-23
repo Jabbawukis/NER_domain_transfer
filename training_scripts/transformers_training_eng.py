@@ -1,3 +1,4 @@
+import flair
 from flair.datasets import CONLL_03
 from flair.embeddings import TransformerWordEmbeddings
 from flair.models import SequenceTagger

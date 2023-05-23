@@ -1,3 +1,4 @@
+import flair
 from flair.data import MultiCorpus
 from flair.datasets import CONLL_03_DUTCH, CONLL_03
 from flair.embeddings import TransformerWordEmbeddings
