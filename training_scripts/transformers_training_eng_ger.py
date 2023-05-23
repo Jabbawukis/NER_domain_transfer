@@ -6,7 +6,7 @@ from flair.trainers import ModelTrainer
 
 corpus = MultiCorpus([CONLL_03_DUTCH(), CONLL_03()]).downsample(0.1)
 label_type = 'ner'
-label_dict = corpus.make_label_dictionary(label_type=label_type, add_unk=False)
+label_dict = corpus.make_label_dictionary(label_type=label_type)
 embeddings = TransformerWordEmbeddings(model='xlm-roberta-large',
                                        layers="-1",
                                        subtoken_pooling="first",
