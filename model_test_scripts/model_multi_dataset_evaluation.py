@@ -7,4 +7,4 @@ roberta_tagger = SequenceTagger.load(sys.argv[1])
 test_results = roberta_tagger.evaluate(data_points=corpus.test,
                                        gold_label_type="ner",
                                        out_path=sys.argv[2])
-print(test_results.main_score)
+print(f"Main Score: {test_results.main_score}")
