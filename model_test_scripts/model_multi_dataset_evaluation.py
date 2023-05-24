@@ -8,3 +8,5 @@ test_results = roberta_tagger.evaluate(data_points=corpus.test,
                                        gold_label_type="ner",
                                        out_path=sys.argv[2])
 print(f"Main Score: {test_results.main_score}")
+with open(sys.argv[2], 'r') as original: data = original.read()
+with open(sys.argv[2], 'w') as modified: modified.write(f"Main Score: {test_results.main_score}\n" + data)
