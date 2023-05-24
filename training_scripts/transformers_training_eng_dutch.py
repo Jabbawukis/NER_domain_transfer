@@ -27,7 +27,7 @@ for run in range(1, 4):
 
     trainer = ModelTrainer(tagger, corpus)
 
-    trainer.fine_tune(f'resources/taggers/conll_eng_ger_ner_roberta_large_run_{run}',
+    trainer.fine_tune(f'resources/taggers/conll_eng_dutch_ner_roberta_large_run_{run}',
                       learning_rate=5.0e-6,
                       mini_batch_size=4,
                       )
