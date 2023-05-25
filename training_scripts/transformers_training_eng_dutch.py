@@ -6,7 +6,7 @@ from flair.embeddings import TransformerWordEmbeddings
 from flair.models import SequenceTagger
 from flair.trainers import ModelTrainer
 flair.device = f'cuda:{sys.argv[1]}'
-corpus = MultiCorpus([CONLL_03_DUTCH(), CONLL_03()]).downsample(0.1)
+corpus = MultiCorpus([CONLL_03_DUTCH(), CONLL_03()])
 label_type = 'ner'
 label_dict = corpus.make_label_dictionary(label_type=label_type)
 embeddings = TransformerWordEmbeddings(model='xlm-roberta-large',
