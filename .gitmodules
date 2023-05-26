@@ -1,3 +1,0 @@
-[submodule "flair"]
-	path = flair
-	url = https://github.com/flairNLP/flair.git
