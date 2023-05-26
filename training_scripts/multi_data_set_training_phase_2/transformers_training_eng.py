@@ -42,3 +42,6 @@ for run in range(1, 4):
                           learning_rate=5.0e-6,
                           mini_batch_size=4,
                           )
+
+    del finished_tagger
+    del new_trainer
