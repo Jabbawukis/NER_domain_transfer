@@ -6,12 +6,12 @@ from flair.nn.multitask import make_multitask_model_and_corpus
 from flair.trainers import ModelTrainer
 
 # transformer and learning rate
-transformer = 'distilbert-base-uncased'
-learning_rate = 5e-5
+# transformer = 'distilbert-base-uncased' -> nur für english
+# learning_rate = 5e-5
 
 # for state-of-the-art use instead:
-# transformer = 'xlm-roberta-large'
-# learning_rate = 5e-5
+transformer = 'xlm-roberta-large'
+learning_rate = 5e-5
 
 flair.device = 'cuda:0'
 
