@@ -47,7 +47,14 @@
 * mini_batch_size=4 (full fine-tuning)
 
 ### Train Results
-#### Single Corpus (only Conll_03 Eng)
+#### Single Corpus (only Conll_03 Eng) linear probing
+* F-score (micro) - Average: 77.39  ±  0.68
+* F-score (macro) - Average: 75.74  ±  0.94
+* Accuracy - Average: 66.78  ±  0.85
+#### Single Corpus (only Conll_03 Eng) full fine-tuning
+* F-score (micro) - Average: 93.52  ±  0.12
+* F-score (macro) - Average: 92.18  ±  0.06
+* Accuracy - Average: 90.27  ±  0.27
 #### Multi-Corpus (Eng/Dutch) linear probing
 * F-score (micro) - Average: 72.26  ±  0.67
 * F-score (macro) - Average: 70.64  ±  0.77
@@ -57,7 +64,7 @@
 * F-score (macro) - Average: 93.54  ±  0.13
 * Accuracy - Average: 91.36  ±  0.18
 ### Test Results on Conll_03 German
-#### Single Corpus (only Conll_03 Eng)
-
+#### Single Corpus (only Conll_03 Eng) full fine-tuning
+* F-score (micro) - Average: 78.42  ±  0.39
 #### Multi-Corpus (Eng/Dutch) full fine-tuning
 * F-score (micro) - Average: 77.25  ±  0.39
