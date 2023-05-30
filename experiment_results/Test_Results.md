@@ -1,7 +1,7 @@
 
 # Experiments
 ## Multi-Data Set Training on Conll_03 Eng/Dutch -> test on Conll_03 German
-## Phase 01
+## Phase 01 (full fine-tuning)
 ### Params:
 * model='xlm-roberta-large'
 * layers="-1"
@@ -30,7 +30,7 @@
 #### Multi-Corpus (Eng/Dutch)
 * F-score (micro) - Average: 74.93  ±  1.32
 
-## Phase 02
+## Phase 02 (linear probing + full fine-tuning)
 ### Params:
 * model='xlm-roberta-large'
 * layers="-1"
