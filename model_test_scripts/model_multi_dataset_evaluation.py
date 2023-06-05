@@ -3,12 +3,27 @@ import sys
 import flair
 from flair.models import SequenceTagger
 from flair.datasets import CONLL_03_GERMAN
-flair.device = f'cuda:{sys.argv[3]}'
-corpus = CONLL_03_GERMAN(base_path="CONLL_03_GER")
-roberta_tagger = SequenceTagger.load(sys.argv[1])
-test_results = roberta_tagger.evaluate(data_points=corpus.test,
-                                       gold_label_type="ner",
-                                       out_path=sys.argv[2])
-print(f"Main Score: {test_results.main_score}")
-with open(sys.argv[2], 'r') as original: data = original.read()
-with open(sys.argv[2], 'w') as modified: modified.write(f"Main Score: {test_results.main_score}\n" + data)
+
+
+def evaluate_model_and_write_to_file(path_to_model, test_file_name):
+    corpus = CONLL_03_GERMAN(base_path="CONLL_03_GER")
+    roberta_tagger = SequenceTagger.load(path_to_model)
+    test_results = roberta_tagger.evaluate(data_points=corpus.test,
+                                           gold_label_type="ner",
+                                           out_path=test_file_name)
+    print(f"Main Score: {test_results.main_score}")
+    with open(test_file_name, 'r') as original: data = original.read()
+    with open(test_file_name, 'w') as modified: modified.write(f"Main Score: {test_results.main_score}\n" + data)
+
+
+def main():
+    if len(sys.argv) < 2:
+        print("Usage: python3 model_multi_dataset_evaluation.py <final_model_path> <test_output_file_name> "
+              "<cuda_device>")
+        return
+    flair.device = f'cuda:{sys.argv[3]}'
+    evaluate_model_and_write_to_file(sys.argv[1], sys.argv[2])
+
+
+if __name__ == '__main__':
+    main()
