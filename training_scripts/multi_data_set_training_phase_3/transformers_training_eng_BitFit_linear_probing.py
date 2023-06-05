@@ -10,13 +10,14 @@ flair.device = f'cuda:{sys.argv[1]}'
 corpus = CONLL_03()
 label_type = 'ner'
 label_dict = corpus.make_label_dictionary(label_type=label_type)
-embeddings = TransformerWordEmbeddings(model='xlm-roberta-large',
-                                       layers="-1",
-                                       subtoken_pooling="first",
-                                       fine_tune=False,
-                                       use_context=True,
-                                       )
+
 for run in range(1, 4):
+    embeddings = TransformerWordEmbeddings(model='xlm-roberta-large',
+                                           layers="-1",
+                                           subtoken_pooling="first",
+                                           fine_tune=False,
+                                           use_context=True,
+                                           )
     tagger = SequenceTagger(hidden_size=256,
                             embeddings=embeddings,
                             tag_dictionary=label_dict,
@@ -34,6 +35,7 @@ for run in range(1, 4):
                       )
     del tagger
     del trainer
+    del embeddings
 
     finished_tagger = SequenceTagger.load(f'resources/taggers/conll_eng_ner_roberta_large_run_{run}_linear_probing/final-model.pt')
     finished_tagger.embeddings.fine_tune = True
