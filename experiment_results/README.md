@@ -59,19 +59,9 @@
 
 ## Phase 02b (linear probing lr 0.3 + full fine-tuning)
 ### Params:
-* model='xlm-roberta-large'
-* layers="-1"
-* subtoken_pooling="first"
-* fine_tune=True
-* use_context=True
-* hidden_size=256
-* use_crf=False,
-* use_rnn=False,
-* reproject_embeddings=False
+* ...
 * learning_rate=0.3 (linear probing)
-* mini_batch_size=32 (linear probing)
-* learning_rate=5.0e-6 (full fine-tuning)
-* mini_batch_size=4 (full fine-tuning)
+* ...
 
 ### Train Results
 #### Single Corpus (only Conll_03 Eng) linear probing
