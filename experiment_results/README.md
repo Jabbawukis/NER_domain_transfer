@@ -17,14 +17,18 @@
 
 ### Train Results
 #### Single Corpus (only Conll_03 Eng)
-
+* F-score (micro) - Average: 93.88  ±  0.11
+* F-score (macro) - Average: 92.65  ±  0.09
+* Accuracy - Average: 90.74  ±  0.08
 #### Multi-Corpus (Eng/Dutch)
-
+* F-score (micro) - Average: 93.73  ±  0.27
+* F-score (macro) - Average: 93.42  ±  0.26
+* Accuracy - Average: 91.09  ±  0.36
 ### Test Results on Conll_03 German
 #### Single Corpus (only Conll_03 Eng)
-
+* F-score (micro) - Average: 77.08  ±  0.45
 #### Multi-Corpus (Eng/Dutch)
-
+* F-score (micro) - Average: 76.4  ±  0.46
 
 ## Phase 02a (linear probing lr 0.8 + full fine-tuning)
 ### Params:
