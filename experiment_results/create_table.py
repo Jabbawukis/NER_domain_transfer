@@ -57,4 +57,4 @@ results = extract_results(file_path, "#### test", 10)
 test_table = create_table(results)
 
 output_file = "TABLE.md"
-write_table_to_file([train_table, test_table], output_file)
+write_table_to_file(["Train", train_table, "Test", test_table], output_file)
