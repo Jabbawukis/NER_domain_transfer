@@ -22,7 +22,7 @@ def main():
         return
     flair.device = f'cuda:{sys.argv[3]}'
     for i in range(1, 4):
-        path = f"{sys.argv[1]}/{sys.argv[2].format(run = i)}"
+        path = f"{sys.argv[1]}/{sys.argv[2].format(run = i)}/final-model.pt"
         model_name = f"{sys.argv[2].format(run = i)}_test_ger"
         evaluate_model_and_write_to_file(path, model_name)
 
