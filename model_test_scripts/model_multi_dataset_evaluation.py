@@ -18,7 +18,8 @@ def evaluate_model_and_write_to_file(path_to_model, test_file_name):
 
 def main():
     if len(sys.argv) < 2:
-        print("Usage: python3 model_multi_dataset_evaluation.py <path_to_models> <model_name> <cuda_device>")
+        print("Usage: python3 model_multi_dataset_evaluation.py <path_to_models> <model_name> <cuda_device>\n"
+              "Example: python3 model_multi_dataset_evaluation.py path/resources/taggers conll_eng_dutch_ner_roberta_large_run_{run}_BitFit 2")
         return
     flair.device = f'cuda:{sys.argv[3]}'
     for i in range(1, 4):
