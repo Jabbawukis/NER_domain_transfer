@@ -1,0 +1,803 @@
+2023-06-08 18:26:55,946 ----------------------------------------------------------------------------------------------------
+2023-06-08 18:26:55,952 Model: "SequenceTagger(
+  (embeddings): TransformerWordEmbeddings(
+    (model): XLMRobertaModel(
+      (embeddings): RobertaEmbeddings(
+        (word_embeddings): Embedding(250002, 1024, padding_idx=1)
+        (position_embeddings): Embedding(514, 1024, padding_idx=1)
+        (token_type_embeddings): Embedding(1, 1024)
+        (LayerNorm): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+        (dropout): Dropout(p=0.1, inplace=False)
+      )
+      (encoder): RobertaEncoder(
+        (layer): ModuleList(
+          (0): RobertaLayer(
+            (attention): RobertaAttention(
+              (self): RobertaSelfAttention(
+                (query): Linear(in_features=1024, out_features=1024, bias=True)
+                (key): Linear(in_features=1024, out_features=1024, bias=True)
+                (value): Linear(in_features=1024, out_features=1024, bias=True)
+                (dropout): Dropout(p=0.1, inplace=False)
+              )
+              (output): RobertaSelfOutput(
+                (dense): Linear(in_features=1024, out_features=1024, bias=True)
+                (LayerNorm): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+                (dropout): Dropout(p=0.1, inplace=False)
+              )
+            )
+            (intermediate): RobertaIntermediate(
+              (dense): Linear(in_features=1024, out_features=4096, bias=True)
+              (intermediate_act_fn): GELUActivation()
+            )
+            (output): RobertaOutput(
+              (dense): Linear(in_features=4096, out_features=1024, bias=True)
+              (LayerNorm): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+          )
+          (1): RobertaLayer(
+            (attention): RobertaAttention(
+              (self): RobertaSelfAttention(
+                (query): Linear(in_features=1024, out_features=1024, bias=True)
+                (key): Linear(in_features=1024, out_features=1024, bias=True)
+                (value): Linear(in_features=1024, out_features=1024, bias=True)
+                (dropout): Dropout(p=0.1, inplace=False)
+              )
+              (output): RobertaSelfOutput(
+                (dense): Linear(in_features=1024, out_features=1024, bias=True)
+                (LayerNorm): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+                (dropout): Dropout(p=0.1, inplace=False)
+              )
+            )
+            (intermediate): RobertaIntermediate(
+              (dense): Linear(in_features=1024, out_features=4096, bias=True)
+              (intermediate_act_fn): GELUActivation()
+            )
+            (output): RobertaOutput(
+              (dense): Linear(in_features=4096, out_features=1024, bias=True)
+              (LayerNorm): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+          )
+          (2): RobertaLayer(
+            (attention): RobertaAttention(
+              (self): RobertaSelfAttention(
+                (query): Linear(in_features=1024, out_features=1024, bias=True)
+                (key): Linear(in_features=1024, out_features=1024, bias=True)
+                (value): Linear(in_features=1024, out_features=1024, bias=True)
+                (dropout): Dropout(p=0.1, inplace=False)
+              )
+              (output): RobertaSelfOutput(
+                (dense): Linear(in_features=1024, out_features=1024, bias=True)
+                (LayerNorm): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+                (dropout): Dropout(p=0.1, inplace=False)
+              )
+            )
+            (intermediate): RobertaIntermediate(
+              (dense): Linear(in_features=1024, out_features=4096, bias=True)
+              (intermediate_act_fn): GELUActivation()
+            )
+            (output): RobertaOutput(
+              (dense): Linear(in_features=4096, out_features=1024, bias=True)
+              (LayerNorm): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+          )
+          (3): RobertaLayer(
+            (attention): RobertaAttention(
+              (self): RobertaSelfAttention(
+                (query): Linear(in_features=1024, out_features=1024, bias=True)
+                (key): Linear(in_features=1024, out_features=1024, bias=True)
+                (value): Linear(in_features=1024, out_features=1024, bias=True)
+                (dropout): Dropout(p=0.1, inplace=False)
+              )
+              (output): RobertaSelfOutput(
+                (dense): Linear(in_features=1024, out_features=1024, bias=True)
+                (LayerNorm): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+                (dropout): Dropout(p=0.1, inplace=False)
+              )
+            )
+            (intermediate): RobertaIntermediate(
+              (dense): Linear(in_features=1024, out_features=4096, bias=True)
+              (intermediate_act_fn): GELUActivation()
+            )
+            (output): RobertaOutput(
+              (dense): Linear(in_features=4096, out_features=1024, bias=True)
+              (LayerNorm): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+          )
+          (4): RobertaLayer(
+            (attention): RobertaAttention(
+              (self): RobertaSelfAttention(
+                (query): Linear(in_features=1024, out_features=1024, bias=True)
+                (key): Linear(in_features=1024, out_features=1024, bias=True)
+                (value): Linear(in_features=1024, out_features=1024, bias=True)
+                (dropout): Dropout(p=0.1, inplace=False)
+              )
+              (output): RobertaSelfOutput(
+                (dense): Linear(in_features=1024, out_features=1024, bias=True)
+                (LayerNorm): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+                (dropout): Dropout(p=0.1, inplace=False)
+              )
+            )
+            (intermediate): RobertaIntermediate(
+              (dense): Linear(in_features=1024, out_features=4096, bias=True)
+              (intermediate_act_fn): GELUActivation()
+            )
+            (output): RobertaOutput(
+              (dense): Linear(in_features=4096, out_features=1024, bias=True)
+              (LayerNorm): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+          )
+          (5): RobertaLayer(
+            (attention): RobertaAttention(
+              (self): RobertaSelfAttention(
+                (query): Linear(in_features=1024, out_features=1024, bias=True)
+                (key): Linear(in_features=1024, out_features=1024, bias=True)
+                (value): Linear(in_features=1024, out_features=1024, bias=True)
+                (dropout): Dropout(p=0.1, inplace=False)
+              )
+              (output): RobertaSelfOutput(
+                (dense): Linear(in_features=1024, out_features=1024, bias=True)
+                (LayerNorm): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+                (dropout): Dropout(p=0.1, inplace=False)
+              )
+            )
+            (intermediate): RobertaIntermediate(
+              (dense): Linear(in_features=1024, out_features=4096, bias=True)
+              (intermediate_act_fn): GELUActivation()
+            )
+            (output): RobertaOutput(
+              (dense): Linear(in_features=4096, out_features=1024, bias=True)
+              (LayerNorm): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+          )
+          (6): RobertaLayer(
+            (attention): RobertaAttention(
+              (self): RobertaSelfAttention(
+                (query): Linear(in_features=1024, out_features=1024, bias=True)
+                (key): Linear(in_features=1024, out_features=1024, bias=True)
+                (value): Linear(in_features=1024, out_features=1024, bias=True)
+                (dropout): Dropout(p=0.1, inplace=False)
+              )
+              (output): RobertaSelfOutput(
+                (dense): Linear(in_features=1024, out_features=1024, bias=True)
+                (LayerNorm): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+                (dropout): Dropout(p=0.1, inplace=False)
+              )
+            )
+            (intermediate): RobertaIntermediate(
+              (dense): Linear(in_features=1024, out_features=4096, bias=True)
+              (intermediate_act_fn): GELUActivation()
+            )
+            (output): RobertaOutput(
+              (dense): Linear(in_features=4096, out_features=1024, bias=True)
+              (LayerNorm): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+          )
+          (7): RobertaLayer(
+            (attention): RobertaAttention(
+              (self): RobertaSelfAttention(
+                (query): Linear(in_features=1024, out_features=1024, bias=True)
+                (key): Linear(in_features=1024, out_features=1024, bias=True)
+                (value): Linear(in_features=1024, out_features=1024, bias=True)
+                (dropout): Dropout(p=0.1, inplace=False)
+              )
+              (output): RobertaSelfOutput(
+                (dense): Linear(in_features=1024, out_features=1024, bias=True)
+                (LayerNorm): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+                (dropout): Dropout(p=0.1, inplace=False)
+              )
+            )
+            (intermediate): RobertaIntermediate(
+              (dense): Linear(in_features=1024, out_features=4096, bias=True)
+              (intermediate_act_fn): GELUActivation()
+            )
+            (output): RobertaOutput(
+              (dense): Linear(in_features=4096, out_features=1024, bias=True)
+              (LayerNorm): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+          )
+          (8): RobertaLayer(
+            (attention): RobertaAttention(
+              (self): RobertaSelfAttention(
+                (query): Linear(in_features=1024, out_features=1024, bias=True)
+                (key): Linear(in_features=1024, out_features=1024, bias=True)
+                (value): Linear(in_features=1024, out_features=1024, bias=True)
+                (dropout): Dropout(p=0.1, inplace=False)
+              )
+              (output): RobertaSelfOutput(
+                (dense): Linear(in_features=1024, out_features=1024, bias=True)
+                (LayerNorm): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+                (dropout): Dropout(p=0.1, inplace=False)
+              )
+            )
+            (intermediate): RobertaIntermediate(
+              (dense): Linear(in_features=1024, out_features=4096, bias=True)
+              (intermediate_act_fn): GELUActivation()
+            )
+            (output): RobertaOutput(
+              (dense): Linear(in_features=4096, out_features=1024, bias=True)
+              (LayerNorm): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+          )
+          (9): RobertaLayer(
+            (attention): RobertaAttention(
+              (self): RobertaSelfAttention(
+                (query): Linear(in_features=1024, out_features=1024, bias=True)
+                (key): Linear(in_features=1024, out_features=1024, bias=True)
+                (value): Linear(in_features=1024, out_features=1024, bias=True)
+                (dropout): Dropout(p=0.1, inplace=False)
+              )
+              (output): RobertaSelfOutput(
+                (dense): Linear(in_features=1024, out_features=1024, bias=True)
+                (LayerNorm): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+                (dropout): Dropout(p=0.1, inplace=False)
+              )
+            )
+            (intermediate): RobertaIntermediate(
+              (dense): Linear(in_features=1024, out_features=4096, bias=True)
+              (intermediate_act_fn): GELUActivation()
+            )
+            (output): RobertaOutput(
+              (dense): Linear(in_features=4096, out_features=1024, bias=True)
+              (LayerNorm): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+          )
+          (10): RobertaLayer(
+            (attention): RobertaAttention(
+              (self): RobertaSelfAttention(
+                (query): Linear(in_features=1024, out_features=1024, bias=True)
+                (key): Linear(in_features=1024, out_features=1024, bias=True)
+                (value): Linear(in_features=1024, out_features=1024, bias=True)
+                (dropout): Dropout(p=0.1, inplace=False)
+              )
+              (output): RobertaSelfOutput(
+                (dense): Linear(in_features=1024, out_features=1024, bias=True)
+                (LayerNorm): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+                (dropout): Dropout(p=0.1, inplace=False)
+              )
+            )
+            (intermediate): RobertaIntermediate(
+              (dense): Linear(in_features=1024, out_features=4096, bias=True)
+              (intermediate_act_fn): GELUActivation()
+            )
+            (output): RobertaOutput(
+              (dense): Linear(in_features=4096, out_features=1024, bias=True)
+              (LayerNorm): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+          )
+          (11): RobertaLayer(
+            (attention): RobertaAttention(
+              (self): RobertaSelfAttention(
+                (query): Linear(in_features=1024, out_features=1024, bias=True)
+                (key): Linear(in_features=1024, out_features=1024, bias=True)
+                (value): Linear(in_features=1024, out_features=1024, bias=True)
+                (dropout): Dropout(p=0.1, inplace=False)
+              )
+              (output): RobertaSelfOutput(
+                (dense): Linear(in_features=1024, out_features=1024, bias=True)
+                (LayerNorm): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+                (dropout): Dropout(p=0.1, inplace=False)
+              )
+            )
+            (intermediate): RobertaIntermediate(
+              (dense): Linear(in_features=1024, out_features=4096, bias=True)
+              (intermediate_act_fn): GELUActivation()
+            )
+            (output): RobertaOutput(
+              (dense): Linear(in_features=4096, out_features=1024, bias=True)
+              (LayerNorm): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+          )
+          (12): RobertaLayer(
+            (attention): RobertaAttention(
+              (self): RobertaSelfAttention(
+                (query): Linear(in_features=1024, out_features=1024, bias=True)
+                (key): Linear(in_features=1024, out_features=1024, bias=True)
+                (value): Linear(in_features=1024, out_features=1024, bias=True)
+                (dropout): Dropout(p=0.1, inplace=False)
+              )
+              (output): RobertaSelfOutput(
+                (dense): Linear(in_features=1024, out_features=1024, bias=True)
+                (LayerNorm): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+                (dropout): Dropout(p=0.1, inplace=False)
+              )
+            )
+            (intermediate): RobertaIntermediate(
+              (dense): Linear(in_features=1024, out_features=4096, bias=True)
+              (intermediate_act_fn): GELUActivation()
+            )
+            (output): RobertaOutput(
+              (dense): Linear(in_features=4096, out_features=1024, bias=True)
+              (LayerNorm): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+          )
+          (13): RobertaLayer(
+            (attention): RobertaAttention(
+              (self): RobertaSelfAttention(
+                (query): Linear(in_features=1024, out_features=1024, bias=True)
+                (key): Linear(in_features=1024, out_features=1024, bias=True)
+                (value): Linear(in_features=1024, out_features=1024, bias=True)
+                (dropout): Dropout(p=0.1, inplace=False)
+              )
+              (output): RobertaSelfOutput(
+                (dense): Linear(in_features=1024, out_features=1024, bias=True)
+                (LayerNorm): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+                (dropout): Dropout(p=0.1, inplace=False)
+              )
+            )
+            (intermediate): RobertaIntermediate(
+              (dense): Linear(in_features=1024, out_features=4096, bias=True)
+              (intermediate_act_fn): GELUActivation()
+            )
+            (output): RobertaOutput(
+              (dense): Linear(in_features=4096, out_features=1024, bias=True)
+              (LayerNorm): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+          )
+          (14): RobertaLayer(
+            (attention): RobertaAttention(
+              (self): RobertaSelfAttention(
+                (query): Linear(in_features=1024, out_features=1024, bias=True)
+                (key): Linear(in_features=1024, out_features=1024, bias=True)
+                (value): Linear(in_features=1024, out_features=1024, bias=True)
+                (dropout): Dropout(p=0.1, inplace=False)
+              )
+              (output): RobertaSelfOutput(
+                (dense): Linear(in_features=1024, out_features=1024, bias=True)
+                (LayerNorm): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+                (dropout): Dropout(p=0.1, inplace=False)
+              )
+            )
+            (intermediate): RobertaIntermediate(
+              (dense): Linear(in_features=1024, out_features=4096, bias=True)
+              (intermediate_act_fn): GELUActivation()
+            )
+            (output): RobertaOutput(
+              (dense): Linear(in_features=4096, out_features=1024, bias=True)
+              (LayerNorm): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+          )
+          (15): RobertaLayer(
+            (attention): RobertaAttention(
+              (self): RobertaSelfAttention(
+                (query): Linear(in_features=1024, out_features=1024, bias=True)
+                (key): Linear(in_features=1024, out_features=1024, bias=True)
+                (value): Linear(in_features=1024, out_features=1024, bias=True)
+                (dropout): Dropout(p=0.1, inplace=False)
+              )
+              (output): RobertaSelfOutput(
+                (dense): Linear(in_features=1024, out_features=1024, bias=True)
+                (LayerNorm): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+                (dropout): Dropout(p=0.1, inplace=False)
+              )
+            )
+            (intermediate): RobertaIntermediate(
+              (dense): Linear(in_features=1024, out_features=4096, bias=True)
+              (intermediate_act_fn): GELUActivation()
+            )
+            (output): RobertaOutput(
+              (dense): Linear(in_features=4096, out_features=1024, bias=True)
+              (LayerNorm): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+          )
+          (16): RobertaLayer(
+            (attention): RobertaAttention(
+              (self): RobertaSelfAttention(
+                (query): Linear(in_features=1024, out_features=1024, bias=True)
+                (key): Linear(in_features=1024, out_features=1024, bias=True)
+                (value): Linear(in_features=1024, out_features=1024, bias=True)
+                (dropout): Dropout(p=0.1, inplace=False)
+              )
+              (output): RobertaSelfOutput(
+                (dense): Linear(in_features=1024, out_features=1024, bias=True)
+                (LayerNorm): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+                (dropout): Dropout(p=0.1, inplace=False)
+              )
+            )
+            (intermediate): RobertaIntermediate(
+              (dense): Linear(in_features=1024, out_features=4096, bias=True)
+              (intermediate_act_fn): GELUActivation()
+            )
+            (output): RobertaOutput(
+              (dense): Linear(in_features=4096, out_features=1024, bias=True)
+              (LayerNorm): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+          )
+          (17): RobertaLayer(
+            (attention): RobertaAttention(
+              (self): RobertaSelfAttention(
+                (query): Linear(in_features=1024, out_features=1024, bias=True)
+                (key): Linear(in_features=1024, out_features=1024, bias=True)
+                (value): Linear(in_features=1024, out_features=1024, bias=True)
+                (dropout): Dropout(p=0.1, inplace=False)
+              )
+              (output): RobertaSelfOutput(
+                (dense): Linear(in_features=1024, out_features=1024, bias=True)
+                (LayerNorm): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+                (dropout): Dropout(p=0.1, inplace=False)
+              )
+            )
+            (intermediate): RobertaIntermediate(
+              (dense): Linear(in_features=1024, out_features=4096, bias=True)
+              (intermediate_act_fn): GELUActivation()
+            )
+            (output): RobertaOutput(
+              (dense): Linear(in_features=4096, out_features=1024, bias=True)
+              (LayerNorm): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+          )
+          (18): RobertaLayer(
+            (attention): RobertaAttention(
+              (self): RobertaSelfAttention(
+                (query): Linear(in_features=1024, out_features=1024, bias=True)
+                (key): Linear(in_features=1024, out_features=1024, bias=True)
+                (value): Linear(in_features=1024, out_features=1024, bias=True)
+                (dropout): Dropout(p=0.1, inplace=False)
+              )
+              (output): RobertaSelfOutput(
+                (dense): Linear(in_features=1024, out_features=1024, bias=True)
+                (LayerNorm): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+                (dropout): Dropout(p=0.1, inplace=False)
+              )
+            )
+            (intermediate): RobertaIntermediate(
+              (dense): Linear(in_features=1024, out_features=4096, bias=True)
+              (intermediate_act_fn): GELUActivation()
+            )
+            (output): RobertaOutput(
+              (dense): Linear(in_features=4096, out_features=1024, bias=True)
+              (LayerNorm): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+          )
+          (19): RobertaLayer(
+            (attention): RobertaAttention(
+              (self): RobertaSelfAttention(
+                (query): Linear(in_features=1024, out_features=1024, bias=True)
+                (key): Linear(in_features=1024, out_features=1024, bias=True)
+                (value): Linear(in_features=1024, out_features=1024, bias=True)
+                (dropout): Dropout(p=0.1, inplace=False)
+              )
+              (output): RobertaSelfOutput(
+                (dense): Linear(in_features=1024, out_features=1024, bias=True)
+                (LayerNorm): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+                (dropout): Dropout(p=0.1, inplace=False)
+              )
+            )
+            (intermediate): RobertaIntermediate(
+              (dense): Linear(in_features=1024, out_features=4096, bias=True)
+              (intermediate_act_fn): GELUActivation()
+            )
+            (output): RobertaOutput(
+              (dense): Linear(in_features=4096, out_features=1024, bias=True)
+              (LayerNorm): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+          )
+          (20): RobertaLayer(
+            (attention): RobertaAttention(
+              (self): RobertaSelfAttention(
+                (query): Linear(in_features=1024, out_features=1024, bias=True)
+                (key): Linear(in_features=1024, out_features=1024, bias=True)
+                (value): Linear(in_features=1024, out_features=1024, bias=True)
+                (dropout): Dropout(p=0.1, inplace=False)
+              )
+              (output): RobertaSelfOutput(
+                (dense): Linear(in_features=1024, out_features=1024, bias=True)
+                (LayerNorm): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+                (dropout): Dropout(p=0.1, inplace=False)
+              )
+            )
+            (intermediate): RobertaIntermediate(
+              (dense): Linear(in_features=1024, out_features=4096, bias=True)
+              (intermediate_act_fn): GELUActivation()
+            )
+            (output): RobertaOutput(
+              (dense): Linear(in_features=4096, out_features=1024, bias=True)
+              (LayerNorm): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+          )
+          (21): RobertaLayer(
+            (attention): RobertaAttention(
+              (self): RobertaSelfAttention(
+                (query): Linear(in_features=1024, out_features=1024, bias=True)
+                (key): Linear(in_features=1024, out_features=1024, bias=True)
+                (value): Linear(in_features=1024, out_features=1024, bias=True)
+                (dropout): Dropout(p=0.1, inplace=False)
+              )
+              (output): RobertaSelfOutput(
+                (dense): Linear(in_features=1024, out_features=1024, bias=True)
+                (LayerNorm): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+                (dropout): Dropout(p=0.1, inplace=False)
+              )
+            )
+            (intermediate): RobertaIntermediate(
+              (dense): Linear(in_features=1024, out_features=4096, bias=True)
+              (intermediate_act_fn): GELUActivation()
+            )
+            (output): RobertaOutput(
+              (dense): Linear(in_features=4096, out_features=1024, bias=True)
+              (LayerNorm): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+          )
+          (22): RobertaLayer(
+            (attention): RobertaAttention(
+              (self): RobertaSelfAttention(
+                (query): Linear(in_features=1024, out_features=1024, bias=True)
+                (key): Linear(in_features=1024, out_features=1024, bias=True)
+                (value): Linear(in_features=1024, out_features=1024, bias=True)
+                (dropout): Dropout(p=0.1, inplace=False)
+              )
+              (output): RobertaSelfOutput(
+                (dense): Linear(in_features=1024, out_features=1024, bias=True)
+                (LayerNorm): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+                (dropout): Dropout(p=0.1, inplace=False)
+              )
+            )
+            (intermediate): RobertaIntermediate(
+              (dense): Linear(in_features=1024, out_features=4096, bias=True)
+              (intermediate_act_fn): GELUActivation()
+            )
+            (output): RobertaOutput(
+              (dense): Linear(in_features=4096, out_features=1024, bias=True)
+              (LayerNorm): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+          )
+          (23): RobertaLayer(
+            (attention): RobertaAttention(
+              (self): RobertaSelfAttention(
+                (query): Linear(in_features=1024, out_features=1024, bias=True)
+                (key): Linear(in_features=1024, out_features=1024, bias=True)
+                (value): Linear(in_features=1024, out_features=1024, bias=True)
+                (dropout): Dropout(p=0.1, inplace=False)
+              )
+              (output): RobertaSelfOutput(
+                (dense): Linear(in_features=1024, out_features=1024, bias=True)
+                (LayerNorm): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+                (dropout): Dropout(p=0.1, inplace=False)
+              )
+            )
+            (intermediate): RobertaIntermediate(
+              (dense): Linear(in_features=1024, out_features=4096, bias=True)
+              (intermediate_act_fn): GELUActivation()
+            )
+            (output): RobertaOutput(
+              (dense): Linear(in_features=4096, out_features=1024, bias=True)
+              (LayerNorm): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+          )
+        )
+      )
+      (pooler): RobertaPooler(
+        (dense): Linear(in_features=1024, out_features=1024, bias=True)
+        (activation): Tanh()
+      )
+    )
+  )
+  (word_dropout): WordDropout(p=0.05)
+  (locked_dropout): LockedDropout(p=0.5)
+  (linear): Linear(in_features=1024, out_features=17, bias=True)
+  (loss_function): CrossEntropyLoss()
+)"
+2023-06-08 18:26:55,953 ----------------------------------------------------------------------------------------------------
+2023-06-08 18:26:55,953 Corpus: "Corpus: 14987 train + 3466 dev + 3684 test sentences"
+2023-06-08 18:26:55,953 ----------------------------------------------------------------------------------------------------
+2023-06-08 18:26:55,953 Parameters:
+2023-06-08 18:26:55,953  - learning_rate: "0.300000"
+2023-06-08 18:26:55,953  - mini_batch_size: "32"
+2023-06-08 18:26:55,953  - patience: "3"
+2023-06-08 18:26:55,953  - anneal_factor: "0.5"
+2023-06-08 18:26:55,953  - max_epochs: "10"
+2023-06-08 18:26:55,953  - shuffle: "True"
+2023-06-08 18:26:55,953  - train_with_dev: "False"
+2023-06-08 18:26:55,953  - batch_growth_annealing: "False"
+2023-06-08 18:26:55,953 ----------------------------------------------------------------------------------------------------
+2023-06-08 18:26:55,953 Model training base path: "resources/taggers/conll_eng_ner_roberta_large_run_2_linear_probing_lr0_3"
+2023-06-08 18:26:55,954 ----------------------------------------------------------------------------------------------------
+2023-06-08 18:26:55,954 Device: cuda:3
+2023-06-08 18:26:55,954 ----------------------------------------------------------------------------------------------------
+2023-06-08 18:26:55,954 Embeddings storage mode: none
+2023-06-08 18:26:55,954 ----------------------------------------------------------------------------------------------------
+2023-06-08 18:27:19,378 epoch 1 - iter 46/469 - loss 1.47745526 - samples/sec: 62.87 - lr: 0.029424
+2023-06-08 18:27:45,755 epoch 1 - iter 92/469 - loss 1.21142635 - samples/sec: 55.82 - lr: 0.058849
+2023-06-08 18:28:08,212 epoch 1 - iter 138/469 - loss 1.26312929 - samples/sec: 65.57 - lr: 0.088273
+2023-06-08 18:28:29,629 epoch 1 - iter 184/469 - loss 1.52141908 - samples/sec: 68.75 - lr: 0.117697
+2023-06-08 18:28:54,144 epoch 1 - iter 230/469 - loss 1.78561523 - samples/sec: 60.06 - lr: 0.147122
+2023-06-08 18:29:18,244 epoch 1 - iter 276/469 - loss 1.97872195 - samples/sec: 61.10 - lr: 0.176546
+2023-06-08 18:29:41,849 epoch 1 - iter 322/469 - loss 2.26091465 - samples/sec: 62.38 - lr: 0.205970
+2023-06-08 18:30:07,673 epoch 1 - iter 368/469 - loss 2.57177017 - samples/sec: 57.01 - lr: 0.235394
+2023-06-08 18:30:31,382 epoch 1 - iter 414/469 - loss 2.74508534 - samples/sec: 62.10 - lr: 0.264819
+2023-06-08 18:30:55,396 epoch 1 - iter 460/469 - loss 3.00241904 - samples/sec: 61.31 - lr: 0.294243
+2023-06-08 18:31:02,408 ----------------------------------------------------------------------------------------------------
+2023-06-08 18:31:02,408 EPOCH 1 done: loss 3.0519 - lr 0.294243
+2023-06-08 18:32:29,149 Evaluating as a multi-label problem: False
+2023-06-08 18:32:29,229 DEV : loss 2.3885931968688965 - f1-score (micro avg)  0.6069
+2023-06-08 18:32:29,334 BAD EPOCHS (no improvement): 4
+2023-06-08 18:32:29,359 ----------------------------------------------------------------------------------------------------
+2023-06-08 18:32:53,505 epoch 2 - iter 46/469 - loss 5.99171936 - samples/sec: 60.99 - lr: 0.296733
+2023-06-08 18:33:17,105 epoch 2 - iter 92/469 - loss 5.74455707 - samples/sec: 62.39 - lr: 0.293466
+2023-06-08 18:33:44,145 epoch 2 - iter 138/469 - loss 5.71102784 - samples/sec: 54.45 - lr: 0.290199
+2023-06-08 18:34:08,294 epoch 2 - iter 184/469 - loss 5.75641954 - samples/sec: 60.97 - lr: 0.286932
+2023-06-08 18:34:33,476 epoch 2 - iter 230/469 - loss 5.74437998 - samples/sec: 58.47 - lr: 0.283665
+2023-06-08 18:35:00,286 epoch 2 - iter 276/469 - loss 5.75794500 - samples/sec: 54.95 - lr: 0.280398
+2023-06-08 18:35:25,697 epoch 2 - iter 322/469 - loss 5.75967656 - samples/sec: 57.94 - lr: 0.277131
+2023-06-08 18:35:50,191 epoch 2 - iter 368/469 - loss 5.75792460 - samples/sec: 60.11 - lr: 0.273864
+2023-06-08 18:36:16,629 epoch 2 - iter 414/469 - loss 5.73557078 - samples/sec: 55.69 - lr: 0.270597
+2023-06-08 18:36:42,033 epoch 2 - iter 460/469 - loss 5.70297311 - samples/sec: 57.96 - lr: 0.267330
+2023-06-08 18:36:46,396 ----------------------------------------------------------------------------------------------------
+2023-06-08 18:36:46,397 EPOCH 2 done: loss 5.7022 - lr 0.267330
+2023-06-08 18:38:13,412 Evaluating as a multi-label problem: False
+2023-06-08 18:38:13,485 DEV : loss 2.417262554168701 - f1-score (micro avg)  0.6973
+2023-06-08 18:38:13,591 BAD EPOCHS (no improvement): 4
+2023-06-08 18:38:13,593 ----------------------------------------------------------------------------------------------------
+2023-06-08 18:38:37,813 epoch 3 - iter 46/469 - loss 5.92566139 - samples/sec: 60.80 - lr: 0.263423
+2023-06-08 18:39:05,246 epoch 3 - iter 92/469 - loss 5.57391409 - samples/sec: 53.67 - lr: 0.260156
+2023-06-08 18:39:29,579 epoch 3 - iter 138/469 - loss 5.42970093 - samples/sec: 60.51 - lr: 0.256889
+2023-06-08 18:39:53,392 epoch 3 - iter 184/469 - loss 5.29835403 - samples/sec: 61.83 - lr: 0.253622
+2023-06-08 18:40:20,680 epoch 3 - iter 230/469 - loss 5.24357742 - samples/sec: 53.96 - lr: 0.250355
+2023-06-08 18:40:45,105 epoch 3 - iter 276/469 - loss 5.20767434 - samples/sec: 60.28 - lr: 0.247088
+2023-06-08 18:41:09,133 epoch 3 - iter 322/469 - loss 5.19174353 - samples/sec: 61.28 - lr: 0.243821
+2023-06-08 18:41:36,241 epoch 3 - iter 368/469 - loss 5.13712381 - samples/sec: 54.31 - lr: 0.240554
+2023-06-08 18:42:00,151 epoch 3 - iter 414/469 - loss 5.09850966 - samples/sec: 61.58 - lr: 0.237287
+2023-06-08 18:42:27,158 epoch 3 - iter 460/469 - loss 5.09034671 - samples/sec: 54.52 - lr: 0.234020
+2023-06-08 18:42:31,587 ----------------------------------------------------------------------------------------------------
+2023-06-08 18:42:31,587 EPOCH 3 done: loss 5.0901 - lr 0.234020
+2023-06-08 18:43:58,288 Evaluating as a multi-label problem: False
+2023-06-08 18:43:58,365 DEV : loss 1.8492900133132935 - f1-score (micro avg)  0.7229
+2023-06-08 18:43:58,470 BAD EPOCHS (no improvement): 4
+2023-06-08 18:43:58,482 ----------------------------------------------------------------------------------------------------
+2023-06-08 18:44:22,691 epoch 4 - iter 46/469 - loss 4.88853100 - samples/sec: 60.83 - lr: 0.230114
+2023-06-08 18:44:47,020 epoch 4 - iter 92/469 - loss 4.84067062 - samples/sec: 60.52 - lr: 0.226847
+2023-06-08 18:45:14,161 epoch 4 - iter 138/469 - loss 4.88365650 - samples/sec: 54.25 - lr: 0.223580
+2023-06-08 18:45:38,292 epoch 4 - iter 184/469 - loss 4.91020721 - samples/sec: 61.02 - lr: 0.220312
+2023-06-08 18:46:02,521 epoch 4 - iter 230/469 - loss 4.88671596 - samples/sec: 60.77 - lr: 0.217045
+2023-06-08 18:46:29,584 epoch 4 - iter 276/469 - loss 4.86881967 - samples/sec: 54.40 - lr: 0.213778
+2023-06-08 18:46:53,878 epoch 4 - iter 322/469 - loss 4.86399148 - samples/sec: 60.61 - lr: 0.210511
+2023-06-08 18:47:18,046 epoch 4 - iter 368/469 - loss 4.83764091 - samples/sec: 60.93 - lr: 0.207244
+2023-06-08 18:47:45,772 epoch 4 - iter 414/469 - loss 4.79689725 - samples/sec: 53.10 - lr: 0.203977
+2023-06-08 18:48:10,720 epoch 4 - iter 460/469 - loss 4.76630660 - samples/sec: 59.02 - lr: 0.200710
+2023-06-08 18:48:15,187 ----------------------------------------------------------------------------------------------------
+2023-06-08 18:48:15,187 EPOCH 4 done: loss 4.7591 - lr 0.200710
+2023-06-08 18:49:43,703 Evaluating as a multi-label problem: False
+2023-06-08 18:49:43,783 DEV : loss 1.5667964220046997 - f1-score (micro avg)  0.7495
+2023-06-08 18:49:43,889 BAD EPOCHS (no improvement): 4
+2023-06-08 18:49:43,909 ----------------------------------------------------------------------------------------------------
+2023-06-08 18:50:07,496 epoch 5 - iter 46/469 - loss 4.08437244 - samples/sec: 62.44 - lr: 0.196804
+2023-06-08 18:50:34,751 epoch 5 - iter 92/469 - loss 3.95975230 - samples/sec: 54.02 - lr: 0.193537
+2023-06-08 18:50:59,178 epoch 5 - iter 138/469 - loss 4.01928846 - samples/sec: 60.28 - lr: 0.190270
+2023-06-08 18:51:23,638 epoch 5 - iter 184/469 - loss 4.01140510 - samples/sec: 60.20 - lr: 0.187003
+2023-06-08 18:51:50,995 epoch 5 - iter 230/469 - loss 3.97141485 - samples/sec: 53.82 - lr: 0.183736
+2023-06-08 18:52:15,392 epoch 5 - iter 276/469 - loss 3.94149769 - samples/sec: 60.36 - lr: 0.180469
+2023-06-08 18:52:42,272 epoch 5 - iter 322/469 - loss 3.88274540 - samples/sec: 54.78 - lr: 0.177202
+2023-06-08 18:53:06,393 epoch 5 - iter 368/469 - loss 3.86664756 - samples/sec: 61.05 - lr: 0.173935
+2023-06-08 18:53:30,997 epoch 5 - iter 414/469 - loss 3.84589897 - samples/sec: 59.85 - lr: 0.170668
+2023-06-08 18:53:57,826 epoch 5 - iter 460/469 - loss 3.85203899 - samples/sec: 54.88 - lr: 0.167401
+2023-06-08 18:54:02,129 ----------------------------------------------------------------------------------------------------
+2023-06-08 18:54:02,129 EPOCH 5 done: loss 3.8559 - lr 0.167401
+2023-06-08 18:55:28,308 Evaluating as a multi-label problem: False
+2023-06-08 18:55:28,387 DEV : loss 1.2208667993545532 - f1-score (micro avg)  0.7295
+2023-06-08 18:55:28,494 BAD EPOCHS (no improvement): 4
+2023-06-08 18:55:28,497 ----------------------------------------------------------------------------------------------------
+2023-06-08 18:55:53,093 epoch 6 - iter 46/469 - loss 3.56826303 - samples/sec: 59.87 - lr: 0.163494
+2023-06-08 18:56:17,372 epoch 6 - iter 92/469 - loss 3.62846633 - samples/sec: 60.65 - lr: 0.160227
+2023-06-08 18:56:44,490 epoch 6 - iter 138/469 - loss 3.57985033 - samples/sec: 54.30 - lr: 0.156960
+2023-06-08 18:57:08,802 epoch 6 - iter 184/469 - loss 3.55531256 - samples/sec: 60.57 - lr: 0.153693
+2023-06-08 18:57:32,749 epoch 6 - iter 230/469 - loss 3.45269674 - samples/sec: 61.49 - lr: 0.150426
+2023-06-08 18:57:59,100 epoch 6 - iter 276/469 - loss 3.42779708 - samples/sec: 55.88 - lr: 0.147159
+2023-06-08 18:58:23,631 epoch 6 - iter 322/469 - loss 3.40233541 - samples/sec: 60.02 - lr: 0.143892
+2023-06-08 18:58:47,706 epoch 6 - iter 368/469 - loss 3.38946836 - samples/sec: 61.16 - lr: 0.140625
+2023-06-08 18:59:14,470 epoch 6 - iter 414/469 - loss 3.33410502 - samples/sec: 55.01 - lr: 0.137358
+2023-06-08 18:59:39,490 epoch 6 - iter 460/469 - loss 3.31142995 - samples/sec: 58.85 - lr: 0.134091
+2023-06-08 18:59:43,708 ----------------------------------------------------------------------------------------------------
+2023-06-08 18:59:43,708 EPOCH 6 done: loss 3.3070 - lr 0.134091
+2023-06-08 19:01:10,853 Evaluating as a multi-label problem: False
+2023-06-08 19:01:10,933 DEV : loss 1.2247382402420044 - f1-score (micro avg)  0.6881
+2023-06-08 19:01:11,041 BAD EPOCHS (no improvement): 4
+2023-06-08 19:01:11,046 ----------------------------------------------------------------------------------------------------
+2023-06-08 19:01:34,873 epoch 7 - iter 46/469 - loss 3.19070605 - samples/sec: 61.81 - lr: 0.130185
+2023-06-08 19:02:01,443 epoch 7 - iter 92/469 - loss 3.32709713 - samples/sec: 55.42 - lr: 0.126918
+2023-06-08 19:02:26,823 epoch 7 - iter 138/469 - loss 3.30399595 - samples/sec: 58.02 - lr: 0.123651
+2023-06-08 19:02:51,115 epoch 7 - iter 184/469 - loss 3.25456641 - samples/sec: 60.61 - lr: 0.120384
+2023-06-08 19:03:18,013 epoch 7 - iter 230/469 - loss 3.21559635 - samples/sec: 54.74 - lr: 0.117116
+2023-06-08 19:03:41,882 epoch 7 - iter 276/469 - loss 3.17001576 - samples/sec: 61.69 - lr: 0.113849
+2023-06-08 19:04:05,752 epoch 7 - iter 322/469 - loss 3.08634563 - samples/sec: 61.69 - lr: 0.110582
+2023-06-08 19:04:32,913 epoch 7 - iter 368/469 - loss 3.05433989 - samples/sec: 54.21 - lr: 0.107315
+2023-06-08 19:04:57,258 epoch 7 - iter 414/469 - loss 3.03303847 - samples/sec: 60.48 - lr: 0.104048
+2023-06-08 19:05:21,389 epoch 7 - iter 460/469 - loss 2.98464269 - samples/sec: 61.02 - lr: 0.100781
+2023-06-08 19:05:28,485 ----------------------------------------------------------------------------------------------------
+2023-06-08 19:05:28,485 EPOCH 7 done: loss 2.9768 - lr 0.100781
+2023-06-08 19:06:54,754 Evaluating as a multi-label problem: False
+2023-06-08 19:06:54,830 DEV : loss 0.8528763055801392 - f1-score (micro avg)  0.7729
+2023-06-08 19:06:54,961 BAD EPOCHS (no improvement): 4
+2023-06-08 19:06:54,963 ----------------------------------------------------------------------------------------------------
+2023-06-08 19:07:19,319 epoch 8 - iter 46/469 - loss 2.44112071 - samples/sec: 60.46 - lr: 0.096875
+2023-06-08 19:07:43,743 epoch 8 - iter 92/469 - loss 2.48986200 - samples/sec: 60.29 - lr: 0.093608
+2023-06-08 19:08:10,584 epoch 8 - iter 138/469 - loss 2.38125581 - samples/sec: 54.86 - lr: 0.090341
+2023-06-08 19:08:35,580 epoch 8 - iter 184/469 - loss 2.35493937 - samples/sec: 58.90 - lr: 0.087074
+2023-06-08 19:08:59,822 epoch 8 - iter 230/469 - loss 2.30717649 - samples/sec: 60.74 - lr: 0.083807
+2023-06-08 19:09:26,751 epoch 8 - iter 276/469 - loss 2.30284760 - samples/sec: 54.68 - lr: 0.080540
+2023-06-08 19:09:50,932 epoch 8 - iter 322/469 - loss 2.27494597 - samples/sec: 60.89 - lr: 0.077273
+2023-06-08 19:10:14,626 epoch 8 - iter 368/469 - loss 2.24056516 - samples/sec: 62.14 - lr: 0.074006
+2023-06-08 19:10:41,449 epoch 8 - iter 414/469 - loss 2.20719066 - samples/sec: 54.89 - lr: 0.070739
+2023-06-08 19:11:04,823 epoch 8 - iter 460/469 - loss 2.17352422 - samples/sec: 62.99 - lr: 0.067472
+2023-06-08 19:11:08,926 ----------------------------------------------------------------------------------------------------
+2023-06-08 19:11:08,926 EPOCH 8 done: loss 2.1677 - lr 0.067472
+2023-06-08 19:12:34,246 Evaluating as a multi-label problem: False
+2023-06-08 19:12:34,321 DEV : loss 0.6657248735427856 - f1-score (micro avg)  0.7438
+2023-06-08 19:12:34,446 BAD EPOCHS (no improvement): 4
+2023-06-08 19:12:34,448 ----------------------------------------------------------------------------------------------------
+2023-06-08 19:12:57,582 epoch 9 - iter 46/469 - loss 1.82647622 - samples/sec: 63.66 - lr: 0.063565
+2023-06-08 19:13:23,811 epoch 9 - iter 92/469 - loss 1.84509782 - samples/sec: 56.13 - lr: 0.060298
+2023-06-08 19:13:47,819 epoch 9 - iter 138/469 - loss 1.77905463 - samples/sec: 61.33 - lr: 0.057031
+2023-06-08 19:14:11,959 epoch 9 - iter 184/469 - loss 1.75184472 - samples/sec: 61.00 - lr: 0.053764
+2023-06-08 19:14:39,518 epoch 9 - iter 230/469 - loss 1.71772900 - samples/sec: 53.43 - lr: 0.050497
+2023-06-08 19:15:04,606 epoch 9 - iter 276/469 - loss 1.68238047 - samples/sec: 58.69 - lr: 0.047230
+2023-06-08 19:15:28,602 epoch 9 - iter 322/469 - loss 1.66555117 - samples/sec: 61.36 - lr: 0.043963
+2023-06-08 19:15:55,613 epoch 9 - iter 368/469 - loss 1.64031862 - samples/sec: 54.51 - lr: 0.040696
+2023-06-08 19:16:19,784 epoch 9 - iter 414/469 - loss 1.61153062 - samples/sec: 60.92 - lr: 0.037429
+2023-06-08 19:16:43,247 epoch 9 - iter 460/469 - loss 1.58764253 - samples/sec: 62.76 - lr: 0.034162
+2023-06-08 19:16:50,581 ----------------------------------------------------------------------------------------------------
+2023-06-08 19:16:50,581 EPOCH 9 done: loss 1.5828 - lr 0.034162
+2023-06-08 19:18:17,705 Evaluating as a multi-label problem: False
+2023-06-08 19:18:17,781 DEV : loss 0.4601947069168091 - f1-score (micro avg)  0.7858
+2023-06-08 19:18:17,887 BAD EPOCHS (no improvement): 4
+2023-06-08 19:18:17,889 ----------------------------------------------------------------------------------------------------
+2023-06-08 19:18:42,613 epoch 10 - iter 46/469 - loss 1.36247784 - samples/sec: 59.57 - lr: 0.030256
+2023-06-08 19:19:07,275 epoch 10 - iter 92/469 - loss 1.28918770 - samples/sec: 59.70 - lr: 0.026989
+2023-06-08 19:19:34,748 epoch 10 - iter 138/469 - loss 1.23759662 - samples/sec: 53.59 - lr: 0.023722
+2023-06-08 19:19:58,568 epoch 10 - iter 184/469 - loss 1.20383990 - samples/sec: 61.81 - lr: 0.020455
+2023-06-08 19:20:22,104 epoch 10 - iter 230/469 - loss 1.17206289 - samples/sec: 62.56 - lr: 0.017187
+2023-06-08 19:20:48,435 epoch 10 - iter 276/469 - loss 1.13557986 - samples/sec: 55.92 - lr: 0.013920
+2023-06-08 19:21:12,229 epoch 10 - iter 322/469 - loss 1.11936715 - samples/sec: 61.88 - lr: 0.010653
+2023-06-08 19:21:37,193 epoch 10 - iter 368/469 - loss 1.08967176 - samples/sec: 58.98 - lr: 0.007386
+2023-06-08 19:22:03,769 epoch 10 - iter 414/469 - loss 1.06439680 - samples/sec: 55.40 - lr: 0.004119
+2023-06-08 19:22:27,748 epoch 10 - iter 460/469 - loss 1.04860425 - samples/sec: 61.41 - lr: 0.000852
+2023-06-08 19:22:32,124 ----------------------------------------------------------------------------------------------------
+2023-06-08 19:22:32,124 EPOCH 10 done: loss 1.0453 - lr 0.000852
+2023-06-08 19:23:59,898 Evaluating as a multi-label problem: False
+2023-06-08 19:23:59,963 DEV : loss 0.3269266188144684 - f1-score (micro avg)  0.8077
+2023-06-08 19:24:00,062 BAD EPOCHS (no improvement): 4
+2023-06-08 19:24:16,193 ----------------------------------------------------------------------------------------------------
+2023-06-08 19:24:16,197 Testing using last state of model ...
+2023-06-08 19:25:44,351 Evaluating as a multi-label problem: False
+2023-06-08 19:25:44,430 0.7948	0.7661	0.7802	0.6794
+2023-06-08 19:25:44,430 
+Results:
+- F-score (micro) 0.7802
+- F-score (macro) 0.762
+- Accuracy 0.6794
+
+By class:
+              precision    recall  f1-score   support
+
+         LOC     0.7813    0.7776    0.7794      1668
+         PER     0.9180    0.9344    0.9261      1617
+         ORG     0.7067    0.6556    0.6802      1661
+        MISC     0.7203    0.6125    0.6620       702
+
+   micro avg     0.7948    0.7661    0.7802      5648
+   macro avg     0.7816    0.7450    0.7620      5648
+weighted avg     0.7909    0.7661    0.7777      5648
+
+2023-06-08 19:25:44,430 ----------------------------------------------------------------------------------------------------

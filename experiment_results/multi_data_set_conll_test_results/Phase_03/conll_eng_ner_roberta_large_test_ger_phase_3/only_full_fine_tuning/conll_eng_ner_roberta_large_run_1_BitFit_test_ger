@@ -1,4 +1,4 @@
-Main Score: 0.7060815577818541
+Main Score: 0.6723860589812333
 -DOCSTART- O O
 
 Parlament O O
@@ -54,10 +54,10 @@ Bildung O O
 einer O O
 Großen O B-ORG
 Koalition O I-ORG
-von O I-ORG
-Christ- O I-ORG
-und O I-ORG
-Sozialdemokraten O I-ORG
+von O O
+Christ- O B-MISC
+und O O
+Sozialdemokraten O B-MISC
 die O O
 Opposition O O
 darstellen O O
@@ -332,7 +332,7 @@ ist O O
 . O O
 
 Der O O
-Magistrat O B-ORG
+Magistrat O O
 wird O O
 prüfen O O
 und O O
@@ -404,7 +404,7 @@ einen O O
 gemeinsamen O O
 Antrag O O
 der O O
-Koalitionäre O O
+Koalitionäre O B-MISC
 handelte O O
 , O O
 war O O
@@ -481,7 +481,7 @@ beflügelte O O
 die O O
 von O O
 den O O
-Grünen B-ORG B-ORG
+Grünen B-ORG B-MISC
 mit O O
 Sicherheit O O
 nicht O O
@@ -496,7 +496,7 @@ Renate B-PER B-PER
 Seib I-PER I-PER
 interessiert O O
 die O O
-Postille O B-ORG
+Postille O O
 der O O
 Öko-Partei B-ORG B-ORG
 studierte O O
@@ -584,12 +584,12 @@ gefehlt O O
 Wie O O
 hatte O O
 doch O O
-CDU-Fraktionschef O B-MISC
+CDU-Fraktionschef O B-ORG
 Hans-Jürgen B-PER B-PER
 Lange I-PER I-PER
 gegenüber O O
 dem O O
-Grünen-Vormann O B-MISC
+Grünen-Vormann O B-ORG
 Dieter B-PER B-PER
 Ruckriegel I-PER I-PER
 noch O O
@@ -854,8 +854,8 @@ aus O O
 gewerblich-technischen O O
 Berufen O O
 
-KREIS O B-LOC
-OFFENBACH B-LOC I-LOC
+KREIS O B-ORG
+OFFENBACH B-LOC I-ORG
 . O O
 
 An O O
@@ -887,7 +887,7 @@ Seminar O O
 der O O
 Jugendbildungswerke O O
 von O O
-Stadt O B-LOC
+Stadt O B-ORG
 und O O
 Kreis O B-LOC
 Offenbach B-LOC I-LOC
@@ -935,7 +935,7 @@ den O O
 alten O O
 und O O
 neuen O O
-Bundesländern O O
+Bundesländern O B-LOC
 Erfahrungen O O
 austauschen O O
 können O O
@@ -1013,8 +1013,8 @@ Frauen O O
 aus O O
 Stadt O O
 und O O
-Kreis O O
-Offenbach B-LOC B-LOC
+Kreis O B-LOC
+Offenbach B-LOC I-LOC
 sowie O O
 aus O O
 Thüringen B-LOC B-LOC
@@ -1068,10 +1068,10 @@ Anmeldeunterlagen O O
 gibt O O
 es O O
 beim O O
-Jugendbildungswerk O O
+Jugendbildungswerk O B-ORG
 des O O
-Kreises O O
-Offenbach B-LOC B-LOC
+Kreises O B-LOC
+Offenbach B-LOC I-LOC
 , O O
 Frankfurter B-LOC B-LOC
 Straße I-LOC I-LOC
@@ -1087,8 +1087,8 @@ Telefon O O
 , O O
 oder O O
 der O O
-Stadt O O
-Offenbach B-LOC B-LOC
+Stadt O B-LOC
+Offenbach B-LOC I-LOC
 , O O
 Taunusstraße B-LOC B-LOC
 32 O O
@@ -1134,7 +1134,7 @@ Wiederkehr O O
 des O O
 Stiftungstages O O
 der O O
-katholischen O B-MISC
+katholischen O O
 Pfarrei O O
 Urberach B-LOC B-LOC
 am O O
@@ -1162,7 +1162,7 @@ einen O O
 die O O
 Geschichte O O
 des O O
-Gotteshauses O B-LOC
+Gotteshauses O O
 geben O O
 . O O
 
@@ -1172,7 +1172,7 @@ die O O
 kleine O O
 Feierstunde O O
 vom O O
-Kirchenchor O O
+Kirchenchor O B-ORG
 " O O
 Cäcilia B-ORG B-ORG
 " O O
@@ -1212,7 +1212,7 @@ Rezepte O O
 gegen O O
 die O O
 Kriminalität O O
-CDU-Parteitag O B-MISC
+CDU-Parteitag O B-ORG
 diskutierte O O
 über O O
 " O O
@@ -1220,8 +1220,8 @@ innere O O
 Sicherheit O O
 " O O
 
-KREIS O B-LOC
-OFFENBACH B-LOC I-LOC
+KREIS O B-ORG
+OFFENBACH B-LOC I-ORG
 . O O
 
 Mehr O O
@@ -1256,7 +1256,7 @@ des O O
 Frankfurter O B-MISC
 Kriminaldirektors O O
 und O O
-Dreieicher O O
+Dreieicher O B-MISC
 CDU-Politikers O B-MISC
 Peter B-PER B-PER
 Walter I-PER I-PER
@@ -1270,8 +1270,8 @@ Rhein-Main B-LOC B-LOC
 . O O
 
 Der O O
-Kreisverband O O
-Offenbach-Land B-LOC B-LOC
+Kreisverband O B-ORG
+Offenbach-Land B-LOC B-ORG
 hatte O O
 dem O O
 Thema O O
@@ -1285,7 +1285,7 @@ Mitglieder O O
 ins O O
 Bürgerhaus O O
 des O O
-Seligenstädter O B-MISC
+Seligenstädter O B-LOC
 Stadtteils O O
 Klein-Welzheim B-LOC B-LOC
 " O O
@@ -1305,7 +1305,7 @@ erörtert O O
 werden O O
 , O O
 hatte O O
-CDU-Kreisvorsitzender O B-MISC
+CDU-Kreisvorsitzender O B-ORG
 Dr. O O
 Klaus B-PER B-PER
 Lippold I-PER I-PER
@@ -1526,9 +1526,9 @@ Einkaufsmarkt O O
 vor O O
 oder O O
 neben O O
-Rat- O B-LOC
-und O O
-Bürgerhaus O O
+Rat- O B-ORG
+und O I-ORG
+Bürgerhaus O I-ORG
 , O O
 und O O
 die O O
@@ -1603,9 +1603,9 @@ sein O O
 wie O O
 sich O O
 die O O
-Dietzenbacher O B-ORG
+Dietzenbacher O B-MISC
 für O O
-Umweltschutz O O
+Umweltschutz O B-MISC
 engagieren O O
 und O O
 interessieren O O
@@ -1672,7 +1672,7 @@ ist O O
 jetzt O O
 noch O O
 im O O
-Grauton O O
+Grauton O B-LOC
 , O O
 künftig O O
 getrennt O O
@@ -1704,13 +1704,13 @@ Punkt I-MISC I-MISC
 " I-MISC O
 - I-MISC O
 Duale I-MISC B-MISC
-System I-MISC O
+System I-MISC I-MISC
 . O O
 
 Der O O
 Besucher O O
 dieses O O
-Aktions-Umwelt-Samstages O O
+Aktions-Umwelt-Samstages O B-MISC
 , O O
 eingebettet O O
 in O O
@@ -1789,7 +1789,7 @@ sich O O
 Dietzenbach B-LOC B-LOC
 nicht O O
 mit O O
-Ruhm O O
+Ruhm O B-MISC
 bekleckert O O
 und O O
 Vorhaltungen O O
@@ -1832,7 +1832,7 @@ sprich O O
 : O O
 
 seines O O
-Waldes O O
+Waldes O B-LOC
 Probleme O O
 , O O
 zu O O
@@ -1869,7 +1869,7 @@ Energiesparen O O
 Zum O O
 Abschluß O O
 der O O
-Umwelttage O O
+Umwelttage O B-MISC
 haben O O
 am O O
 Donnerstag O O
@@ -1919,7 +1919,7 @@ schwärmten O O
 von O O
 Ralph B-PER B-PER
 Neu-Gelnhäuser O I-PER
-Gyöngyösi B-PER B-PER
+Gyöngyösi B-PER I-PER
 gewann O O
 mit O O
 seinem O O
@@ -1983,7 +1983,7 @@ Saison O O
 von O O
 Wicker B-LOC B-ORG
 zum O O
-Zweitligisten O O
+Zweitligisten O B-MISC
 TV B-ORG B-ORG
 Gelnhausen I-ORG I-ORG
 gewechselte O O
@@ -2051,13 +2051,13 @@ beim O O
 9:3 O O
 ) O O
 - O O
-Zittersieg O O
+Zittersieg O B-ORG
 ins O O
-Schwarze O B-MISC
+Schwarze O B-LOC
 . O O
 " O O
 
-Wicker B-LOC B-PER
+Wicker B-LOC B-ORG
 war O O
 lange O O
 gleichwertig O O
@@ -2122,8 +2122,8 @@ Anthes B-PER B-PER
 ) O O
 , O O
 der O O
-Wiesbadener O B-MISC
-Neuzugang O O
+Wiesbadener O B-ORG
+Neuzugang O I-ORG
 Krollmann B-PER B-PER
 , O O
 Mehler B-PER B-PER
@@ -2138,7 +2138,7 @@ besten O O
 gegen O O
 die O O
 Gelnhäusener O B-MISC
-Abwehr O O
+Abwehr O B-ORG
 . O O
 " O O
 
@@ -2193,8 +2193,8 @@ Pressesprecher O O
 Edmund B-PER B-PER
 Volk I-PER I-PER
 dem O O
-Riesentalent O O
-Vorschußlorbeeren O B-PER
+Riesentalent O B-MISC
+Vorschußlorbeeren O B-ORG
 mit O O
 auf O O
 den O O
@@ -2248,7 +2248,7 @@ Situation O O
 wohl O O
 mit O O
 einem O O
-Mittelfeldplatz O O
+Mittelfeldplatz O B-LOC
 begnügen O O
 " O O
 , O O
@@ -2284,7 +2284,7 @@ souverän O O
 zum O O
 mit O O
 800 O O
-Mark B-MISC O
+Mark B-MISC B-MISC
 dotierten O O
 Turniersieg O O
 . O O
@@ -2318,7 +2318,7 @@ zweiten O O
 Platz O O
 ( O O
 400 O O
-Mark B-MISC O
+Mark B-MISC B-MISC
 ) O O
 vor O O
 den O O
@@ -2340,7 +2340,7 @@ Oberliga-Meister O B-MISC
 Groß-Umstadt B-LOC B-ORG
 . O O
 
-Wicker B-LOC B-PER
+Wicker B-LOC B-ORG
 siegte O O
 gegen O O
 den O O
@@ -2386,7 +2386,7 @@ das O O
 8:5 O O
 ) O O
 - O O
-Remis O O
+Remis O B-PER
 letztlich O O
 zum O O
 zweiten O O
@@ -2399,7 +2399,7 @@ Wicker B-LOC B-PER
 noch O O
 kurz O O
 vor O O
-SChluß O B-PER
+SChluß O B-ORG
 mit O O
 zwei O O
 Toren O O
@@ -2463,7 +2463,7 @@ Torwart O O
 , O O
 den O O
 besten O O
-Libero O B-PER
+Libero O B-ORG
 , O O
 den O O
 besten O O
@@ -2471,7 +2471,7 @@ Stürmer O O
 und O O
 den O O
 besten O O
-Mittelfeldspieler O O
+Mittelfeldspieler O B-MISC
 in O O
 der O O
 Bundesliga O B-MISC
@@ -2492,7 +2492,7 @@ auch O O
 als O O
 den O O
 besten O O
-Mittelfeldspieler O O
+Mittelfeldspieler O B-MISC
 ? O O
 " O O
 
@@ -2525,13 +2525,13 @@ zum O O
 , O O
 Fußballer O O
 des O O
-Jahres O O
+Jahres O B-MISC
 ' O O
 , O O
 daß O O
 ich O O
 der O O
-Mittelfeldspieler O O
+Mittelfeldspieler O B-MISC
 nach O O
 Thomas B-PER B-PER
 Häßler I-PER I-PER
@@ -2565,7 +2565,7 @@ zu O O
 den O O
 besten O O
 drei O O
-Mittelfeldspielern O O
+Mittelfeldspielern O B-MISC
 zähle O O
 . O O
 " O O
@@ -2623,7 +2623,7 @@ ich O O
 einer O O
 der O O
 besten O O
-Mittelfeldspieler O O
+Mittelfeldspieler O B-MISC
 bin O O
 - O O
 ich O O
@@ -2700,7 +2700,7 @@ abgesehen O O
 vom O O
 Punktverlust O O
 zu O O
-Hause O B-LOC
+Hause O O
 gegen O O
 Dresden B-LOC B-LOC
 muß O O
@@ -2740,14 +2740,14 @@ zurück O O
 Frustrierter O O
 Jörn B-PER B-PER
 Andersen I-PER I-PER
-Kruse B-PER B-PER
+Kruse B-PER I-PER
 und O O
 Wolf B-PER B-PER
 - O O
 die O O
-Männer O O
+Männer O B-MISC
 der O O
-Zukunft O O
+Zukunft O B-MISC
 
 Jörn B-PER B-PER
 Andersen I-PER I-PER
@@ -2769,7 +2769,7 @@ frisch O O
 deduscht O O
 und O O
 frohen O O
-Mutes O O
+Mutes O B-PER
 steigen O O
 sie O O
 in O O
@@ -2883,7 +2883,7 @@ saß O O
 tief O O
 und O O
 die O O
-Zunge O B-PER
+Zunge O O
 für O O
 wenige O O
 Sekunden O O
@@ -2910,7 +2910,7 @@ Jahre O O
 alte O O
 Stürmer O O
 a. O O
-D. O O
+D. O B-PER
 über O O
 den O O
 Sieg O O
@@ -3112,7 +3112,7 @@ gelobt O O
 stand O O
 vor O O
 dem O O
-Eintracht-Bus O B-ORG
+Eintracht-Bus O B-MISC
 , O O
 in O O
 der O O
@@ -3141,7 +3141,7 @@ noch O O
 als O O
 EintrachtAnhänger O B-MISC
 am O O
-Zaun O B-LOC
+Zaun O O
 stand O O
 , O O
 hoffend O O
@@ -3169,7 +3169,7 @@ kleinen O O
 Eintracht-Anhänger O B-MISC
 , O O
 der O O
-Mühe O O
+Mühe O B-PER
 hatte O O
 , O O
 zu O O
@@ -3186,7 +3186,7 @@ der O O
 20 O O
 Jahre O O
 alte O O
-Mittelfeldspieler O O
+Mittelfeldspieler O B-MISC
 die O O
 Initiative O O
 und O O
@@ -3392,7 +3392,7 @@ Torwart O O
 , O O
 den O O
 besten O O
-Libero O B-PER
+Libero O B-ORG
 , O O
 den O O
 besten O O
@@ -3644,7 +3644,7 @@ der O O
 31 O O
 Jahre O O
 alte O O
-Routiner O O
+Routiner O B-PER
 nach O O
 seiner O O
 Auswechslung O O
@@ -3795,7 +3795,7 @@ der O O
 nicht O O
 mehr O O
 zum O O
-Kreise O O
+Kreise O B-ORG
 der O O
 Eintracht B-ORG B-ORG
 zählt O O
@@ -3815,7 +3815,7 @@ Juventus-Spieler O B-MISC
 , O O
 wie O O
 Stepanovic B-PER B-PER
-Andreas B-PER I-PER
+Andreas B-PER B-PER
 Möller I-PER I-PER
 auch O O
 weiter O O
@@ -4150,7 +4150,7 @@ hatte O O
 , O O
 gelang O O
 nichts O O
-Zwingendes O O
+Zwingendes O B-MISC
 mehr O O
 . O O
 
@@ -4847,7 +4847,7 @@ nicht O O
 aufgenommen O O
 . O O
 
-Ul O B-PER
+Ul O B-ORG
 
 -DOCSTART- O O
 
@@ -5089,7 +5089,7 @@ ergriff O O
 
 Per O O
 plaziertem O O
-Flachschuß O O
+Flachschuß O B-PER
 erzielte O O
 er O O
 die O O
@@ -5173,7 +5173,7 @@ und O O
 hatte O O
 durch O O
 Jungs B-PER B-PER
-Direktschuß O O
+Direktschuß O B-PER
 die O O
 Möglichkeit O O
 zum O O
@@ -5236,7 +5236,7 @@ die O O
 Hände O O
 gegen O O
 den O O
-Pfosten O O
+Pfosten O B-PER
 rutschten O O
 und O O
 Aleksic B-PER B-PER
@@ -5297,7 +5297,7 @@ FROMMERT I-PER I-PER
 
 -DOCSTART- O O
 
-Egelsbach B-LOC B-PER
+Egelsbach B-LOC B-LOC
 : O O
 
 Arnold B-PER B-PER
@@ -5375,18 +5375,18 @@ Druck O O
 daß O O
 in O O
 Hanau B-LOC B-LOC
-US-Wohnungen O B-MISC
+US-Wohnungen O O
 frei O O
 werden O O
 Bei O O
-SPD-Delegiertenkonferenz O B-ORG
+SPD-Delegiertenkonferenz O B-MISC
 ging O O
 Hans B-PER B-PER
 Suchan I-PER I-PER
 von O O
 der O O
-Hessischen B-ORG B-MISC
-Staatskanzlei I-ORG B-ORG
+Hessischen B-ORG B-ORG
+Staatskanzlei I-ORG I-ORG
 auf O O
 das O O
 Thema O O
@@ -5411,7 +5411,7 @@ schnurrte O O
 die O O
 Wahlkreisdelegiertenkonferenz O O
 des O O
-SPD-Unterbezirks O B-ORG
+SPD-Unterbezirks O B-LOC
 Main-Kinzig B-LOC B-LOC
 für O O
 den O O
@@ -5526,7 +5526,7 @@ worden O O
 
 Dennoch O O
 war O O
-Luft O O
+Luft O B-PER
 für O O
 eine O O
 Aussprache O O
@@ -5536,8 +5536,8 @@ Rede O O
 des O O
 Chefs O O
 der O O
-Hessichen B-ORG B-ORG
-Staatskanzlei I-ORG I-ORG
+Hessichen B-ORG B-MISC
+Staatskanzlei I-ORG I-MISC
 , O O
 Hans B-PER B-PER
 Suchan I-PER I-PER
@@ -5567,7 +5567,7 @@ die O O
 Genossen O O
 in O O
 der O O
-Hanauer O B-MISC
+Hanauer O B-LOC
 Provinz O O
 mit O O
 ihren O O
@@ -5845,9 +5845,9 @@ lasse O O
 Statt O O
 mit O O
 einem O O
-Wirtschaftsförderungs- O O
-und O O
-Wohnungsbauprogramm O O
+Wirtschaftsförderungs- O B-MISC
+und O I-MISC
+Wohnungsbauprogramm O I-MISC
 anzusetzen O O
 und O O
 über O O
@@ -6162,7 +6162,7 @@ Absicherung O O
 werde O O
 Hessen B-LOC B-LOC
 im O O
-Bundesrat B-ORG B-ORG
+Bundesrat B-ORG O
 einen O O
 Entschließungsantrag O O
 einbringen O O
@@ -6192,11 +6192,11 @@ werden O O
 
 Schwarze O O
 und O O
-Rote O O
+Rote O B-MISC
 im O O
 Grünen O B-LOC
-Homburger O I-LOC
-Naturfreunde B-ORG I-LOC
+Homburger O B-MISC
+Naturfreunde B-ORG I-MISC
 feierten O O
 70jähriges O O
 Bestehen O O
@@ -6330,7 +6330,7 @@ wurden O O
 auch O O
 die O O
 beiden O O
-CDU-Politiker B-MISC B-ORG
+CDU-Politiker B-MISC B-MISC
 von O O
 der O O
 roten O O
@@ -6377,7 +6377,7 @@ als O O
 heutige O O
 Hauptaufgabe O O
 der O O
-Naturfreunde B-ORG O
+Naturfreunde B-ORG B-MISC
 den O O
 Erhalt O O
 der O O
@@ -6413,7 +6413,7 @@ Der O O
 Landesvorsitzende O O
 der O O
 hessischen O B-MISC
-Naturfreunde B-ORG B-MISC
+Naturfreunde B-ORG B-ORG
 , O O
 Klaus B-PER B-PER
 Lischka I-PER I-PER
@@ -6434,7 +6434,7 @@ ein O O
 unter O O
 dem O O
 die O O
-Naturfreunden B-ORG B-MISC
+Naturfreunden B-ORG B-ORG
 wie O O
 viele O O
 andere O O
@@ -6464,8 +6464,8 @@ mache O O
 . O O
 
 Die O O
-Homburger O B-MISC
-Naturfreunde B-ORG B-MISC
+Homburger O B-ORG
+Naturfreunde B-ORG I-ORG
 forderte O O
 er O O
 auf O O
@@ -6504,7 +6504,7 @@ innerhalb O O
 der O O
 sozialdemokratischen B-ORG O
 Partei I-ORG B-ORG
-Österreichs I-ORG B-LOC
+Österreichs I-ORG I-ORG
 . O O
 
 Bis O O
@@ -6547,7 +6547,7 @@ FRIEDRICHSDORF B-LOC B-LOC
 . O O
 
 Der O O
-Erlenbach B-LOC B-LOC
+Erlenbach B-LOC B-MISC
 ließ O O
 die O O
 Köpperner O B-MISC
@@ -6629,10 +6629,10 @@ zu O O
 , O O
 als O O
 vom O O
-Bader O B-LOC
+Bader O B-MISC
 und O O
 der O O
-Badenixe O B-LOC
+Badenixe O B-MISC
 die O O
 großen O O
 Schöpfkellen O O
@@ -6640,7 +6640,7 @@ Schöpfkellen O O
 die O O
 Füße O O
 zweier O O
-Eingeplackter O O
+Eingeplackter O B-MISC
 ausgeleert O O
 wurden O O
 . O O
@@ -6650,7 +6650,7 @@ legten O O
 damit O O
 vor O O
 ihren O O
-Köpperner O B-LOC
+Köpperner O B-MISC
 Mitbürgern O O
 ein O O
 Bekenntnis O O
@@ -6719,7 +6719,7 @@ das O O
 Angebot O O
 von O O
 " O O
-Drachenfels B-MISC B-MISC
+Drachenfels B-MISC B-ORG
 " O O
 über O O
 " O O
@@ -6782,7 +6782,7 @@ Spiel O O
 , O O
 erwidert O O
 die O O
-Kleine O O
+Kleine O B-PER
 . O O
 " O O
 
@@ -6796,7 +6796,7 @@ Mann O O
 und O O
 zeigt O O
 den O O
-Daumen O O
+Daumen O B-MISC
 . O O
 
 Ihn O O
@@ -6831,7 +6831,7 @@ die O O
 richtige O O
 Grundlage O O
 sorgten O O
-Schaschlik O B-ORG
+Schaschlik O B-PER
 und O O
 belegte O O
 Brötchen O O
@@ -6902,7 +6902,7 @@ Oberems B-LOC B-LOC
 und O O
 Schloßborn B-LOC B-LOC
 
-GLASHÜTTEN B-LOC O
+GLASHÜTTEN B-LOC B-ORG
 . O O
 
 Frisches O O
@@ -7076,7 +7076,7 @@ mit O O
 dem O O
 Krankenwagen O O
 ins O O
-Krankenhaus O B-LOC
+Krankenhaus O O
 gebracht O O
 . O O
 
@@ -7373,7 +7373,7 @@ eine O O
 Blutentnahme O O
 . O O
 
-FRIEDRICHSDORF B-LOC B-ORG
+FRIEDRICHSDORF B-LOC B-LOC
 . O O
 
 Zeugen O O
@@ -7425,7 +7425,7 @@ zu O O
 melden O O
 . O O
 
-GLASHÜTTEN B-LOC B-ORG
+GLASHÜTTEN B-LOC B-LOC
 . O O
 
 Ein O O
@@ -7451,7 +7451,7 @@ ab O O
 , O O
 fuhr O O
 die O O
-Böschung O O
+Böschung O B-LOC
 hinunter O O
 und O O
 blieb O O
@@ -7494,7 +7494,7 @@ ermittelt O O
 , O O
 berichtete O O
 die O O
-Polizei O B-ORG
+Polizei O O
 . O O
 
 USINGEN B-LOC B-LOC
@@ -7606,7 +7606,7 @@ Probefahrt O O
 " O O
 bei O O
 einem O O
-Motorradhaus O B-LOC
+Motorradhaus O B-MISC
 in O O
 Baden-Württemberg B-LOC B-LOC
 ausgeliehen O O
@@ -7639,7 +7639,7 @@ heraus O O
 , O O
 berichtete O O
 die O O
-Polizei O B-ORG
+Polizei O O
 , O O
 daß O O
 der O O
@@ -7653,7 +7653,7 @@ bei O O
 drei O O
 Autohäusern O O
 in O O
-Raum O B-LOC
+Raum O O
 Bad B-LOC B-LOC
 Homburg I-LOC I-LOC
 und O O
@@ -7723,12 +7723,12 @@ Scholz I-PER I-PER
 in O O
 positivem O O
 Denken O O
-Erzürnte O O
+Erzürnte O B-MISC
 Fans O O
 begossen O O
 den O O
 " O O
-Lilien O B-PER
+Lilien O B-ORG
 " O O
 - O O
 Vorstand O O
@@ -7739,11 +7739,11 @@ gegen O O
 Coach O O
 an O O
 / O O
-Rot O O
+Rot O B-PER
 für O O
 Simon B-PER B-PER
 / O O
-Verdienter O O
+Verdienter O B-PER
 Punkt O O
 / O O
 Darmstadt B-LOC B-ORG
@@ -7751,7 +7751,7 @@ Darmstadt B-LOC B-ORG
 Rostock B-LOC B-ORG
 0:0 O O
 Vom O O
-Böllenfalltor B-LOC B-PER
+Böllenfalltor B-LOC B-LOC
 berichtet O O
 unser O O
 Redaktionsmitglied O O
@@ -8022,9 +8022,9 @@ und O O
 " O O
 ohne O O
 " O O
-Wenn O B-MISC
+Wenn O O
 und O O
-Aber O B-MISC
+Aber O O
 " O O
 vor O O
 Scholz B-PER B-PER
@@ -8143,7 +8143,7 @@ Mitglieder O O
 des O O
 Fan-Klubs O O
 " O O
-Super-Lilien B-MISC B-ORG
+Super-Lilien B-MISC B-MISC
 " O O
 Flugblätter O O
 mit O O
@@ -8170,7 +8170,7 @@ finanzieren O O
 Scholz-raus O B-PER
 " O O
 - O O
-Rufe O O
+Rufe O B-PER
 während O O
 und O O
 nach O O
@@ -8231,7 +8231,7 @@ Sekt O O
 ( O O
 siehe O O
 auch O O
-Kasten O O
+Kasten O B-PER
 auf O O
 dieser O O
 Seite O O
@@ -8362,7 +8362,7 @@ und O O
 zum O O
 anderen O O
 rettete O O
-März O B-PER
+März O O
 für O O
 den O O
 bereits O O
@@ -8399,10 +8399,10 @@ Stefan B-PER B-PER
 Simon I-PER I-PER
 wegen O O
 einer O O
-Lappalie O B-PER
+Lappalie O B-MISC
 die O O
-Rote O O
-Karte O O
+Rote O B-MISC
+Karte O I-MISC
 gesehen O O
 hatte O O
 . O O
@@ -8418,7 +8418,7 @@ wollen O O
 , O O
 begründete O O
 der O O
-Unparteiische O O
+Unparteiische O B-MISC
 den O O
 Platzverweis O O
 . O O
@@ -8510,7 +8510,7 @@ Chalaskiewicz B-PER B-PER
 
 saßen O O
 zwei O O
-Ziehharmonikaspieler O O
+Ziehharmonikaspieler O B-MISC
 vor O O
 dem O O
 Schaufenster O B-LOC
@@ -8554,7 +8554,7 @@ spielt O O
 
 Der O O
 eine O O
-Ziehharmonikaspieler O O
+Ziehharmonikaspieler O B-MISC
 sagte O O
 : O O
 
@@ -8569,7 +8569,7 @@ und O O
 nahm O O
 die O O
 fünf O O
-Mark B-MISC O
+Mark B-MISC B-MISC
 . O O
 
 Zu O O
@@ -8631,8 +8631,8 @@ Verkäuferin O O
 : O O
 
 " O O
-Maane O O
-Se O B-PER
+Maane O B-PER
+Se O I-PER
 , O O
 deß O O
 ich O O
@@ -8652,10 +8652,10 @@ net O O
 , O O
 wann O O
 's O O
-Ihne O O
-Ihne O O
-Ihrn O O
-Dokter O O
+Ihne O B-PER
+Ihne O I-PER
+Ihrn O I-PER
+Dokter O I-PER
 erlaubt O O
 ! O O
 " O O
@@ -8751,7 +8751,7 @@ Um O O
 Uhr O O
 beginnt O O
 im O O
-Gasthaus O O
+Gasthaus O B-LOC
 Zum B-LOC B-LOC
 Hirsch I-LOC I-LOC
 in O O
@@ -8761,7 +8761,7 @@ Untergasse I-LOC I-LOC
 eine O O
 Mitgliederversammlung O O
 der O O
-Liberalen O B-ORG
+Liberalen O B-MISC
 , O O
 bei O O
 der O O
@@ -8805,7 +8805,7 @@ Henzler I-PER I-PER
 
 -DOCSTART- O O
 
-Umweltausschuß O O
+Umweltausschuß O B-ORG
 hat O O
 heute O O
 abend O O
@@ -8835,8 +8835,8 @@ Uhr O O
 im O O
 Sitzungssaal O O
 des O O
-Rathauses O B-LOC
-I. O I-LOC
+Rathauses O O
+I. O B-LOC
 Auf O O
 der O O
 Tagesordnung O O
@@ -8846,7 +8846,7 @@ stehen O O
 die O O
 Erweiterung O O
 des O O
-Rathauses O B-LOC
+Rathauses O B-ORG
 in O O
 Vockenhausen B-LOC B-LOC
 und O O
@@ -8904,10 +8904,10 @@ beraten O O
 Ausschuß O O
 bereitet O O
 das O O
-Stadtjubiläum O O
+Stadtjubiläum O B-MISC
 vor O O
 
-EPPSTEIN B-LOC B-ORG
+EPPSTEIN B-LOC B-LOC
 . O O
 
 Das O O
@@ -8937,12 +8937,12 @@ der O O
 Tagesordnung O O
 des O O
 Ausschusses B-ORG B-ORG
-für I-ORG O
-Kultur I-ORG B-ORG
-, I-ORG O
-Sport I-ORG B-ORG
-, I-ORG O
-Jugend I-ORG B-ORG
+für I-ORG I-ORG
+Kultur I-ORG I-ORG
+, I-ORG I-ORG
+Sport I-ORG I-ORG
+, I-ORG I-ORG
+Jugend I-ORG I-ORG
 und I-ORG I-ORG
 Soziales I-ORG I-ORG
 , O O
@@ -8955,8 +8955,8 @@ um O O
 20 O O
 Uhr O O
 im O O
-Großen O O
-Sitzungssaal O O
+Großen O B-MISC
+Sitzungssaal O I-MISC
 des O O
 Rathauses O B-LOC
 I O I-LOC
@@ -8973,7 +8973,7 @@ Vorbereitung O O
 der O O
 Wahl O O
 des O O
-Ausländerbeirates O B-MISC
+Ausländerbeirates O B-ORG
 beraten O O
 . O O
 
@@ -8994,7 +8994,7 @@ Kindertagesstätten O O
 -DOCSTART- O O
 
 " O O
-Silberzauber B-MISC O
+Silberzauber B-MISC B-MISC
 " O O
 wird O O
 morgen O O
@@ -9008,7 +9008,7 @@ Armreifen O O
 Gürtel O O
 aus O O
 purem O O
-Silber O O
+Silber O B-MISC
 , O O
 Ringe O O
 mit O O
@@ -9039,7 +9039,7 @@ Gegenstände O O
 der O O
 Verkaufsausstellung O O
 " O O
-Silberzauber B-MISC O
+Silberzauber B-MISC B-MISC
 " O O
 , O O
 die O O
@@ -9117,7 +9117,7 @@ will O O
 wohnortnahe O O
 Versorgung O O
 von O O
-Krebskranken O B-MISC
+Krebskranken O O
 auf O O
 dem O O
 Land O O
@@ -9272,7 +9272,7 @@ Anfahrtswege O O
 zu O O
 den O O
 großen O O
-Kliniken O O
+Kliniken O B-LOC
 in O O
 Marburg B-LOC B-LOC
 , O O
@@ -9395,11 +9395,11 @@ früher O O
 Leiter O O
 der O O
 onkologischen O O
-Poliklinik O O
+Poliklinik O B-ORG
 an O O
 der O O
-Uni O B-LOC
-Göttingen B-LOC I-LOC
+Uni O B-ORG
+Göttingen B-LOC I-ORG
 war O O
 , O O
 geht O O
@@ -9440,8 +9440,8 @@ in O O
 Schwalmstadt-Ziegenhain B-LOC B-LOC
 , O O
 Fritzlar B-LOC B-LOC
-/ O O
-Homberg B-LOC B-LOC
+/ O B-LOC
+Homberg B-LOC I-LOC
 , O O
 Frankenberg B-LOC B-LOC
 , O O
@@ -9451,8 +9451,8 @@ Hersfeld I-LOC I-LOC
 Melsungen B-LOC B-LOC
 und O O
 Alsfeld B-LOC B-LOC
-/ O O
-Lauterbach B-LOC B-LOC
+/ O B-LOC
+Lauterbach B-LOC I-LOC
 ) O O
 wo O O
 mittlerweile O O
@@ -9649,8 +9649,8 @@ zur O O
 Erstellung O O
 eines O O
 " O O
-Versorgungsatlas B-MISC O
-Onkologie I-MISC O
+Versorgungsatlas B-MISC B-MISC
+Onkologie I-MISC I-MISC
 für I-MISC O
 Nordhessen I-MISC B-LOC
 " O O
@@ -9688,8 +9688,8 @@ beim O O
 Versuch O O
 , O O
 die O O
-Uniklinik O B-LOC
-Marburg B-LOC I-LOC
+Uniklinik O B-ORG
+Marburg B-LOC I-ORG
 in O O
 die O O
 bessere O O
@@ -9852,7 +9852,7 @@ die O O
 neue O O
 Substanz O O
 " O O
-Zofran O O
+Zofran O B-MISC
 " O O
 an O O
 , O O
@@ -10117,7 +10117,7 @@ Eschenplatzes B-LOC B-LOC
 Dort O O
 machen O O
 Hofheims B-LOC B-LOC
-Sozialdemokraten O O
+Sozialdemokraten O B-MISC
 mit O O
 Fotos O O
 und O O
@@ -10204,7 +10204,7 @@ versammelt O O
 , O O
 wie O O
 es O O
-Brauch O O
+Brauch O B-PER
 ist O O
 , O O
 wenn O O
@@ -10300,7 +10300,7 @@ ist O O
 in O O
 , O O
 Frau O O
-Nachbarin O O
+Nachbarin O B-MISC
 " O O
 , O O
 wirbt O O
@@ -10372,7 +10372,7 @@ für O O
 frisches O O
 Obst O O
 aus O O
-Kriftel B-LOC B-MISC
+Kriftel B-LOC B-LOC
 " O O
 haben O O
 sie O O
@@ -10388,7 +10388,7 @@ gepinnt O O
 
 Von O O
 den O O
-Hofheimern O O
+Hofheimern O B-MISC
 war O O
 noch O O
 keiner O O
@@ -10405,7 +10405,7 @@ verkauft O O
 , O O
 auf O O
 den O O
-Zwist O O
+Zwist O B-LOC
 zwischen O O
 den O O
 Nachbarorten O O
@@ -10430,9 +10430,9 @@ Rettershof B-LOC B-LOC
 
 Vorbei O O
 an O O
-Truthähnen O O
+Truthähnen O B-MISC
 und O O
-Hühnern O O
+Hühnern O B-MISC
 , O O
 die O O
 auf O O
@@ -10464,7 +10464,7 @@ Bernhard B-PER B-PER
 Löwenberg I-PER I-PER
 in O O
 ledernen O O
-Knikkerbockern O O
+Knikkerbockern O B-MISC
 mit O O
 schwarzem O O
 Hund O O
@@ -10703,7 +10703,7 @@ nicht O O
 " O O
 Umschulung O O
 von O O
-US-Zivilangestellten O B-MISC
+US-Zivilangestellten O B-ORG
 : O O
 
 Arbeitsamt O B-ORG
@@ -10784,7 +10784,7 @@ während O O
 einer O O
 Pressekonferenz O O
 der O O
-SPD-Bundestagsabgeordneten O B-ORG
+SPD-Bundestagsabgeordneten O B-MISC
 Heidemarie B-PER B-PER
 Wieczorek-Zeul I-PER I-PER
 am O O
@@ -10967,8 +10967,8 @@ könne O O
 UVF B-ORG B-ORG
 ließ O O
 das O O
-Langener O B-MISC
-Parlament O B-ORG
+Langener O B-ORG
+Parlament O I-ORG
 im O O
 Wald O B-LOC
 stehen O O
@@ -10977,7 +10977,7 @@ am O O
 anvisierten O O
 Standort O O
 der O O
-Mülldeponie O O
+Mülldeponie O B-LOC
 
 KREIS O B-LOC
 OFFENBACH B-LOC I-LOC
@@ -11032,7 +11032,7 @@ von O O
 einem O O
 Vertreter O O
 des O O
-Umlandverbandes O O
+Umlandverbandes O B-ORG
 erläuternde O O
 Worte O O
 zu O O
@@ -11086,12 +11086,12 @@ drei O O
 vom O O
 Umlandverband O B-ORG
 ins O O
-Auge O O
+Auge O B-LOC
 gefaßten O O
 Nachfolge-Standorte O O
 für O O
 die O O
-Hausmülldeponie O O
+Hausmülldeponie O B-MISC
 Monte B-LOC B-LOC
 Scherbelino I-LOC I-LOC
 am O O
@@ -11129,13 +11129,13 @@ Frankfurter O B-MISC
 in O O
 Mainhausen B-LOC B-LOC
 künftig O O
-Hausmüll O O
+Hausmüll O B-MISC
 zu O O
 lagern O O
 , O O
 nachdem O O
 vom O O
-Land O O
+Land O B-LOC
 ein O O
 " O O
 Nein O O
@@ -11144,7 +11144,7 @@ für O O
 die O O
 dort O O
 geplante O O
-Sondermülldeponie O O
+Sondermülldeponie O B-MISC
 kam O O
 . O O
 
@@ -11152,7 +11152,7 @@ Zum O O
 dritten O O
 wird O O
 die O O
-Rathwiesenschneise O O
+Rathwiesenschneise O B-LOC
 in O O
 Rödermark B-LOC B-LOC
 in O O
@@ -11173,7 +11173,7 @@ sich O O
 die O O
 Stadtverordneten O O
 vom O O
-Waldparkplatz O B-LOC
+Waldparkplatz O O
 am O O
 Steinberg B-LOC B-LOC
 aus O O
@@ -11216,11 +11216,11 @@ gewesen O O
 , O O
 direkt O O
 zum O O
-Waldparkplatz O B-LOC
+Waldparkplatz O O
 an O O
 der O O
 Bundesstraße O O
-B B-LOC B-MISC
+B B-LOC O
 486 I-LOC O
 zu O O
 fahren O O
@@ -11262,8 +11262,8 @@ im O O
 ausgedehnten O O
 Langener O B-LOC
 Eichen- O I-LOC
-und O O
-Buchenwald O B-LOC
+und O B-LOC
+Buchenwald O I-LOC
 zu O O
 verhindern O O
 , O O
@@ -11305,7 +11305,7 @@ schärfte O O
 der O O
 Mann O O
 vom O O
-Forstamt O B-LOC
+Forstamt O B-ORG
 etwaigen O O
 , O O
 in O O
@@ -11352,13 +11352,13 @@ Norden O B-LOC
 würde O O
 sie O O
 vom O O
-Dachsbau B-LOC O
+Dachsbau B-LOC B-LOC
 , O O
 im O O
 Süden O B-LOC
 von O O
 der O O
-Lindenschneise B-LOC O
+Lindenschneise B-LOC B-LOC
 begrenzt O O
 . O O
 
@@ -11366,7 +11366,7 @@ Kramm B-PER B-PER
 weiß O O
 in O O
 diesem O O
-Viereck O O
+Viereck O B-LOC
 einige O O
 ökologische O O
 Kostbarkeiten O O
@@ -11430,8 +11430,8 @@ Biotopen O O
 auf O O
 die O O
 das O O
-Forstamt O O
-Langen B-LOC B-LOC
+Forstamt O B-LOC
+Langen B-LOC I-LOC
 so O O
 stolz O O
 ist O O
@@ -11460,11 +11460,11 @@ Am O O
 Herzen O O
 liegen O O
 dem O O
-Forstamts-Leiter O O
+Forstamts-Leiter O B-ORG
 auch O O
 die O O
 uralten O O
-Schwarzwildwechsel O O
+Schwarzwildwechsel O B-MISC
 , O O
 zu O O
 denen O O
@@ -11538,7 +11538,7 @@ ja O O
 bald O O
 einen O O
 richtigen O O
-Müll-Rundweg O O
+Müll-Rundweg O B-MISC
 um O O
 Langen B-LOC B-LOC
 herum O O
@@ -11561,7 +11561,7 @@ Egelsbach B-LOC B-LOC
 , O O
 die O O
 Langener O B-LOC
-Kiesgrube O O
+Kiesgrube O I-LOC
 , O O
 die O O
 Mülldeponie O O
@@ -11571,14 +11571,14 @@ und O O
 die O O
 Klärschlammtrocknung O O
 des O O
-Umlandverbandes O O
+Umlandverbandes O B-ORG
 westlich O O
 von O O
 Langen B-LOC B-LOC
 . O O
 
 Der O O
-Umlandverband O O
+Umlandverband O B-ORG
 fege O O
 jedoch O O
 stets O O
@@ -11595,7 +11595,7 @@ wie O O
 den O O
 Wert O O
 des O O
-Waldes O O
+Waldes O B-LOC
 als O O
 Naherholungsgebiet O O
 . O O
@@ -11661,7 +11661,7 @@ wird O O
 am O O
 Ende O O
 die O O
-Deponie O O
+Deponie O B-LOC
 hinkommen O O
 . O O
 " O O
@@ -11744,7 +11744,7 @@ Die O O
 Erde O B-LOC
 ist O O
 unser O O
-Land O O
+Land O B-LOC
 " O O
 . O O
 
@@ -11860,8 +11860,8 @@ möglich O O
 Ost-West-Symbiose O B-MISC
 im O O
 Takt O O
-Pirnaer B-ORG B-MISC
-Sinfoniker I-ORG O
+Pirnaer B-ORG B-ORG
+Sinfoniker I-ORG I-ORG
 musizierten O O
 mit O O
 Wetterauer O B-ORG
@@ -11967,7 +11967,7 @@ Ludwig B-PER B-PER
 von I-PER I-PER
 Beethovens I-PER I-PER
 " O O
-Chorfantasie B-MISC O
+Chorfantasie B-MISC B-MISC
 , O O
 op. O O
 80 O O
@@ -12002,8 +12002,8 @@ Goethe I-PER I-PER
 , O O
 traf O O
 die O O
-Singakademie O B-ORG
-Wetterau B-LOC I-ORG
+Singakademie O B-LOC
+Wetterau B-LOC I-LOC
 denn O O
 wohl O O
 auch O O
@@ -12039,12 +12039,12 @@ zelebrierte O O
 gleichsam O O
 das O O
 sturmgepeitschte O O
-Meer O O
+Meer O B-LOC
 , O O
 den O O
 Schrei O O
 der O O
-Möwen O B-PER
+Möwen O B-MISC
 und O O
 die O O
 " O O
@@ -12077,8 +12077,8 @@ Nauheim I-LOC I-LOC
 ) O O
 dirigierte O O
 das O O
-Pirnaer B-ORG B-MISC
-Sinfonieorchester I-ORG I-MISC
+Pirnaer B-ORG B-ORG
+Sinfonieorchester I-ORG I-ORG
 mit O O
 dynamischer O O
 Hingabe O O
@@ -12100,7 +12100,7 @@ Entspannend O O
 dann O O
 die O O
 " O O
-Chorfantasie B-MISC O
+Chorfantasie B-MISC B-MISC
 " O O
 Beethovens B-PER B-PER
 mit O O
@@ -12156,19 +12156,19 @@ Solisten O O
 Heidrun B-PER B-PER
 Heinke I-PER I-PER
 ( O O
-Sopran O O
+Sopran O B-MISC
 ) O O
 , O O
 Maria B-PER B-PER
 Philipps I-PER I-PER
 ( O O
-Alt O O
+Alt O B-MISC
 ) O O
 sowie O O
 Richard B-PER B-PER
 Reaville I-PER I-PER
 ( O O
-Tenor O O
+Tenor O B-MISC
 ) O O
 und O O
 Hugh B-PER B-PER
@@ -12206,8 +12206,8 @@ Nauheim I-LOC I-LOC
 sowie O O
 Frauenstimmen O O
 der O O
-Universität O B-ORG
-Gießen B-LOC I-ORG
+Universität O B-LOC
+Gießen B-LOC I-LOC
 und O O
 Mitwirkenden O O
 der O O
@@ -12228,7 +12228,7 @@ drängen O O
 Im O O
 Finale O O
 ( O O
-Walpurgisnacht B-MISC O
+Walpurgisnacht B-MISC B-LOC
 ) O O
 übertönte O O
 der O O
@@ -12265,9 +12265,9 @@ bleibt O O
 , O O
 daß O O
 das O O
-Experiment O B-MISC
-Singakademie O B-LOC
-Wetterau B-LOC I-LOC
+Experiment O B-LOC
+Singakademie O B-ORG
+Wetterau B-LOC I-ORG
 auch O O
 in O O
 Zukunft O O
@@ -12298,7 +12298,7 @@ können O O
 
 -DOCSTART- O O
 
-Wehens B-LOC B-PER
+Wehens B-LOC B-ORG
 Kicker O O
 fühlen O O
 sich O O
@@ -12317,7 +12317,7 @@ entdeckte O O
 Phlegma O B-PER
 
 Wenn O O
-Wehens B-LOC B-PER
+Wehens B-LOC B-ORG
 Präsident O O
 Heinz B-PER B-PER
 Hankammer I-PER I-PER
@@ -12336,7 +12336,7 @@ dreht O O
 , O O
 ist O O
 die O O
-Welt O O
+Welt O B-LOC
 aus O O
 seiner O O
 Sicht O O
@@ -13140,7 +13140,7 @@ einem O O
 Atelier O O
 , O O
 der O O
-Aula O O
+Aula O B-LOC
 der O O
 Parkschule B-ORG B-LOC
 . O O
@@ -13208,10 +13208,10 @@ und O O
 hat O O
 . O O
 
-Diebschlag O O
+Diebschlag O B-PER
 wäre O O
 nicht O O
-Diebschlag O O
+Diebschlag O B-PER
 , O O
 hätte O O
 er O O
@@ -13248,8 +13248,8 @@ er O O
 
 Städelsches B-LOC B-ORG
 Kunstinstitut I-LOC I-ORG
-und O I-ORG
-Städtische O I-ORG
+und O O
+Städtische O B-ORG
 Galerie O I-ORG
 , O O
 Schaumainkai B-LOC B-LOC
@@ -13350,13 +13350,13 @@ Alma B-PER B-PER
 Mahler I-PER I-PER
 - O O
 " O O
-Die B-MISC O
-Puppe I-MISC B-MISC
+Die B-MISC B-MISC
+Puppe I-MISC I-MISC
 : I-MISC O
 
 Epilog B-MISC O
 einer I-MISC O
-Passion I-MISC O
+Passion I-MISC B-MISC
 " O O
 ( O O
 bis O O
@@ -13405,8 +13405,8 @@ bis O O
 19 O O
 Uhr O O
 ; O O
-Zeitgenössische O O
-Kunst O O
+Zeitgenössische O B-MISC
+Kunst O I-MISC
 von O O
 1960 O O
 bis O O
@@ -13420,9 +13420,9 @@ Räume O O
 - O O
 Balkenhol B-PER B-LOC
 , O O
-Flinzer B-PER B-PER
+Flinzer B-PER B-LOC
 , O O
-Slominiski B-PER B-PER
+Slominiski B-PER B-LOC
 , O O
 Artschwager B-PER B-PER
 / O O
@@ -13548,17 +13548,17 @@ Arbeitsgemeinschaft O B-ORG
 sozialdemokratischer O O
 Frauen O O
 im O O
-MTK B-LOC B-ORG
+MTK B-LOC B-LOC
 , O O
 die O O
 Grünen B-ORG B-ORG
 Frauen I-ORG I-ORG
 im O O
-MTK B-LOC B-ORG
+MTK B-LOC B-LOC
 und O O
 das O O
-Eschborner B-ORG B-ORG
-Frauenforum I-ORG I-ORG
+Eschborner B-ORG B-LOC
+Frauenforum I-ORG I-LOC
 laden O O
 zu O O
 der O O
@@ -13571,8 +13571,8 @@ ein O O
 Schiedsrichter O O
 sorgte O O
 für O O
-Frust O O
-Gast O O
+Frust O B-PER
+Gast O I-PER
 sah O O
 sich O O
 benachteiligt O O
@@ -13610,7 +13610,7 @@ keck O O
 aufspielenden O O
 Aufsteiger O O
 aus O O
-Neukirchen B-LOC B-ORG
+Neukirchen B-LOC B-LOC
 . O O
 
 Nicht O O
@@ -13633,11 +13633,11 @@ Glücklich O O
 weil O O
 es O O
 dem O O
-Neuling O O
+Neuling O B-PER
 in O O
 der O O
 hessischen O B-MISC
-Oberliga O O
+Oberliga O B-MISC
 an O O
 Kaltschnäuzigkeit O O
 fehlte O O
@@ -13678,7 +13678,7 @@ Neukirchen B-LOC B-ORG
 ) O O
 , O O
 zehn O O
-Gelbe O O
+Gelbe O B-MISC
 Karten O O
 und O O
 hatte O O
@@ -13717,7 +13717,7 @@ ein O O
 Geschenk O O
 von O O
 Walldorfs B-LOC B-ORG
-Libero O B-ORG
+Libero O I-ORG
 Andreas B-PER B-PER
 Zwilling I-PER I-PER
 und O O
@@ -13733,7 +13733,7 @@ Erkrankung O O
 wieder O O
 in O O
 den O O
-Walldorfer B-MISC B-MISC
+Walldorfer B-MISC B-ORG
 Kader O O
 zurückgekehrten O O
 Torhüter O O
@@ -13762,7 +13762,7 @@ ersten O O
 Tormöglichkeiten O O
 . O O
 
-Neukirchens B-LOC B-MISC
+Neukirchens B-LOC B-ORG
 Schlußmann O O
 Ernst B-PER B-PER
 wußte O O
@@ -13951,7 +13951,7 @@ Life I-MISC B-ORG
 Podium I-MISC I-ORG
 , O O
 Kl O B-LOC
-. O O
+. O B-LOC
 
 Rittergasse B-LOC B-LOC
 22-26 O O
@@ -13960,14 +13960,14 @@ Rittergasse B-LOC B-LOC
 19.30 O O
 Uhr O O
 , O O
-Swingstars B-MISC B-LOC
+Swingstars B-MISC B-ORG
 . O O
 
 Irish B-LOC B-LOC
 Pub I-LOC I-LOC
 , O O
 Kl O B-LOC
-. O O
+. O B-LOC
 
 Rittergasse B-LOC B-LOC
 11 O O
@@ -13980,10 +13980,10 @@ Joe B-PER B-PER
 Ginnane I-PER I-PER
 . O O
 
-Werkstatt B-LOC B-LOC
+Werkstatt B-LOC O
 , O O
 Gr O B-LOC
-. O O
+. O B-LOC
 
 Rittergasse B-LOC B-LOC
 106 O O
@@ -14007,10 +14007,10 @@ Uhr O O
 , O O
 Flamenco O B-MISC
 mit O O
-Tanz O O
+Tanz O B-MISC
 . O O
 
-Jazzkneipe B-LOC B-ORG
+Jazzkneipe B-LOC B-LOC
 , O O
 Berliner B-LOC B-LOC
 Str. I-LOC I-LOC
@@ -14040,8 +14040,8 @@ Jazz I-MISC I-ORG
 Session I-MISC I-ORG
 . O O
 
-Cooky B-LOC B-ORG
-'s I-LOC I-ORG
+Cooky B-LOC B-LOC
+'s I-LOC I-LOC
 , O O
 Am B-LOC B-LOC
 Salzhaus I-LOC I-LOC
@@ -14071,17 +14071,17 @@ Podiumsgespräch O O
 MZ B-MISC O
 - I-MISC O
 Design I-MISC B-MISC
-zum I-MISC O
-Vergessen I-MISC B-MISC
+zum I-MISC I-MISC
+Vergessen I-MISC I-MISC
 " O O
 & O O
 " O O
 House B-MISC B-MISC
-under I-MISC B-ORG
-Wheels I-MISC I-ORG
+under I-MISC I-MISC
+Wheels I-MISC I-MISC
 " O O
-Biker O O
-Party O O
+Biker O B-MISC
+Party O I-MISC
 ; O O
 Rat-Haus B-LOC B-LOC
 , O O
@@ -14192,7 +14192,7 @@ dabei O O
 ferner O O
 Ruiz B-PER B-PER
 als O O
-Libero O B-PER
+Libero O B-ORG
 und O O
 den O O
 jungen O O
@@ -14230,8 +14230,8 @@ war O O
 auch O O
 nach O O
 der O O
-Roten O O
-Karte O O
+Roten O B-MISC
+Karte O I-MISC
 gegen O O
 Vollmer B-PER B-PER
 ebenbürtig O O
@@ -14252,7 +14252,7 @@ bis O O
 Uhr O O
 , O O
 Alte B-LOC B-LOC
-Mainzer I-LOC I-LOC
+Mainzer I-LOC B-LOC
 Gasse I-LOC I-LOC
 4 O O
 , O O
@@ -14283,8 +14283,8 @@ Landstr. I-LOC I-LOC
 248. O O
 
 Fachverband B-ORG B-ORG
-für I-ORG O
-Hauswirtschaft I-ORG B-ORG
+für I-ORG I-ORG
+Hauswirtschaft I-ORG I-ORG
 : O O
 
 9.45 O O
@@ -14310,13 +14310,13 @@ Single-Treff O O
 Uhr O O
 , O O
 " O O
-Nanu B-LOC B-ORG
+Nanu B-LOC O
 " O O
 , O O
 Falltorstr. B-LOC B-LOC
 / O O
 Ecke O B-LOC
-Berger B-LOC I-LOC
+Berger B-LOC B-LOC
 Straße I-LOC I-LOC
 , O O
 Info O O
@@ -14465,7 +14465,7 @@ Telefon O O
 75 O O
 95 O O
 ; O O
-Wittelsbach-Apotheke B-LOC B-LOC
+Wittelsbach-Apotheke B-LOC B-ORG
 , O O
 Wittelsbacherallee B-LOC B-LOC
 183 O O
@@ -14541,8 +14541,8 @@ für O O
 Soldaten O O
 der O O
 BW O B-ORG
-Stadt O O
-Frankfurt B-LOC B-LOC
+Stadt O B-LOC
+Frankfurt B-LOC I-LOC
 , O O
 Stadt O O
 und O O
@@ -14559,8 +14559,8 @@ allgemeinen O O
 Dienstzeit O O
 : O O
 
-StOArzt O B-LOC
-Frankfurt B-LOC I-LOC
+StOArzt O B-ORG
+Frankfurt B-LOC I-ORG
 , O O
 Telefon O O
 2 O O
@@ -14617,7 +14617,7 @@ danach O O
 bei O O
 den O O
 tierärztlichen O O
-Kliniken O O
+Kliniken O B-LOC
 ( O O
 s. O O
 Branchenfernsprechbuch O O
@@ -14638,8 +14638,8 @@ Nacht O O
 
 Telefonseelsorge O O
 im O O
-Ev. O O
-Volksdienst O O
+Ev. O B-ORG
+Volksdienst O I-ORG
 : O O
 
 Tel O O
@@ -14680,9 +14680,9 @@ Jugendliche O O
 . O O
 
 Notfall-Nummern O O
-Feuerwehr O O
-/ O O
-Unfall-Rettungswache O O
+Feuerwehr O B-ORG
+/ O I-ORG
+Unfall-Rettungswache O I-ORG
 112 O O
 Überfall O O
 110 O O
@@ -14693,7 +14693,7 @@ Krankentransport O O
 49 O O
 00 O O
 01-4 O O
-Hubschrauber-Rettungsdienst O O
+Hubschrauber-Rettungsdienst O B-ORG
 44 O O
 10 O O
 33 O O
@@ -14802,7 +14802,7 @@ Der O O
 Streit O O
 nimmt O O
 an O O
-Schärfe O B-ORG
+Schärfe O B-PER
 zu O O
 . O O
 " O O
@@ -14820,7 +14820,7 @@ wirft O O
 HansJürgen B-PER B-PER
 Stieringer I-PER I-PER
 der O O
-Treuhandanstalt O O
+Treuhandanstalt O B-ORG
 in O O
 Berlin B-LOC B-LOC
 vor O O
@@ -14854,7 +14854,7 @@ Geschäft O O
 : O O
 
 Die O O
-Bremer O B-MISC
+Bremer O B-ORG
 sicherten O O
 sich O O
 die O O
@@ -14873,7 +14873,7 @@ großen O O
 Konzern O O
 " O O
 zwischen O O
-Elbe B-LOC B-LOC
+Elbe B-LOC B-ORG
 und O O
 Oder B-LOC B-LOC
 " O O
@@ -14959,15 +14959,15 @@ und O O
 Skandalen O O
 für O O
 das O O
-Haus O B-ORG
-Breuel B-PER I-ORG
+Haus O B-LOC
+Breuel B-PER I-LOC
 geworden O O
 . O O
 
 Und O O
 zu O O
 einem O O
-Politikum O O
+Politikum O B-MISC
 : O O
 
 Für O O
@@ -15039,7 +15039,7 @@ französischen O B-MISC
 Baukonzerns O O
 Bouygues B-ORG B-ORG
 bei O O
-Elbo B-ORG B-ORG
+Elbo B-ORG B-LOC
 scheiterte O O
 . O O
 
@@ -15293,7 +15293,7 @@ Elbo-Liquiditätskrediten O B-ORG
 , O O
 die O O
 auf O O
-Krahmer-Konten O O
+Krahmer-Konten O B-MISC
 lagen O O
 , O O
 konnte O O
@@ -15463,7 +15463,7 @@ Insgesamt O O
 , O O
 so O O
 schätzt O O
-Karina-Anwalt O B-ORG
+Karina-Anwalt O O
 Stieringer B-PER B-PER
 - O O
 gegen O O
@@ -15481,9 +15481,9 @@ Verdächtigungen O O
 gegen O O
 die O O
 Treuhänder O O
-Richter B-PER B-ORG
+Richter B-PER B-PER
 und O O
-Rexrodt B-PER B-ORG
+Rexrodt B-PER B-PER
 erstattet O O
 hat O O
 - O O
@@ -15541,7 +15541,7 @@ seien O O
 weder O O
 vom O O
 damaligen O O
-DDR-Finanzminister O B-MISC
+DDR-Finanzminister O B-ORG
 noch O O
 der O O
 eigenen O O
@@ -15571,7 +15571,7 @@ verpflichten O O
 . O O
 
 Der O O
-Elbo-Verkauf B-MISC B-MISC
+Elbo-Verkauf B-MISC O
 mit O O
 all O O
 seinen O O
@@ -15587,7 +15587,7 @@ teuer O O
 genug O O
 für O O
 die O O
-Staatskasse O B-ORG
+Staatskasse O O
 : O O
 
 Obwohl O O
@@ -15634,7 +15634,7 @@ Brass-Band O B-ORG
 in O O
 Walldorf B-LOC B-LOC
 - O O
-Liederzweig B-ORG B-PER
+Liederzweig B-ORG B-ORG
 fährt O O
 nach O O
 Cheshire B-LOC B-LOC
@@ -15676,8 +15676,8 @@ hören O O
 Zwischen O O
 der O O
 englischen O B-MISC
-Grafschaft O O
-Chesire B-LOC B-LOC
+Grafschaft O B-LOC
+Chesire B-LOC I-LOC
 und O O
 dem O O
 Kreis O B-LOC
@@ -15778,7 +15778,7 @@ Engländer O B-MISC
 die O O
 zur O O
 Zeit O O
-Sommerferien O O
+Sommerferien O B-MISC
 haben O O
 , O O
 einen O O
@@ -15862,7 +15862,7 @@ England B-LOC B-LOC
 . O O
 
 Der O O
-Chor O O
+Chor O B-ORG
 gibt O O
 zwischen O O
 dem O O
@@ -15877,7 +15877,7 @@ der O O
 900 O O
 Jahre O O
 bestehenden O O
-Kathedrale O O
+Kathedrale O B-LOC
 von O O
 Chester B-LOC B-LOC
 . O O
@@ -15890,19 +15890,19 @@ Höltermann B-PER B-PER
 , O O
 würden O O
 den O O
-Patenschaftskreis O O
+Patenschaftskreis O B-ORG
 gerne O O
 erweitern O O
 und O O
 den O O
-Kreis O O
-Apolda B-LOC B-LOC
+Kreis O B-LOC
+Apolda B-LOC I-LOC
 in O O
 Thüringen B-LOC B-LOC
 sowie O O
 die O O
-Woiwodschaft O O
-Walbrzych B-LOC B-LOC
+Woiwodschaft O B-LOC
+Walbrzych B-LOC I-LOC
 in O O
 Polen B-LOC B-LOC
 miteinbeziehen O O
@@ -15910,8 +15910,8 @@ miteinbeziehen O O
 zu O O
 denen O O
 der O O
-Kreis O O
-Groß-Gerau B-LOC B-LOC
+Kreis O B-LOC
+Groß-Gerau B-LOC I-LOC
 bereits O O
 Kontakte O O
 pflegt O O
@@ -15964,7 +15964,7 @@ den O O
 Gesangsvortrag O O
 des O O
 Winkelmann'schen B-ORG B-MISC
-Männerchores I-ORG O
+Männerchores I-ORG I-MISC
 aus O O
 dem O O
 Dornbusch B-LOC B-LOC
@@ -16048,7 +16048,7 @@ Kaffeetrinken O O
 mit O O
 dem O O
 das O O
-Sommerfest O O
+Sommerfest O B-MISC
 der O O
 Schrebergärtner O B-MISC
 langsam O O
@@ -16075,7 +16075,7 @@ für O O
 die O O
 Unterhaltung O O
 der O O
-Kleinen O O
+Kleinen O B-MISC
 , O O
 die O O
 ihren O O
@@ -16105,7 +16105,7 @@ Sektbar O O
 im O O
 Werkzeugschuppen O O
 des O O
-Kleingärtnervereins O O
+Kleingärtnervereins O B-ORG
 war O O
 ab O O
 18 O O
@@ -16138,7 +16138,7 @@ das O O
 leibliche O O
 Wohl O O
 der O O
-Kleingärtner O O
+Kleingärtner O B-ORG
 und O O
 ihrer O O
 Gäste O O
@@ -16218,7 +16218,7 @@ Gärten O O
 liegen O O
 in O O
 der O O
-Frischluftschneise O O
+Frischluftschneise O B-LOC
 für O O
 Sachsenhausen B-LOC B-LOC
 , O O
@@ -16228,7 +16228,7 @@ wir O O
 auch O O
 Teil O O
 des O O
-Grüngürtels O O
+Grüngürtels O B-LOC
 " O O
 , O O
 erläuterte O O
@@ -16283,7 +16283,7 @@ aus O O
 gesundheitlichen O O
 Gründen O O
 ihren O O
-Schrebergarten O O
+Schrebergarten O B-LOC
 auf O O
 . O O
 
@@ -16344,7 +16344,7 @@ Der O O
 Wassernotstand O O
 bedrückt O O
 die O O
-Schrebergärtner O O
+Schrebergärtner O B-LOC
 noch O O
 nicht O O
 . O O
@@ -16459,7 +16459,7 @@ sonntags O O
 zu O O
 einem O O
 " O O
-Kleingärtnertreff O O
+Kleingärtnertreff O B-MISC
 " O O
 , O O
 bei O O
@@ -16468,7 +16468,7 @@ die O O
 wichtigsten O O
 Ereignisse O O
 eines O O
-Gartenjahres O O
+Gartenjahres O B-MISC
 wie O O
 Baumschnitt O O
 besprochen O O
@@ -16479,7 +16479,7 @@ werden O O
 
 Ein O O
 " O O
-Babbeltreff O O
+Babbeltreff O B-MISC
 " O O
 speziell O O
 für O O
@@ -16554,13 +16554,13 @@ Oktober O O
 , O O
 feiern O O
 die O O
-Schrebergärtner O O
+Schrebergärtner O B-MISC
 im O O
-Vereinshaus O B-LOC
+Vereinshaus O O
 das O O
-Erntedank- O O
+Erntedank- O B-MISC
 und O O
-Herbstfest O O
+Herbstfest O B-MISC
 wiederum O O
 im O O
 großen O O
@@ -16584,10 +16584,10 @@ wieder O O
 Schauplatz O O
 
 Die O O
-Miniaturgolfanlage O O
+Miniaturgolfanlage O B-MISC
 der O O
-SKG B-ORG B-LOC
-Walldorf I-ORG I-LOC
+SKG B-ORG B-ORG
+Walldorf I-ORG I-ORG
 ist O O
 am O O
 Sonntag O O
@@ -16597,7 +16597,7 @@ eines O O
 bedeutenden O O
 Großereignisses O O
 im O O
-Bahnengolfsport O O
+Bahnengolfsport O B-MISC
 . O O
 
 Nachdem O O
@@ -16609,7 +16609,7 @@ die O O
 deutschen O B-MISC
 Meisterschaften O O
 der O O
-Seniorinnen O O
+Seniorinnen O B-MISC
 und O O
 Senioren O O
 auf O O
@@ -16662,7 +16662,7 @@ und O O
 Betreuung O O
 bei O O
 den O O
-deutschen O O
+deutschen O B-MISC
 Meisterschaften O O
 , O O
 die O O
@@ -16713,7 +16713,7 @@ der O O
 Abteilung O O
 2 O O
 ( O O
-Miniaturgolf-Eternit-Bahnen O O
+Miniaturgolf-Eternit-Bahnen O B-MISC
 von O O
 rund O O
 sechs O O
@@ -16723,8 +16723,8 @@ Länge O O
 und O O
 auf O O
 dem O O
-System O O
-Cobigolf B-MISC B-MISC
+System O B-MISC
+Cobigolf B-MISC I-MISC
 ( O O
 ähnlich O O
 wie O O
@@ -16801,7 +16801,7 @@ und O O
 der O O
 CGG B-ORG B-ORG
 Zillertal I-ORG I-ORG
-Bad I-ORG B-ORG
+Bad I-ORG I-ORG
 Wörishofen I-ORG I-ORG
 ( O O
 Meister O O
@@ -16964,7 +16964,7 @@ der O O
 Ziegelstraße B-LOC B-LOC
 nahm O O
 die O O
-Polizei O O
+Polizei O B-ORG
 einen O O
 jungen O O
 Mann O O
@@ -16989,7 +16989,7 @@ beobachtet O O
 Nun O O
 prüft O O
 die O O
-Polizi O O
+Polizi O B-ORG
 , O O
 ob O O
 er O O
@@ -17007,7 +17007,7 @@ Sorge O O
 um O O
 den O O
 Wasserspender O O
-Reinhardswald B-LOC B-LOC
+Reinhardswald B-LOC B-ORG
 Wird O O
 die O O
 Entnahmequote O O
@@ -17016,7 +17016,7 @@ erhöht O O
 ? O O
 
 / O O
-Kasseler O B-MISC
+Kasseler O B-ORG
 Pläne O O
 beunruhigen O O
 Experten O O
@@ -17025,7 +17025,7 @@ HOMBRESSEN B-LOC B-ORG
 . O O
 
 Der O O
-nordhessische O O
+nordhessische O B-MISC
 Reinhardswald B-LOC B-LOC
 - O O
 größte O O
@@ -17073,7 +17073,7 @@ jetzt O O
 wieder O O
 kostbar O O
 gewordenen O O
-Naß O B-LOC
+Naß O O
 zu O O
 entziehen O O
 - O O
@@ -17619,7 +17619,7 @@ hoffen O O
 , O O
 daß O O
 der O O
-Wald O O
+Wald O B-LOC
 als O O
 Wasserproduzent O O
 dank O O
@@ -17753,7 +17753,7 @@ starben O O
 zwar O O
 schlagartig O O
 die O O
-Eichen O O
+Eichen O B-MISC
 ab O O
 , O O
 als O O
@@ -17848,7 +17848,7 @@ Landesliga O B-MISC
 Nord O I-MISC
 den O O
 langjährigen O O
-Oberligisten O O
+Oberligisten O B-MISC
 KSV B-ORG B-ORG
 Baunatal I-ORG I-ORG
 mit O O
@@ -17885,8 +17885,8 @@ gegen O O
 Baunatal B-LOC B-ORG
 und O O
 beim O O
-Schlußlicht O B-LOC
-Gilsa-Jesberg B-LOC I-LOC
+Schlußlicht O B-ORG
+Gilsa-Jesberg B-LOC I-ORG
 ) O O
 mit O O
 ausgeglichenem O O
@@ -18149,7 +18149,7 @@ den O O
 Verhandlungen O O
 beauftragte O O
 britische O B-MISC
-Investmenthaus O O
+Investmenthaus O B-ORG
 Price B-ORG B-ORG
 Waterhouse I-ORG I-ORG
 habe O O
@@ -18206,7 +18206,7 @@ ist O O
 ob O O
 Homag B-ORG B-ORG
 als O O
-Verbund O O
+Verbund O B-ORG
 erhalten O O
 bleibt O O
 . O O
@@ -18233,7 +18233,7 @@ kann O O
 . O O
 
 Die O O
-Treuhandanstalt O O
+Treuhandanstalt O B-ORG
 dagegen O O
 betont O O
 , O O
@@ -18271,7 +18271,7 @@ auf O O
 dem O O
 Taunusring B-LOC B-LOC
 Höhe O B-LOC
-Buchrainweg B-LOC I-LOC
+Buchrainweg B-LOC B-LOC
 . O O
 
 Laut O O
@@ -18404,7 +18404,7 @@ Pressebeauftragte O O
 das O O
 in O O
 der O O
-Ferne O B-LOC
+Ferne O O
 deutlich O O
 vernehmbare O O
 Artillerie- O O
@@ -18542,7 +18542,7 @@ Luftwaffe O O
 südlich O O
 des O O
 32. O O
-Breitengrades O O
+Breitengrades O B-LOC
 noch O O
 schärfer O O
 gegen O O
@@ -18738,7 +18738,7 @@ den O O
 Schiiten B-MISC B-MISC
 der O O
 irakischen O B-MISC
-Marschen O O
+Marschen O B-LOC
 um O O
 jeden O O
 Preis O O
@@ -18802,11 +18802,11 @@ und O O
 den O O
 nahezu O O
 rein O O
-schiitisch O B-MISC
+schiitisch O O
 besiedelten O O
 Süden O B-LOC
 des O O
-Landes O O
+Landes O B-LOC
 damit O O
 vom O O
 arabisch-sunnitischen O B-MISC
@@ -18834,7 +18834,7 @@ auf O O
 die O O
 fast O O
 ausschließlich O O
-schiitische O B-MISC
+schiitische O O
 Bevölkerung O O
 Südmesopotamiens B-LOC B-LOC
 hatte O O
@@ -19025,7 +19025,7 @@ könnten O O
 ausreichen O O
 , O O
 die O O
-Luftwaffe O O
+Luftwaffe O B-ORG
 Saddam B-PER B-PER
 Husseins I-PER I-PER
 das O O
@@ -19047,7 +19047,7 @@ Dhabi I-LOC I-LOC
 in O O
 den O O
 Vereinigten B-LOC B-LOC
-Arabischen I-LOC I-LOC
+Arabischen I-LOC B-LOC
 Emiraten I-LOC I-LOC
 , O O
 während O O
@@ -19131,7 +19131,7 @@ zwölf O O
 fürs O O
 Radarauge O O
 unsichtbare O O
-Tarnkappen-Bomber O O
+Tarnkappen-Bomber O B-MISC
 , O O
 sollen O O
 die O O
@@ -19195,9 +19195,9 @@ auf O O
 dem O O
 irakischen O B-MISC
 " O O
-Feld O O
-der O O
-Ehre O O
+Feld O B-LOC
+der O B-LOC
+Ehre O I-LOC
 " O O
 bleiben O O
 . O O
@@ -19309,8 +19309,8 @@ Wir O O
 hatten O O
 das O O
 kleine O O
-Quentchen O B-MISC
-Glück O O
+Quentchen O B-PER
+Glück O I-PER
 , O O
 das O O
 man O O
@@ -19320,7 +19320,7 @@ Sieg O O
 braucht O O
 . O O
 
-Haiger B-LOC B-PER
+Haiger B-LOC B-ORG
 hat O O
 uns O O
 alles O O
@@ -19853,7 +19853,7 @@ Denn O O
 den O O
 hat O O
 die O O
-Stadtverordnetenversammlung O O
+Stadtverordnetenversammlung O B-ORG
 schon O O
 im O O
 Juni O O
@@ -19868,7 +19868,7 @@ vergnügten O O
 sich O O
 beim O O
 großen O O
-Spielefest O O
+Spielefest O B-MISC
 Spaß O O
 war O O
 wichtiger O O
@@ -19880,7 +19880,7 @@ Ostpark B-LOC B-LOC
 
 Eine O O
 dicke O O
-Giraffe O O
+Giraffe O B-MISC
 grinst O O
 den O O
 Besuchern O O
@@ -19997,7 +19997,7 @@ zwei O O
 Punkten O O
 hält O O
 die O O
-Schatztruhe O O
+Schatztruhe O B-ORG
 Preise O O
 bereit O O
 , O O
@@ -20020,7 +20020,7 @@ einzelnen O O
 Ständen O O
 bisweilen O O
 in O O
-Streß O O
+Streß O B-MISC
 aus O O
 . O O
 " O O
@@ -20335,7 +20335,7 @@ sich O O
 immer O O
 mehr O O
 zum O O
-Rundstrecken-Spezialisten O O
+Rundstrecken-Spezialisten O B-MISC
 , O O
 der O O
 seine O O
@@ -20368,7 +20368,7 @@ der O O
 Frankfurter B-LOC B-MISC
 , O O
 der O O
-Stresemann- B-LOC B-PER
+Stresemann- B-LOC B-LOC
 und O O
 der O O
 Wiesbadener B-LOC B-LOC
@@ -20459,7 +20459,7 @@ MRW B-ORG B-ORG
 den O O
 Zweiten O O
 der O O
-Hessenrundfahrt B-MISC B-MISC
+Hessenrundfahrt B-MISC B-LOC
 . O O
 
 So O O
@@ -20554,7 +20554,7 @@ der O O
 seine O O
 Altersgenossen O O
 nach O O
-Belieben O B-PER
+Belieben O O
 beherrschte O O
 , O O
 feierte O O
@@ -20591,7 +20591,7 @@ gutbesetzten O O
 Rennen O O
 der O O
 alten O O
-Knaben O B-MISC
+Knaben O O
 . O O
 
 -DOCSTART- O O
@@ -20602,7 +20602,7 @@ aufgeben O O
 
 Viktoria B-ORG B-ORG
 Aschaffenburgs I-ORG I-ORG
-Mittelfeldspieler O O
+Mittelfeldspieler O B-MISC
 Peter B-PER B-PER
 Löhr I-PER I-PER
 ( O O
@@ -20694,7 +20694,7 @@ Nicht O O
 nur O O
 ein O O
 an O O
-Theatern O O
+Theatern O B-MISC
 reiches O O
 Land O O
 war O O
@@ -20705,7 +20705,7 @@ DDR B-LOC B-LOC
 
 Auch O O
 mit O O
-Opern-Ensembles O O
+Opern-Ensembles O B-MISC
 war O O
 sie O O
 gesegnet O O
@@ -20725,7 +20725,7 @@ gern O O
 zeichnete O O
 vom O O
 blühenden O O
-Sozialismus O O
+Sozialismus O B-MISC
 . O O
 
 Den O O
@@ -20775,7 +20775,7 @@ Jahren O O
 DDR B-LOC B-LOC
 an O O
 neuen O O
-Opern O O
+Opern O B-MISC
 entstanden O O
 ist O O
 . O O
@@ -20864,7 +20864,7 @@ mal O O
 heroisiert O O
 das O O
 " O O
-Neuerertum O O
+Neuerertum O B-MISC
 " O O
 . O O
 
@@ -20899,7 +20899,7 @@ Nacht I-MISC I-MISC
 " O O
 samt O O
 peinlicher O O
-WillfährigkeitsExpertisen O O
+WillfährigkeitsExpertisen O B-MISC
 ( O O
 1973 O O
 ) O O
@@ -20914,7 +20914,7 @@ Sigrid B-PER B-PER
 Neefs I-PER I-PER
 über O O
 die O O
-Opern O O
+Opern O B-MISC
 Paul B-PER B-PER
 Dessaus I-PER I-PER
 . O O
@@ -20941,7 +20941,7 @@ aus O O
 die O O
 die O O
 jüdischen O B-MISC
-Wurzeln O O
+Wurzeln O B-MISC
 dieses O O
 1948 O O
 aus O O
@@ -21005,7 +21005,7 @@ frühe O O
 Ironisierung O O
 zugleich O O
 der O O
-Partei-Ewigkeits-Gerontokratie O O
+Partei-Ewigkeits-Gerontokratie O B-MISC
 . O O
 
 Von O O
@@ -21045,8 +21045,8 @@ Lenz- I-PER I-PER
 Opernphantasie B-MISC B-MISC
 " O O
 " O O
-R. B-MISC B-MISC
-Hot I-MISC I-MISC
+R. B-MISC B-PER
+Hot I-MISC I-PER
 " O O
 , O O
 1977 O O
@@ -21091,7 +21091,7 @@ Matthus I-PER I-PER
 , O O
 dem O O
 produktivsten O O
-Opernkomponisten O O
+Opernkomponisten O B-MISC
 der O O
 ehemaligen O O
 DDR B-LOC B-LOC
@@ -21146,17 +21146,17 @@ eigene O O
 Rezeption O O
 . O O
 
-Dessaus B-PER B-PER
+Dessaus B-PER B-LOC
 letzte O O
 " O O
 Volks O B-MISC
-" O O
+" O I-MISC
 - O O
 Oper O O
 " O O
 Leonce B-MISC B-MISC
-und I-MISC B-ORG
-Lena I-MISC I-ORG
+und I-MISC O
+Lena I-MISC B-MISC
 " O O
 ( O O
 1979 O O
@@ -21188,7 +21188,7 @@ verrotteten O O
 Zustände O O
 im O O
 eigenen O O
-Land O O
+Land O B-LOC
 . O O
 
 Daß O O
@@ -21229,7 +21229,7 @@ gewesene O O
 Uraufführung O O
 seiner O O
 ersten O O
-Oper O O
+Oper O B-MISC
 " O O
 Nachtwache B-MISC B-MISC
 " O O
@@ -21244,11 +21244,11 @@ Umstände O O
 der O O
 durch O O
 den O O
-Chor O O
+Chor O B-ORG
 im O O
 Zuge O O
 der O O
-Wende O B-MISC
+Wende O O
 erzwungenen O O
 Absetzung O O
 und O O
@@ -21287,7 +21287,7 @@ für O O
 Weimar B-LOC B-LOC
 fertiggestellte O O
 erste O O
-Oper O O
+Oper O B-MISC
 " O O
 Das B-MISC B-MISC
 Herz I-MISC I-MISC
@@ -21319,7 +21319,7 @@ eine O O
 der O O
 zwölf O O
 angefragten O O
-West-Bühnen O B-MISC
+West-Bühnen O B-LOC
 zu O O
 einer O O
 Übernahme O O
@@ -21370,7 +21370,7 @@ bleibt O O
 die O O
 junge O O
 ungepaßte O O
-Off-Szene O O
+Off-Szene O B-MISC
 , O O
 die O O
 es O O
@@ -21386,7 +21386,7 @@ Als O O
 Nachschlagwerk O O
 ist O O
 Sigrid B-PER B-PER
-und O O
+und O I-PER
 Hermann B-PER B-PER
 Neefs I-PER I-PER
 Buch O O
@@ -21454,17 +21454,17 @@ für O O
 die O O
 Grünen B-ORG B-MISC
 im O O
-Kreis O O
+Kreis O B-LOC
 Groß-Gerau B-LOC B-LOC
 der O O
 Nabel O B-LOC
-der O O
-Welt O B-LOC
+der O B-MISC
+Welt O I-MISC
 . O O
 
 Ins O O
 Forsthaus O B-LOC
-Hinkelstein B-LOC I-LOC
+Hinkelstein B-LOC B-LOC
 hatten O O
 Kreisverband O B-ORG
 , O O
@@ -21480,7 +21480,7 @@ Kelsterbach B-LOC B-LOC
 am O O
 Samstag O O
 zum O O
-Sommerfest O O
+Sommerfest O B-MISC
 geladen O O
 , O O
 konnte O O
@@ -21527,7 +21527,7 @@ soll O O
 ein O O
 Positionspapier O O
 zum O O
-Flughafen O B-LOC
+Flughafen O O
 verabschieden O O
 , O O
 ehe O O
@@ -21599,7 +21599,7 @@ Ortsverband O O
 Das O O
 vom O O
 amtierenden O O
-Kreisvorstand O B-ORG
+Kreisvorstand O O
 angekündigte O O
 Vermittlungsgespräch O O
 mitden O O
@@ -21658,8 +21658,8 @@ für O O
 die O O
 Sportler O O
 
-KREIS O B-LOC
-OFFENBACH B-LOC I-LOC
+KREIS O B-ORG
+OFFENBACH B-LOC I-ORG
 . O O
 " O O
 
@@ -21691,8 +21691,8 @@ gegen O O
 den O O
 rot-grün O O
 regierten O O
-Kreis O B-LOC
-Offenbach B-LOC I-LOC
+Kreis O B-ORG
+Offenbach B-LOC I-ORG
 nicht O O
 verkneifen O O
 , O O
@@ -21705,7 +21705,7 @@ des O O
 Kreises O B-ORG
 im O O
 Burghofsaal O B-LOC
-Dreieichenhain B-LOC I-LOC
+Dreieichenhain B-LOC B-LOC
 am O O
 Freitag O O
 seine O O
@@ -21896,7 +21896,7 @@ die O O
 Nase O O
 voll O O
 vom O O
-Hickhack O O
+Hickhack O B-MISC
 um O O
 die O O
 Finanzen O O
@@ -21988,8 +21988,8 @@ der O O
 Massenveranstaltung O O
 " O O
 im O O
-Bürgerhaus O O
-Sprendlingen B-LOC B-LOC
+Bürgerhaus O B-LOC
+Sprendlingen B-LOC I-LOC
 abgekommen O O
 sei O O
 , O O
@@ -22155,7 +22155,7 @@ kam O O
 
 -DOCSTART- O O
 
-Beach-Volleyball O O
+Beach-Volleyball O B-MISC
 im O O
 Binnenland O B-LOC
 bei O O
@@ -22176,7 +22176,7 @@ macht O O
 die O O
 Tour O B-MISC
 der O O
-Weltbesten O O
+Weltbesten O B-MISC
 nicht O O
 in O O
 Deutschland B-LOC B-LOC
@@ -22196,12 +22196,12 @@ Sie O O
 kommen O O
 aus O O
 einem O O
-Land O O
+Land O B-LOC
 , O O
 in O O
 das O O
 es O O
-Sonnenhungrige O O
+Sonnenhungrige O B-MISC
 in O O
 Massen O O
 in O O
@@ -22212,15 +22212,15 @@ zieht O O
 
 In O O
 Rio B-LOC B-LOC
-de I-LOC B-ORG
-Janeiro I-LOC I-ORG
+de I-LOC B-LOC
+Janeiro I-LOC I-LOC
 , O O
 an O O
 der O O
 Copacabana B-LOC B-LOC
 , O O
 ist O O
-Beach-Volleyball O O
+Beach-Volleyball O B-MISC
 mittlerweile O O
 zum O O
 Volkssport O O
@@ -22236,7 +22236,7 @@ meistgehätscheltes O O
 Sportgerät O O
 , O O
 der O O
-Fußball O O
+Fußball O B-MISC
 . O O
 
 Hier O O
@@ -22351,7 +22351,7 @@ Szenenwechsel O O
 Auf O O
 einem O O
 anderen O O
-Kontinent O B-LOC
+Kontinent O O
 . O O
 
 Eine O O
@@ -22437,7 +22437,7 @@ Sandstrand O O
 wie O O
 aus O O
 der O O
-Retorte O O
+Retorte O B-LOC
 . O O
 
 Er O O
@@ -22538,7 +22538,7 @@ Sandnischen O O
 . O O
 
 90 O O
-Beach-Volleyballteams O O
+Beach-Volleyballteams O B-MISC
 bestimmen O O
 an O O
 diesem O O
@@ -22562,7 +22562,7 @@ kräftigen O O
 Schlagabtausch O O
 . O O
 
-Beach-Volleyball O O
+Beach-Volleyball O B-MISC
 hat O O
 seinen O O
 Ursprung O O
@@ -22616,7 +22616,7 @@ beste O O
 Handlanger O O
 " O O
 der O O
-Welt O B-LOC
+Welt O O
 , O O
 der O O
 Kalifornier O B-MISC
@@ -22647,16 +22647,16 @@ Tournee O O
 hechtet O O
 die O O
 Crème O B-MISC
-de O B-ORG
-la O I-ORG
-crème O I-ORG
+de O I-MISC
+la O I-MISC
+crème O I-MISC
 . O O
 " O O
 
-Der O O
-Troß O O
-der O O
-Giganten O O
+Der O B-MISC
+Troß O B-MISC
+der O I-MISC
+Giganten O I-MISC
 " O O
 macht O O
 auch O O
@@ -22716,12 +22716,12 @@ versucht O O
 Die O O
 Nationalspieler O O
 Voss B-PER B-PER
-/ O O
-Boltze B-PER B-PER
+/ O I-PER
+Boltze B-PER I-PER
 und O O
 Brall B-PER B-PER
-/ O O
-Fell B-PER B-PER
+/ O I-PER
+Fell B-PER I-PER
 kamen O O
 jedoch O O
 über O O
@@ -22751,8 +22751,8 @@ die O O
 Hamburger O B-MISC
 Nationalspieler O O
 Makkerodt B-PER B-PER
-/ O O
-Braak B-PER B-PER
+/ O I-PER
+Braak B-PER I-PER
 als O O
 ein O O
 schlagkräftiges O O
@@ -22770,7 +22770,7 @@ in O O
 drei O O
 Wochen O O
 beginnende O O
-Hallensaison O O
+Hallensaison O B-MISC
 . O O
 
 Während O O
@@ -22867,8 +22867,8 @@ spielen O O
 . O O
 
 Der O O
-Hessische B-ORG B-MISC
-Volleyballverband I-ORG I-MISC
+Hessische B-ORG B-ORG
+Volleyballverband I-ORG I-ORG
 hat O O
 mittlerweile O O
 drei O O
@@ -22883,7 +22883,7 @@ denen O O
 im O O
 kommenden O O
 Jahr O O
-Beach-Volleyball-Turniere O O
+Beach-Volleyball-Turniere O B-MISC
 ausgerichtet O O
 werden O O
 sollen O O
@@ -22921,7 +22921,7 @@ Mit O O
 der O O
 sogenannten O O
 " O O
-Bettschein-Affäre B-MISC O
+Bettschein-Affäre B-MISC B-MISC
 " O O
 an O O
 der O O
@@ -22944,14 +22944,14 @@ Landtag O I-ORG
 Der O O
 Vorsitzende O O
 des O O
-Ausschusses O O
-für O O
-Wissenschaft O B-ORG
+Ausschusses O B-ORG
+für O I-ORG
+Wissenschaft O I-ORG
 und O I-ORG
 Kunst O I-ORG
 , O O
 der O O
-osthessische O O
+osthessische O B-MISC
 Grünen-Abgeordnete O B-MISC
 Fritz B-PER B-PER
 Hertle I-PER I-PER
@@ -23122,7 +23122,7 @@ der O O
 bedeutendste O O
 Akzent O O
 des O O
-Festivals O O
+Festivals O B-MISC
 gewesen O O
 sein O O
 , O O
@@ -23142,7 +23142,7 @@ dirigierte O O
 
 Mahlers B-PER B-PER
 zweite O O
-Sinfonie O O
+Sinfonie O B-MISC
 , O O
 c-Moll O O
 , O O
@@ -23150,7 +23150,7 @@ ein O O
 gigantisches O O
 Stück O O
 spätromantischer O O
-Sinfonik O O
+Sinfonik O B-MISC
 , O O
 deren O O
 Aufführung O O
@@ -23183,7 +23183,7 @@ Uraufführung O O
 1895 O O
 erregte O O
 diese O O
-Sinfonie O O
+Sinfonie O B-MISC
 heftige O O
 Kontroversen O O
 . O O
@@ -23211,7 +23211,7 @@ Kompositionen O O
 Mahlers B-PER B-PER
 - O O
 ein O O
-Sinfoniker O O
+Sinfoniker O B-MISC
 übrigens O O
 , O O
 dessen O O
@@ -23235,7 +23235,7 @@ man O O
 von O O
 einer O O
 " O O
-Mahler-Euphorie B-MISC B-MISC
+Mahler-Euphorie B-MISC B-PER
 " O O
 . O O
 
@@ -23305,7 +23305,7 @@ im O O
 gewaltigen O O
 Epilog O O
 der O O
-Sinfonie O O
+Sinfonie O B-MISC
 textlich O O
 prägnant O O
 , O O
@@ -23334,7 +23334,7 @@ Orchester O O
 , O O
 die O O
 Prager B-ORG B-MISC
-Symphoniker I-ORG O
+Symphoniker I-ORG I-MISC
 , O O
 im O O
 Griff O O
@@ -23385,7 +23385,7 @@ Mahlers B-PER B-PER
 episch O O
 sich O O
 verbreiternde O O
-Sinfonie O O
+Sinfonie O B-MISC
 . O O
 
 Das O O
@@ -23443,7 +23443,7 @@ voran O O
 Der O O
 Eklat O O
 im O O
-Tutti O B-LOC
+Tutti O B-MISC
 hat O O
 glasklares O O
 Profil O O
@@ -23495,7 +23495,7 @@ zu O O
 Ende O O
 gehenden O O
 tonalen O O
-Ära O O
+Ära O B-MISC
 einfielen O O
 . O O
 
@@ -23546,7 +23546,7 @@ Sinn O O
 hatte O O
 die O O
 Aufführung O O
-Rückgrat O O
+Rückgrat O B-PER
 . O O
 
 Schließlich O O
@@ -23674,11 +23674,11 @@ Totaler O O
 Triumph O O
 der O O
 deutschen O B-MISC
-Bahnengolfer O O
+Bahnengolfer O B-MISC
 
 Bei O O
 den O O
-Bahnengolf-Europameisterschaften O O
+Bahnengolf-Europameisterschaften O B-MISC
 in O O
 Grenchen B-LOC B-LOC
 ( O O
@@ -23841,8 +23841,8 @@ Zweiter O O
 . O O
 
 Dessen O O
-Bruder O O
-Walter B-PER B-PER
+Bruder O B-PER
+Walter B-PER I-PER
 , O O
 EM-Titelverteidiger O B-MISC
 und O O
@@ -23894,16 +23894,16 @@ sich O O
 hinter O O
 den O O
 deutschen O B-MISC
-Goldmedaillen-Gewinnern O O
+Goldmedaillen-Gewinnern O B-MISC
 jeweils O O
 die O O
 Schweiz B-LOC B-LOC
 die O O
-Silber- O O
+Silber- O B-MISC
 und O O
 Österreich B-LOC B-LOC
 die O O
-Bronzemedaillen O O
+Bronzemedaillen O B-MISC
 . O O
 
 - O O
@@ -23920,10 +23920,10 @@ Laske I-PER I-PER
 wurde O O
 beim O O
 Wettbewerb O O
-Zweiter O O
+Zweiter O B-MISC
 
-FRANKFURTER B-LOC B-LOC
-BERG I-LOC I-LOC
+FRANKFURTER B-LOC B-MISC
+BERG I-LOC I-MISC
 . O O
 " O O
 
@@ -24004,7 +24004,7 @@ städtebaulichen O O
 Ideenwettbewerb O O
 stellt O O
 die O O
-Stadtteil-Rundschau B-ORG B-MISC
+Stadtteil-Rundschau B-ORG B-ORG
 vor O O
 . O O
 
@@ -24017,7 +24017,7 @@ WerkStadt B-ORG B-ORG
 " O O
 ( O O
 die O O
-Stadtteil-Rundschau B-ORG B-MISC
+Stadtteil-Rundschau B-ORG B-ORG
 berichtete O O
 vergangene O O
 Woche O O
@@ -24035,7 +24035,7 @@ Ortszentrum O O
 gegenüber O O
 der O O
 katholischen O B-MISC
-Dreifaltigkeitsgemeinde O O
+Dreifaltigkeitsgemeinde O B-LOC
 vor O O
 . O O
 
@@ -24090,7 +24090,7 @@ soll O O
 sich O O
 eine O O
 kreisförmige O O
-Altenwohnanlage O O
+Altenwohnanlage O B-MISC
 mit O O
 großem O O
 Innenhof O O
@@ -24161,7 +24161,7 @@ sollten O O
 nach O O
 Ansicht O O
 von O O
-Laske B-PER B-ORG
+Laske B-PER B-PER
 im O O
 Westen O B-LOC
 der O O
@@ -24190,7 +24190,7 @@ den O O
 Zacken O O
 dieses O O
 " O O
-Kamms O O
+Kamms O B-LOC
 " O O
 will O O
 der O O
@@ -24255,7 +24255,7 @@ in O O
 unmittelbarer O O
 Nachbarschaft O O
 der O O
-Dreifaltigkeitsgemeinde O O
+Dreifaltigkeitsgemeinde O B-LOC
 unterbringen O O
 : O O
 
@@ -24282,7 +24282,7 @@ Kinderhaus O O
 
 Dem O O
 Darmstädter O B-MISC
-Architekten O O
+Architekten O I-MISC
 gelang O O
 es O O
 schließlich O O
@@ -24297,11 +24297,11 @@ für O O
 den O O
 Bundesgrenzschutz B-ORG B-MISC
 ( O O
-BGS B-ORG B-MISC
+BGS B-ORG B-ORG
 ) O O
 und O O
 die O O
-Zollbehörde O O
+Zollbehörde O B-ORG
 sinnvoll O O
 in O O
 sein O O
@@ -24317,7 +24317,7 @@ zu O O
 vermeiden O O
 , O O
 will O O
-Laske B-PER B-PER
+Laske B-PER B-ORG
 den O O
 BGS B-ORG B-ORG
 im O O
@@ -24544,7 +24544,7 @@ Gange O O
 
 Die O O
 Familie O O
-Kindervater O O
+Kindervater O B-ORG
 hat O O
 die O O
 Waffeleisen O O
@@ -24568,7 +24568,7 @@ Grill O O
 . O O
 
 Die O O
-Arnolds B-PER B-MISC
+Arnolds B-PER B-ORG
 haben O O
 die O O
 ersten O O
@@ -24624,7 +24624,7 @@ aufgehängt O O
 um O O
 auf O O
 das O O
-Nachbarschaftsfest O O
+Nachbarschaftsfest O B-MISC
 aufmerksam O O
 zu O O
 machen O O
@@ -24930,7 +24930,7 @@ wollen O O
 Als O O
 er O O
 in O O
-Höhe O O
+Höhe O B-LOC
 der O O
 Sonnemannstraße B-LOC B-LOC
 seinen O O
@@ -24983,7 +24983,7 @@ und O O
 raubten O O
 etwa O O
 300 O O
-Mark B-MISC O
+Mark B-MISC B-MISC
 , O O
 Personalpapiere O O
 sowie O O
@@ -25129,7 +25129,7 @@ Samstag O O
 abend O O
 im O O
 Bürgerhaus O B-LOC
-Sprendlingen B-LOC B-LOC
+Sprendlingen B-LOC I-LOC
 , O O
 im O O
 Rahmen O O
@@ -25168,8 +25168,8 @@ ihrem O O
 szenischen O O
 Liederabend O O
 " O O
-Echt O B-PER
-Brecht B-PER I-PER
+Echt O B-MISC
+Brecht B-PER I-MISC
 " O O
 entgegengebracht O O
 wurden O O
@@ -25184,7 +25184,7 @@ kleine O O
 Ensemble O O
 sei O O
 eine O O
-Popgruppe O O
+Popgruppe O B-MISC
 , O O
 ganz O O
 oben O O
@@ -25210,7 +25210,7 @@ lebendig O O
 direkt O O
 und O O
 ohne O O
-Schnörkel O O
+Schnörkel O B-MISC
 , O O
 daß O O
 es O O
@@ -25299,7 +25299,7 @@ Lemper I-PER I-PER
 
 Kein O O
 emsiges O O
-Marlene-Nacheifern O B-MISC
+Marlene-Nacheifern O B-PER
 . O O
 
 Brecht B-PER B-PER
@@ -25350,7 +25350,7 @@ Kurzauftritt O O
 : O O
 
 Als O O
-Matrosen O O
+Matrosen O B-MISC
 verkleidet O O
 sollen O O
 sie O O
@@ -25465,8 +25465,8 @@ die O O
 einzig O O
 zu O O
 " O O
-Echt O B-PER
-Brecht B-PER I-PER
+Echt O B-MISC
+Brecht B-PER I-MISC
 " O O
 passen O O
 würde O O
@@ -25477,7 +25477,7 @@ das O O
 Publikum O O
 im O O
 halbvollen O O
-Bürgerhaus O O
+Bürgerhaus O B-LOC
 nicht O O
 davon O O
 abhalten O O
@@ -25501,8 +25501,8 @@ bekam O O
 sie O O
 . O O
 
-FRAUKE B-PER B-PER
-HASS I-PER I-PER
+FRAUKE B-PER B-ORG
+HASS I-PER I-ORG
 
 -DOCSTART- O O
 
@@ -25535,7 +25535,7 @@ Kleinlastwagen O O
 rückwärts O O
 in O O
 eine O O
-Schaufensterscheibe O O
+Schaufensterscheibe O B-LOC
 . O O
 
 Der O O
@@ -25628,12 +25628,12 @@ konkreten O O
 Ergebnis O O
 endete O O
 das O O
-Friedenshearing O O
+Friedenshearing O B-MISC
 zum O O
 Thema O O
 " O O
-Fluchtpunkt O B-LOC
-Deutschland B-LOC I-LOC
+Fluchtpunkt O O
+Deutschland B-LOC B-LOC
 " O O
 : O O
 
@@ -25644,7 +25644,7 @@ Seiten O O
 geforderte O O
 Gründung O O
 eines O O
-Flüchtlingsbeirats O O
+Flüchtlingsbeirats O B-MISC
 für O O
 den O O
 Main-Kinzig-Kreis B-LOC B-LOC
@@ -25667,9 +25667,9 @@ der O O
 als O O
 Vorsitzender O O
 des O O
-Ausschuß O O
-für O O
-Abrüstung O O
+Ausschuß O B-ORG
+für O I-ORG
+Abrüstung O I-ORG
 , O O
 kommunale O O
 Friedensarbeit O O
@@ -26126,8 +26126,8 @@ Langzeitarbeitlosen O O
 , O O
 so O O
 die O O
-These O B-PER
-Hofs B-PER I-PER
+These O O
+Hofs B-PER B-PER
 , O O
 ist O O
 nicht O O
@@ -26273,7 +26273,7 @@ Kommunalpolitikern O O
 Nicht O O
 nur O O
 Gelnhausens B-LOC B-LOC
-CDUBürgermeister O B-MISC
+CDUBürgermeister O O
 Jürgen B-PER B-PER
 Michaelis I-PER I-PER
 schüre O O
@@ -26316,7 +26316,7 @@ er O O
 bei O O
 der O O
 jüngsten O O
-Kreispressekonferenz O O
+Kreispressekonferenz O B-MISC
 eine O O
 Meinung O O
 vertreten O O
@@ -26363,7 +26363,7 @@ Neue O O
 Gesichter O O
 auf O O
 Liste O O
-SPD-Delegiertenkonferenz O B-MISC
+SPD-Delegiertenkonferenz O B-ORG
 zeigt O O
 Generationenwechsel O O
 auf O O
@@ -26376,9 +26376,9 @@ MAIN-KINZIG-KREIS B-LOC B-LOC
 Der O O
 von O O
 der O O
-SPD-Delegiertenkonferenz O B-MISC
+SPD-Delegiertenkonferenz O B-ORG
 des O O
-Wahlkeises O O
+Wahlkeises O B-ORG
 41 O O
 am O O
 Freitag O O
@@ -26397,7 +26397,7 @@ in O O
 der O O
 Gesamtkonferenz O O
 des O O
-SPD-Unterbezirks O B-MISC
+SPD-Unterbezirks O B-ORG
 ( O O
 für O O
 alle O O
@@ -26693,7 +26693,7 @@ am O O
 Wochenende O O
 auf O O
 Wetterauer O B-LOC
-Straßen O O
+Straßen O I-LOC
 . O O
 
 Ein O O
@@ -26743,7 +26743,7 @@ erlitt O O
 Freitag O O
 ein O O
 Kind O O
-Blessuren O B-MISC
+Blessuren O B-PER
 . O O
 
 Vier O O
@@ -26785,8 +26785,8 @@ Teller O O
 " O O
 werden O O
 zur O O
-Radlerfalle O B-ORG
-Amt O I-ORG
+Radlerfalle O O
+Amt O B-ORG
 will O O
 Abhilfe O O
 schaffen O O
@@ -26894,7 +26894,7 @@ Vogt I-PER I-PER
 , O O
 Leiter O O
 der O O
-Straßenverkehrsbehörde O O
+Straßenverkehrsbehörde O B-ORG
 ) O O
 nicht O O
 ganz O O
@@ -26908,7 +26908,7 @@ beispielsweise O O
 kam O O
 kräftig O O
 ins O O
-Schleudern O O
+Schleudern O B-LOC
 , O O
 als O O
 er O O
@@ -27064,7 +27064,7 @@ Dehmer I-PER I-PER
 kommissarische O O
 Leiterin O O
 des O O
-Straßenbauamts O O
+Straßenbauamts O B-ORG
 : O O
 
 " O O
@@ -27285,7 +27285,7 @@ Lulu B-PER B-PER
 , O O
 Portrait O O
 einer O O
-Wirtin O O
+Wirtin O B-MISC
 
 Auf O O
 einmal O O
@@ -27319,7 +27319,7 @@ Lulu B-MISC B-PER
 - I-MISC O
 Portrait I-MISC O
 einer I-MISC O
-Wirtin I-MISC O
+Wirtin I-MISC B-MISC
 " O O
 . O O
 
@@ -27382,7 +27382,7 @@ als O O
 " O O
 eindeutig O O
 50er O O
-Jahre O O
+Jahre O B-MISC
 " O O
 , O O
 auch O O
@@ -27694,7 +27694,7 @@ hat O O
 , O O
 die O O
 im O O
-Waschzettel O O
+Waschzettel O B-MISC
 als O O
 " O O
 früh O O
@@ -27765,7 +27765,7 @@ originell O O
 wie O O
 die O O
 ganze O O
-Kneipe O O
+Kneipe O B-LOC
 - O O
 das O O
 hat O O
@@ -28153,11 +28153,11 @@ begreift O O
 
 ( O O
 " O O
-Lulu B-MISC B-PER
+Lulu B-MISC B-MISC
 - I-MISC O
 Portrait I-MISC B-MISC
-einer I-MISC O
-Wirtin I-MISC B-MISC
+einer I-MISC I-MISC
+Wirtin I-MISC I-MISC
 " O O
 läuft O O
 noch O O
@@ -28415,9 +28415,9 @@ Roth I-PER I-PER
 die O O
 " O O
 Rue B-LOC B-LOC
-de I-LOC B-ORG
-la I-LOC I-ORG
-Schrimp I-LOC I-ORG
+de I-LOC B-LOC
+la I-LOC B-LOC
+Schrimp I-LOC I-LOC
 " O O
 . O O
 
@@ -28649,7 +28649,7 @@ Stelle O O
 ein O O
 dringend O O
 benötigtes O O
-Altenwohnheim O O
+Altenwohnheim O B-LOC
 zu O O
 bauen O O
 . O O
@@ -28660,7 +28660,7 @@ war O O
 der O O
 Anlaß O O
 des O O
-BergBesuches O B-ORG
+BergBesuches O B-MISC
 bei O O
 den O O
 Grundstücken O O
@@ -28787,8 +28787,8 @@ Wohnheim B-ORG B-ORG
 GmbH I-ORG I-ORG
 , O O
 die O O
-Werkstatt B-ORG B-LOC
-Frankfurt I-ORG I-LOC
+Werkstatt B-ORG B-ORG
+Frankfurt I-ORG I-ORG
 und O O
 das O O
 Berufsbildungszentrum O O
@@ -28888,7 +28888,7 @@ in O O
 der O O
 Alten B-LOC B-LOC
 Falterstraße I-LOC I-LOC
-26 O O
+26 O I-LOC
 betreut O O
 . O O
 
@@ -29101,8 +29101,8 @@ blieb O O
 in O O
 Verwaltung O O
 hängen O O
-Zugeparkte O O
-Hoffmann-Straße B-LOC B-LOC
+Zugeparkte O B-LOC
+Hoffmann-Straße B-LOC I-LOC
 : O O
 
 Poller O O
@@ -29230,7 +29230,7 @@ Bilanz O O
 Kremer B-PER B-PER
 bat O O
 den O O
-Ortsbeirat O O
+Ortsbeirat O B-ORG
 , O O
 für O O
 Abhilfe O O
@@ -29295,7 +29295,7 @@ war O O
 der O O
 Aufforderung O O
 des O O
-Ortsbeirates O O
+Ortsbeirates O B-ORG
 zunächst O O
 nachgekommen O O
 und O O
@@ -29383,7 +29383,7 @@ Gehweg O O
 der O O
 Marienburgstraße B-LOC B-LOC
 mit O O
-Pollern O O
+Pollern O B-MISC
 gegen O O
 den O O
 Autoverkehr O O
@@ -29484,8 +29484,8 @@ sich O O
 jetzt O O
 mit O O
 der O O
-Frankfurter O B-LOC
-Ordnungsbehörde O B-ORG
+Frankfurter O B-ORG
+Ordnungsbehörde O I-ORG
 in O O
 dieser O O
 Sache O O
@@ -29585,7 +29585,7 @@ umgesetzt O O
 " O O
 , O O
 verspricht O O
-Brandau B-PER B-LOC
+Brandau B-PER B-PER
 . O O
 
 -DOCSTART- O O
@@ -29649,13 +29649,13 @@ Bergen B-LOC B-LOC
 in O O
 der O O
 Gernhardt B-PER B-PER
-Historisches O I-PER
+Historisches O B-ORG
 aufgreift O O
 - O O
 und O O
 auf O O
 die O O
-Stadtschreiberzunft O O
+Stadtschreiberzunft O B-LOC
 ummünzt O O
 . O O
 
@@ -29683,7 +29683,7 @@ Volk O O
 , O O
 den O O
 " O O
-Gauch O B-PER
+Gauch O B-MISC
 " O O
 , O O
 von O O
@@ -29744,15 +29744,15 @@ sitzen O O
 die O O
 Bergener O B-MISC
 im O O
-Hof O O
+Hof O B-LOC
 des O O
 Stadtschreiberhäuschens O B-LOC
 beim O O
 literarischen O O
-Frühschoppen O O
+Frühschoppen O B-LOC
 , O O
 der O O
-Hausherr O O
+Hausherr O B-PER
 in O O
 Sommerschlappen O B-LOC
 mit O O
@@ -29784,14 +29784,14 @@ es O O
 von O O
 Bergen B-LOC B-LOC
 ins O O
-Hessische B-LOC B-MISC
+Hessische B-LOC B-LOC
 , O O
 von O O
 Hessen B-LOC B-LOC
 ins O O
 " O O
 debile O O
-Dorf O O
+Dorf O B-LOC
 " O O
 nach O O
 Niederbayern B-LOC B-LOC
@@ -29815,10 +29815,10 @@ der O O
 Himmel O O
 verdunkelt O O
 , O O
-Donnergrollen O O
+Donnergrollen O B-MISC
 bedroht O O
 die O O
-Idylle O O
+Idylle O B-LOC
 . O O
 
 Gernhardt B-PER B-PER
@@ -29869,7 +29869,7 @@ heraus O O
 
 " O O
 Ein O O
-Bravo O O
+Bravo O B-MISC
 für O O
 die O O
 Bürgernähe O O
@@ -29883,8 +29883,8 @@ weitergelesen O O
 -DOCSTART- O O
 
 Historische O O
-Schmankerln O O
-Archäologie O O
+Schmankerln O B-MISC
+Archäologie O B-MISC
 und O O
 echt O O
 falsches O O
@@ -29963,8 +29963,8 @@ von O O
 den O O
 Idealen O O
 des O O
-19. O B-MISC
-Jahrhunderts O I-MISC
+19. O O
+Jahrhunderts O O
 . O O
 
 Parallel O O
@@ -29976,7 +29976,7 @@ verläuft O O
 im O O
 Zeitalter O O
 der O O
-Digitalitis O O
+Digitalitis O B-MISC
 die O O
 Ausschöpfung O O
 alter O O
@@ -29987,7 +29987,7 @@ noch O O
 neuen O O
 Medium O O
 der O O
-CD O O
+CD O B-MISC
 . O O
 
 Paradox O O
@@ -30010,10 +30010,10 @@ befördert O O
 die O O
 durch O O
 den O O
-Historismus O O
+Historismus O B-MISC
 in O O
 der O O
-Live-Musik O O
+Live-Musik O B-MISC
 verteufelt O O
 werden O O
 : O O
@@ -30103,7 +30103,7 @@ einer O O
 Konzertaufführung O O
 in O O
 die O O
-Rillen O O
+Rillen O B-LOC
 gebannt O O
 hat O O
 - O O
@@ -30258,8 +30258,8 @@ der O O
 Marschhymne O O
 " O O
 Stars B-MISC B-MISC
-and I-MISC B-ORG
-Stripes I-MISC I-ORG
+and I-MISC I-MISC
+Stripes I-MISC I-MISC
 " O O
 . O O
 
@@ -30292,7 +30292,7 @@ die O O
 Kategorie O O
 des O O
 Homerischen O B-MISC
-Gelächters O O
+Gelächters O I-MISC
 evoziert O O
 werden O O
 . O O
@@ -30359,7 +30359,7 @@ direkte O O
 Brücke O O
 vom O O
 europäischen O B-MISC
-Barock O B-MISC
+Barock O I-MISC
 zur O O
 amerikanischen O O
 Wolkenkratzer-Architektur O B-MISC
@@ -30378,8 +30378,8 @@ in O O
 Bachs B-PER B-PER
 Osterkantate O O
 " O O
-Jesus B-MISC B-PER
-Christus I-MISC I-PER
+Jesus B-MISC B-MISC
+Christus I-MISC I-MISC
 , I-MISC O
 Gottes I-MISC O
 Sohn I-MISC O
@@ -30417,10 +30417,10 @@ Bach-Bearbeitungen O B-MISC
 darunter O O
 die O O
 unvermeidliche O O
-Orgeltoccata O O
+Orgeltoccata O B-MISC
 mit O O
 Fuge O O
-BWV B-MISC B-MISC
+BWV B-MISC O
 565 O O
 in O O
 Aufnahmen O O
@@ -30440,7 +30440,7 @@ worden O O
 daß O O
 die O O
 instrumentale O O
-Virtuosität O O
+Virtuosität O B-MISC
 von O O
 Stokowskis B-PER B-PER
 eigenem O O
@@ -30479,7 +30479,7 @@ Da O O
 würden O O
 seine O O
 späteren O O
-Stereo-Einspielungen O O
+Stereo-Einspielungen O B-MISC
 , O O
 etwa O O
 die O O
@@ -30505,9 +30505,9 @@ Katalog O O
 
 Jenseits O O
 von O O
-Gut O B-PER
-und O I-PER
-Böse O I-PER
+Gut O B-ORG
+und O I-ORG
+Böse O I-ORG
 war O O
 jene O O
 reiche O O
@@ -30581,7 +30581,7 @@ CD O O
 vor O O
 ( O O
 RCA B-ORG O
-GD O B-MISC
+GD O O
 61175 O O
 ) O O
 . O O
@@ -30650,7 +30650,7 @@ Baez I-PER I-PER
 singt O O
 Paul B-PER B-PER
 McCartneys I-PER I-PER
-YESTERDAY B-MISC O
+YESTERDAY B-MISC B-MISC
 , O O
 nachdem O O
 sie O O
@@ -30710,15 +30710,15 @@ in O O
 Stücken O O
 wie O O
 Lakmés B-PER B-MISC
-Glöckchenarie B-MISC O
+Glöckchenarie B-MISC I-MISC
 oder O O
 der O O
 zweiten O O
 Arie O O
 der O O
-Königin O O
-der O O
-Nacht O O
+Königin O B-MISC
+der O I-MISC
+Nacht O I-MISC
 aus O O
 der O O
 " O O
@@ -30766,7 +30766,7 @@ kein O O
 Einzelstück O O
 Richtfest O O
 für O O
-Kita O B-LOC
+Kita O O
 im O O
 Grethenweg B-LOC B-LOC
 gefeiert O O
@@ -30895,7 +30895,7 @@ Richtfest O O
 der O O
 Kindertagesstätte O O
 ( O O
-Kita O B-LOC
+Kita O B-MISC
 ) O O
 Sachsenhausen-Süd B-LOC B-LOC
 am O O
@@ -30995,7 +30995,7 @@ März O O
 1993 O O
 soll O O
 die O O
-Kita O B-MISC
+Kita O O
 auf O O
 dem O O
 ehemaligen O O
@@ -31172,8 +31172,8 @@ Autoverkehr O O
 nimmt O O
 zu O O
 Auf B-LOC O
-dem I-LOC O
-Mühlberg I-LOC B-LOC
+dem I-LOC B-LOC
+Mühlberg I-LOC I-LOC
 : O O
 
 Anwohner O O
@@ -31251,7 +31251,7 @@ Mühlberg I-LOC I-LOC
 " O O
 versuchsweise O O
 zur O O
-Einbahnstraße O O
+Einbahnstraße O B-LOC
 erklärt O O
 werden O O
 kann O O
@@ -31314,7 +31314,7 @@ werden O O
 wollte O O
 , O O
 der O O
-Stadtteil-Rundschau O O
+Stadtteil-Rundschau O B-ORG
 . O O
 
 Außerdem O O
@@ -31341,10 +31341,10 @@ heraus O O
 , O O
 daß O O
 das O O
-Gäßchen O O
+Gäßchen O B-LOC
 zunehmend O O
 als O O
-Schleichweg O O
+Schleichweg O B-LOC
 genutzt O O
 wird O O
 , O O
@@ -31426,7 +31426,7 @@ Seit O O
 der O O
 Eröffnung O O
 der O O
-S-Bahn-Station O B-LOC
+S-Bahn-Station O O
 Mühlberg B-LOC B-LOC
 machen O O
 sich O O
@@ -31554,7 +31554,7 @@ denen O O
 in O O
 dem O O
 leerstehenden O O
-Hinterhaus O O
+Hinterhaus O B-LOC
 der O O
 Schwanthalerstraße B-LOC B-LOC
 50 O I-LOC
@@ -31575,7 +31575,7 @@ der O O
 jüngsten O O
 Sitzung O O
 des O O
-Ortsbeirates O O
+Ortsbeirates O B-ORG
 5 O O
 ( O O
 Sachsenhausen B-LOC B-LOC
@@ -31612,7 +31612,7 @@ zu O O
 In O O
 dem O O
 ehemaligen O O
-Kino O B-LOC
+Kino O O
 wollte O O
 das O O
 Kulturdezernat O B-ORG
@@ -31698,7 +31698,7 @@ im O O
 Hinterhof O B-LOC
 der O O
 Schwanthalerstraße B-LOC B-LOC
-50 O I-LOC
+50 O O
 würde O O
 dem O O
 Beschluß O O
@@ -31809,7 +31809,7 @@ davon O O
 eine O O
 Verdrängung O O
 des O O
-Schleichverkehrs O O
+Schleichverkehrs O B-MISC
 von O O
 und O O
 zur O O
@@ -31886,7 +31886,7 @@ Klagen O O
 über O O
 die O O
 neue O O
-Tempo-30-Zone O O
+Tempo-30-Zone O B-MISC
 bekanntgeworden O O
 . O O
 
@@ -31898,7 +31898,7 @@ blieb O O
 auf O O
 Wunsch O O
 des O O
-Ortsbeirates O O
+Ortsbeirates O B-ORG
 unverändert O O
 . O O
 
@@ -31917,7 +31917,7 @@ hatte O O
 in O O
 den O O
 anderen O O
-Tempo-30-Zonen O O
+Tempo-30-Zonen O B-MISC
 zu O O
 Beginn O O
 immer O O
@@ -32051,7 +32051,7 @@ Johanna B-PER B-PER
 Hoffmann I-PER I-PER
 noch O O
 ein O O
-Zebrastreifen O O
+Zebrastreifen O B-MISC
 für O O
 die O O
 Kinder O O
@@ -32083,8 +32083,8 @@ Umbau O O
 des O O
 Kreuzungsbereiches O O
 Wald- O B-LOC
-/ O O
-Reichsforst- B-LOC B-LOC
+/ O B-LOC
+Reichsforst- B-LOC I-LOC
 / O O
 Gerauer B-LOC B-LOC
 Straße I-LOC I-LOC
@@ -32257,7 +32257,7 @@ Anwohner O O
 die O O
 zweite O O
 Niederräder O B-LOC
-Tempo-30-Zone O B-MISC
+Tempo-30-Zone O O
 gestalten O O
 wollen O O
 . O O
@@ -32272,7 +32272,7 @@ City O B-LOC
 sieben O O
 Autos O O
 
-WIESBADEN B-LOC B-LOC
+WIESBADEN B-LOC B-ORG
 . O O
 
 Sieben O O
@@ -32320,7 +32320,7 @@ er O O
 Am B-LOC O
 Römertor I-LOC B-LOC
 eine O O
-Mauer O O
+Mauer O B-MISC
 . O O
 
 Schaden O O
@@ -32330,7 +32330,7 @@ insgesamt O O
 etwa O O
 25 O O
 000 O O
-Mark B-MISC O
+Mark B-MISC B-MISC
 . O O
 
 Der O O
@@ -32538,7 +32538,7 @@ der O O
 Einnahmen O O
 sollen O O
 der O O
-Kroatien-Hilfe O B-MISC
+Kroatien-Hilfe O B-ORG
 zur O O
 Verfügung O O
 gestellt O O
@@ -32662,7 +32662,7 @@ gegen O O
 die O O
 alteingessene O O
 TSG B-ORG B-ORG
-1847 I-ORG B-ORG
+1847 I-ORG I-ORG
 Bürgel I-ORG I-ORG
 ( O O
 13. O O
@@ -33174,7 +33174,7 @@ Jäger I-PER I-PER
 trat O O
 ins O O
 zweite O O
-Glied O O
+Glied O B-PER
 zurück O O
 ) O O
 nicht O O
@@ -33188,10 +33188,10 @@ Verfügung O O
 Ungewöhnliche O O
 Panne O O
 beim O O
-ISTAF B-MISC B-MISC
+ISTAF B-MISC B-ORG
 im O O
 Berliner O B-LOC
-Olympiastadion B-LOC B-MISC
+Olympiastadion B-LOC I-LOC
 Über O O
 die O O
 fehlenden O O
@@ -33233,7 +33233,7 @@ Berlin B-LOC B-LOC
 Die O O
 Zeitungen O O
 der O O
-Hauptstadt O O
+Hauptstadt O B-LOC
 , O O
 besonders O O
 die O O
@@ -33260,14 +33260,14 @@ Erwählte O O
 die O O
 acht O O
 olympischen O O
-Goldmedaillen O O
+Goldmedaillen O B-MISC
 blendeten O O
 . O O
 " O O
 
-König O O
-der O O
-Athleten O O
+König O B-MISC
+der O I-MISC
+Athleten O I-MISC
 " O O
 , O O
 " O O
@@ -33377,7 +33377,7 @@ Zwei-Tage-Abstand O O
 zum O O
 vorausgegangenen O O
 Züricher O B-MISC
-Meeting O O
+Meeting O I-MISC
 jede O O
 Spitzenleistung O O
 von O O
@@ -33495,7 +33495,7 @@ Nach O O
 dem O O
 Fall O O
 der O O
-Mauer B-LOC B-PER
+Mauer B-LOC B-MISC
 hatte O O
 Thiel B-PER B-PER
 noch O O
@@ -33545,7 +33545,7 @@ aus O O
 
 In O O
 den O O
-Sonntagsblättern O O
+Sonntagsblättern O B-ORG
 stand O O
 über O O
 das O O
@@ -33557,7 +33557,7 @@ bittere O O
 Geschichte O O
 von O O
 der O O
-Panne O O
+Panne O B-MISC
 im O O
 400-m-Hürdenlauf O O
 . O O
@@ -33568,7 +33568,7 @@ Satz O O
 mit O O
 den O O
 zweiten O O
-Hindernissen O O
+Hindernissen O B-MISC
 war O O
 auf O O
 dem O O
@@ -33590,7 +33590,7 @@ lauter O O
 Gewohnheit O O
 dort O O
 einen O O
-Hopser O O
+Hopser O B-MISC
 machte O O
 , O O
 wo O O
@@ -33712,20 +33712,20 @@ der O O
 Haupttribüne O O
 . O O
 
-Kurzweil O O
+Kurzweil O B-ORG
 in O O
 der O O
-Kurzweil O O
+Kurzweil O B-LOC
 in O O
 der O O
-Kurzweil O O
+Kurzweil O B-LOC
 . O O
 
 Kein O O
 Rennen O O
 mehr O O
 ohne O O
-Hasen O O
+Hasen O B-MISC
 . O O
 
 Es O O
@@ -33783,7 +33783,7 @@ Kemei I-PER I-PER
 Minuten O O
 über O O
 die O O
-Meile O O
+Meile O B-LOC
 ) O O
 wiesen O O
 sie O O
@@ -33833,8 +33833,8 @@ Mann O O
 war O O
 schließlich O O
 den O O
-Lockungen O B-PER
-Thiels B-PER I-PER
+Lockungen O B-ORG
+Thiels B-PER I-ORG
 nach O O
 seinem O O
 jüngsten O O
@@ -33868,7 +33868,7 @@ schon O O
 wieder O O
 zur O O
 " O O
-Holzfällerstrecke O O
+Holzfällerstrecke O B-MISC
 " O O
 , O O
 der O O
@@ -33974,7 +33974,7 @@ aber O O
 das O O
 Saisonende O O
 wegen O O
-Schleimbeutelschmerzen O O
+Schleimbeutelschmerzen O B-MISC
 und O O
 Knochenhautreizungen O O
 schon O O
@@ -34014,7 +34014,7 @@ der O O
 dreißig O O
 Weltrekorde O O
 im O O
-Stabhochsprung O O
+Stabhochsprung O B-LOC
 aufgestellt O O
 hat O O
 , O O
@@ -34022,8 +34022,8 @@ in O O
 Barcelona B-LOC B-LOC
 jedoch O O
 mit O O
-Salto O B-PER
-nullo O I-PER
+Salto O B-MISC
+nullo O O
 ausschied O O
 , O O
 das O O
@@ -34206,7 +34206,7 @@ auswählen O O
 an O O
 den O O
 der O O
-Magistrat O B-ORG
+Magistrat O O
 dann O O
 Anfang O O
 1993 O O
@@ -34249,7 +34249,7 @@ auf O O
 , O O
 als O O
 das O O
-Brandeisen O B-MISC
+Brandeisen O O
 für O O
 Sekunden O O
 das O O
@@ -34469,7 +34469,7 @@ das O O
 Wappen O O
 des O O
 deutschen O B-MISC
-Ritterordens O O
+Ritterordens O B-MISC
 erinnernde O O
 Brandzeichen O O
 des O O
@@ -34480,7 +34480,7 @@ Pferde I-ORG O
 " O O
 auf O O
 die O O
-Hinterbakke O O
+Hinterbakke O B-LOC
 gedrückt O O
 . O O
 
@@ -34490,7 +34490,7 @@ die O O
 Zeiten O O
 der O O
 " O O
-Roßtäuscher O O
+Roßtäuscher O B-MISC
 " O O
 vorbei O O
 sind O O
@@ -34529,7 +34529,7 @@ haben O O
 , O O
 bekommen O O
 am O O
-Hals O O
+Hals O B-LOC
 ein O O
 zusätzliches O O
 Gütesiegel O O
@@ -34561,13 +34561,13 @@ und O O
 40 O O
 Punkten O O
 ins O O
-Hauptstutbuch O O
+Hauptstutbuch O B-LOC
 oder O O
 " O O
 nur O O
 " O O
 ins O O
-Stutbuch O O
+Stutbuch O B-MISC
 eingeschrieben O O
 . O O
 
@@ -34589,7 +34589,7 @@ Alle O O
 Stuten O O
 werden O O
 im O O
-Hauptstutbuch O O
+Hauptstutbuch O B-LOC
 verewigt O O
 ; O O
 auch O O
@@ -34766,7 +34766,7 @@ werden O O
 Nach O O
 Angaben O O
 der O O
-Polizei O B-ORG
+Polizei O O
 war O O
 der O O
 21jährige O O
@@ -34776,7 +34776,7 @@ Maschine O O
 auf O O
 der O O
 Landesstraße B-LOC B-LOC
-3039 O O
+3039 O B-LOC
 zwischen O O
 den O O
 Stadtteilen O O
@@ -34860,7 +34860,7 @@ Kopf O O
 
 Ein O O
 torloses O O
-Derby O O
+Derby O B-MISC
 und O O
 Siege O O
 für O O
@@ -35026,7 +35026,7 @@ deutlichen O O
 3:1 O O
 gegen O O
 Neuling O B-ORG
-SC B-ORG B-ORG
+SC B-ORG I-ORG
 Neukirchen I-ORG I-ORG
 im O O
 Mittelfeld O O
@@ -35090,9 +35090,9 @@ Nieder-Eschbach B-LOC B-LOC
 - O O
 nach O O
 langem O O
-Hin O O
+Hin O B-MISC
 und O O
-Her O O
+Her O B-MISC
 konnte O O
 der O O
 private O O
@@ -35139,7 +35139,7 @@ Hexenkessel B-ORG B-LOC
 jetzt O O
 das O O
 erste O O
-Sommerfest O O
+Sommerfest O B-MISC
 zu O O
 feiern O O
 : O O
@@ -35243,10 +35243,10 @@ bei O O
 Gering B-ORG B-LOC
 
 Die O O
-Frankfurter O B-ORG
-Galerie O I-ORG
-Ulrich B-PER B-PER
-Gering I-PER I-PER
+Frankfurter O B-LOC
+Galerie O B-ORG
+Ulrich B-PER I-ORG
+Gering I-PER I-ORG
 in O O
 der O O
 Textorstraße B-LOC B-LOC
@@ -35375,7 +35375,7 @@ Regierungsfähigkeit O O
 wirft O O
 die O O
 SPD B-ORG B-ORG
-Ballast O O
+Ballast O B-ORG
 ab O O
 . O O
 
@@ -35414,7 +35414,7 @@ hat O O
 
 Vor O O
 allem O O
-sozialdemokratische O O
+sozialdemokratische O B-MISC
 Kommunalpolitiker O O
 drängen O O
 seit O O
@@ -35439,7 +35439,7 @@ nicht O O
 , O O
 daß O O
 die O O
-Sozialdemokraten O O
+Sozialdemokraten O B-MISC
 ihr O O
 bislang O O
 nach O O
@@ -35550,7 +35550,7 @@ Jahr O O
 noch O O
 auf O O
 ausschließliche O O
-Blauhelm-Aktionen O B-MISC
+Blauhelm-Aktionen O O
 festgelegt O O
 hatte O O
 , O O
@@ -35589,7 +35589,7 @@ einem O O
 Fall O O
 hat O O
 die O O
-SPD-Führung O B-MISC
+SPD-Führung O B-ORG
 das O O
 so O O
 ganz O O
@@ -35599,7 +35599,7 @@ praktiziert O O
 . O O
 
 Zu O O
-Blauhelm-Einsätzen O B-MISC
+Blauhelm-Einsätzen O O
 , O O
 heißt O O
 es O O
@@ -35736,7 +35736,7 @@ Friedhelm B-PER B-PER
 Welge I-PER I-PER
 sowie O O
 der O O
-SPD-Landtagsabgeordnete O B-ORG
+SPD-Landtagsabgeordnete O B-MISC
 und O O
 Sozialpolitiker O O
 Armin B-PER B-PER
@@ -35821,12 +35821,12 @@ Dienstag O O
 August O O
 , O O
 das O O
-Giora-Feidman-Trio B-ORG B-MISC
+Giora-Feidman-Trio B-ORG B-ORG
 und O O
 Roberto B-PER B-PER
 Pansera I-PER I-PER
 , O O
-Bandoneon O B-PER
+Bandoneon O B-ORG
 , O O
 im O O
 Großen O B-LOC
@@ -35901,7 +35901,7 @@ Indianer O B-MISC
 und O O
 Tiger O B-MISC
 , O O
-Seiltänzerinnen O O
+Seiltänzerinnen O B-MISC
 und O O
 Clowns O O
 bevölkerten O O
@@ -35914,7 +35914,7 @@ waren O O
 die O O
 Kinder O O
 der O O
-Kindertagesstätten O O
+Kindertagesstätten O B-ORG
 an O O
 der O O
 Arndtschule B-ORG B-LOC
@@ -35923,7 +35923,7 @@ die O O
 " O O
 uff O O
 de O O
-Gaß O O
+Gaß O B-MISC
 " O O
 herumtobten O O
 . O O
@@ -35937,7 +35937,7 @@ ihrer O O
 Forderung O O
 nach O O
 einer O O
-Spielstraße O O
+Spielstraße O B-MISC
 vor O O
 der O O
 Schule O O
@@ -35952,8 +35952,8 @@ wurde O O
 bereits O O
 dem O O
 zuständigen O O
-Stadtteilparlament O O
-7 O B-LOC
+Stadtteilparlament O B-ORG
+7 O O
 zugeleitet O O
 . O O
 " O O
@@ -35975,7 +35975,7 @@ sagte O O
 die O O
 Elternbeiratsvorsitzende O O
 der O O
-Kindertagesstätten O O
+Kindertagesstätten O B-ORG
 Inge B-PER B-PER
 Pauls I-PER I-PER
 , O O
@@ -36004,7 +36004,7 @@ Arbeitsgruppen O O
 um O O
 die O O
 beiden O O
-KT-Leiterinnen O B-MISC
+KT-Leiterinnen O B-ORG
 Roswitha B-PER B-PER
 Gnan I-PER I-PER
 und O O
@@ -36025,8 +36025,8 @@ Das O O
 Spielmobil O O
 " O O
 Der B-MISC B-MISC
-rote I-MISC B-MISC
-Falke I-MISC I-MISC
+rote I-MISC O
+Falke I-MISC B-MISC
 " O O
 war O O
 aus O O
@@ -36060,7 +36060,7 @@ fuhren O O
 mit O O
 dem O O
 " O O
-Dreiradbus O O
+Dreiradbus O B-MISC
 " O O
 oder O O
 schminkten O O
@@ -36083,7 +36083,7 @@ Mal O O
 betätigten O O
 sich O O
 die O O
-Kleinen O O
+Kleinen O B-MISC
 als O O
 Bauchtänzerinnen O O
 , O O
@@ -36091,12 +36091,12 @@ dann O O
 wieder O O
 gastierte O O
 ein O O
-Kinderzirkus O O
+Kinderzirkus O B-MISC
 . O O
 
 Bei O O
 der O O
-Modenschau O O
+Modenschau O B-MISC
 , O O
 fachmännisch O O
 moderiert O O
@@ -36293,10 +36293,10 @@ Nauheim B-LOC B-LOC
 / O O
 Partei O O
 stärkt O O
-Keller B-PER B-PER
+Keller B-PER B-ORG
 
-BAD B-LOC B-LOC
-NAUHEIM I-LOC I-LOC
+BAD B-LOC B-ORG
+NAUHEIM I-LOC I-ORG
 . O O
 
 Der O O
@@ -36308,7 +36308,7 @@ einer O O
 großräumigen O O
 Ortsumgehung O O
 ( O O
-Bundesstraße B-LOC B-MISC
+Bundesstraße B-LOC B-LOC
 275 I-LOC O
 a I-LOC O
 ) O O
@@ -36359,7 +36359,7 @@ die O O
 Mitgliederversammlung O O
 der O O
 kurstädtischen O O
-Sozialdemokraten O O
+Sozialdemokraten O B-MISC
 ins O O
 Programm O O
 für O O
@@ -36444,7 +36444,7 @@ Falls O O
 wir O O
 der O O
 B B-LOC B-MISC
-275 I-LOC I-MISC
+275 I-LOC O
 a I-LOC O
 zustimmen O O
 , O O
@@ -36474,8 +36474,8 @@ großräumigen O O
 Umgehungsstraße O O
 mit O O
 der O O
-Ober-Mörler O B-MISC
-SPD B-ORG I-MISC
+Ober-Mörler O B-ORG
+SPD B-ORG I-ORG
 , O O
 die O O
 darin O O
@@ -36490,14 +36490,14 @@ sieht O O
 , O O
 und O O
 der O O
-Bad O B-LOC
-Nauheimer O I-LOC
-CDU B-ORG B-ORG
+Bad O B-ORG
+Nauheimer O I-ORG
+CDU B-ORG I-ORG
 . O O
 
 Die O O
-B B-LOC B-MISC
-275 I-LOC I-MISC
+B B-LOC O
+275 I-LOC O
 a I-LOC O
 ist O O
 längst O O
@@ -36562,7 +36562,7 @@ gegen O O
 die O O
 geplante O O
 B B-LOC B-MISC
-275 I-LOC I-MISC
+275 I-LOC O
 a I-LOC O
 ausgesprochen O O
 hatten O O
@@ -36638,7 +36638,7 @@ den O O
 Abschied O O
 von O O
 der O O
-B B-LOC B-MISC
+B B-LOC O
 275 I-LOC O
 a I-LOC O
 gering O O
@@ -36654,7 +36654,7 @@ allem O O
 auch O O
 der O O
 Ober-Mörler O B-MISC
-Sozialdemokraten O O
+Sozialdemokraten O B-MISC
 haben O O
 zur O O
 Solidarisierung O O
@@ -36715,7 +36715,7 @@ bestanden O O
 meinte O O
 ein O O
 anderer O O
-Sozialdemokrat O O
+Sozialdemokrat O B-MISC
 . O O
 
 Bemängelt O O
@@ -36734,7 +36734,7 @@ kleinen O O
 Lösung O O
 " O O
 in O O
-Ober-Mörler O B-MISC
+Ober-Mörler O B-LOC
 Angelegenheiten O O
 einmische O O
 - O O
@@ -36759,7 +36759,7 @@ Planungen O O
 für O O
 die O O
 B B-LOC B-MISC
-275 I-LOC I-MISC
+275 I-LOC O
 a I-LOC O
 zu O O
 stoppen O O
@@ -36803,7 +36803,7 @@ Mehrheit O O
 wollte O O
 die O O
 B B-LOC B-MISC
-275 I-LOC I-MISC
+275 I-LOC O
 a I-LOC O
 für O O
 immer O O
@@ -36850,7 +36850,7 @@ An O O
 das O O
 " O O
 heiße O O
-Eisen O O
+Eisen O B-MISC
 " O O
 Bundesstraße O B-LOC
 hatten O O
@@ -37034,10 +37034,10 @@ berichtet O O
 hatte O O
 die O O
 Frankfurter O B-MISC
-Hilfsorganisation O O
+Hilfsorganisation O I-MISC
 " O O
-medico B-ORG O
-international I-ORG O
+medico B-ORG B-ORG
+international I-ORG I-ORG
 " O O
 am O O
 vergangenen O O
@@ -37163,7 +37163,7 @@ erste O O
 gemeinsame O O
 Aktion O O
 von O O
-Flüchtlingsheim O B-LOC
+Flüchtlingsheim O B-ORG
 und O O
 Jugendzentrum O O
 / O O
@@ -37241,7 +37241,7 @@ zwischen O O
 Schlößchen O B-LOC
 und O O
 altem O O
-Hofgut O O
+Hofgut O B-LOC
 zutrug O O
 . O O
 
@@ -37394,8 +37394,8 @@ Stimmungskanonen O O
 von O O
 der O O
 Gruppe O O
-" O B-ORG
-Gainde B-MISC I-ORG
+" O O
+Gainde B-MISC B-ORG
 " O O
 an O O
 . O O
@@ -37502,7 +37502,7 @@ hatten O O
 Gegessen O O
 wurde O O
 vom O O
-Porzellan O O
+Porzellan O B-LOC
 der O O
 Flüchtlingsunterkunft O O
 . O O
@@ -37527,7 +37527,7 @@ Fremden O O
 kamen O O
 bei O O
 der O O
-Schönwetter-Fete O O
+Schönwetter-Fete O B-MISC
 nicht O O
 gebührend O O
 zur O O
@@ -37549,7 +37549,7 @@ die O O
 sich O O
 zwischendurch O O
 ins O O
-Hofgut O O
+Hofgut O B-LOC
 zurückzogen O O
 , O O
 konnten O O
@@ -37599,7 +37599,7 @@ Publikum O O
 , O O
 freiwillig O O
 einen O O
-Ausländerbeirat O O
+Ausländerbeirat O B-ORG
 einzurichten O O
 . O O
 
@@ -37608,7 +37608,7 @@ Higman I-PER I-PER
 von O O
 den O O
 hessischen O B-MISC
-Ausländerbeiräten O O
+Ausländerbeiräten O B-ORG
 sagte O O
 : O O
 
@@ -37725,8 +37725,8 @@ gab O O
 Salih B-PER B-PER
 Tasdirek I-PER I-PER
 vom O O
-Ausländerbeirat O O
-Maintal B-LOC B-ORG
+Ausländerbeirat O B-ORG
+Maintal B-LOC I-ORG
 zu O O
 bedenken O O
 . O O
@@ -37762,7 +37762,7 @@ formuliert O O
 Wie O O
 wird O O
 die O O
-Ausländerfreundlichkeit O B-MISC
+Ausländerfreundlichkeit O O
 zur O O
 Massenbewegung O O
 ? O O
@@ -38014,7 +38014,7 @@ einer O O
 S-Kurve O O
 zwischen O O
 " O O
-Läusbäumchen B-LOC O
+Läusbäumchen B-LOC B-MISC
 " O O
 und O O
 Rendel B-LOC B-PER
@@ -38238,7 +38238,7 @@ bin O O
 , O O
 ohne O O
 zu O O
-Kokettieren O O
+Kokettieren O B-MISC
 , O O
 ernsthaft O O
 am O O
@@ -38322,7 +38322,7 @@ den O O
 Scholz-raus O B-MISC
 " O O
 - O O
-Rufen O B-PER
+Rufen O B-MISC
 - O O
 zu O O
 provokanten O O
@@ -38449,7 +38449,7 @@ Kaiser I-PER I-PER
 der O O
 Sprecher O O
 des O O
-Präsidiums O B-ORG
+Präsidiums O O
 , O O
 zog O O
 sich O O
@@ -38588,15 +38588,15 @@ wurden O O
 
 " O O
 Rue B-LOC B-LOC
-de I-LOC B-ORG
-la I-LOC I-ORG
-Schrimp I-LOC I-ORG
+de I-LOC B-LOC
+la I-LOC B-LOC
+Schrimp I-LOC I-LOC
 " O O
 , O O
 " O O
 Miller B-LOC B-LOC
-'s I-LOC B-ORG
-Corner I-LOC I-ORG
+'s I-LOC B-LOC
+Corner I-LOC I-LOC
 " O O
 " O O
 Shrimpth B-LOC B-LOC
@@ -38626,7 +38626,7 @@ der O O
 beliebtesten O O
 und O O
 erfolgreichsten O O
-Straßenfeste O O
+Straßenfeste O B-MISC
 Frankfurts B-LOC B-LOC
 gefeiert O O
 wird O O
@@ -38639,7 +38639,7 @@ hatten O O
 sich O O
 21 O O
 Schwanheimer O B-MISC
-Vereine O O
+Vereine O I-MISC
 an O O
 den O O
 Vorbereitungen O O
@@ -38697,8 +38697,8 @@ der O O
 traditionelle O O
 Umzug O O
 der O O
-Schwanheimer O B-MISC
-Vereine O O
+Schwanheimer O B-ORG
+Vereine O I-ORG
 von O O
 der O O
 Vogesenstraße B-LOC B-LOC
@@ -38711,7 +38711,7 @@ wurden O O
 die O O
 Fußgruppen O O
 von O O
-Kutschwagen O B-ORG
+Kutschwagen O O
 und O O
 dem O O
 Musikzug B-MISC O
@@ -38786,7 +38786,7 @@ erläuterte O O
 der O O
 Vorsitzende O O
 des O O
-Vereinsrings O O
+Vereinsrings O B-ORG
 , O O
 Reinhold B-PER B-PER
 Daub I-PER I-PER
@@ -38927,7 +38927,7 @@ Sprecher O O
 der O O
 SPD-Fraktion O B-ORG
 im O O
-Bundestag B-ORG B-ORG
+Bundestag B-ORG B-LOC
 , O O
 Karsten B-PER B-PER
 Voigt I-PER I-PER
@@ -38952,7 +38952,7 @@ für O O
 das O O
 Amt O O
 des O O
-Frankfurter O B-LOC
+Frankfurter O B-MISC
 Oberbürgermeisters O O
 , O O
 war O O
@@ -39076,7 +39076,7 @@ des O O
 25jährigen O O
 Bestehens O O
 des O O
-Musikzuges B-ORG B-ORG
+Musikzuges B-ORG O
 Blau I-ORG B-ORG
 / I-ORG I-ORG
 Gold I-ORG I-ORG
@@ -39093,7 +39093,7 @@ einen O O
 " O O
 Abend O O
 der O O
-Vereine O O
+Vereine O B-MISC
 " O O
 aus O O
 , O O
@@ -39137,7 +39137,7 @@ Sportplatzsanierung O O
 noch O O
 unentschieden O O
 
-GLASHÜTTEN B-LOC B-ORG
+GLASHÜTTEN B-LOC B-LOC
 . O O
 
 Keine O O
@@ -39147,7 +39147,7 @@ die O O
 Sanierung O O
 des O O
 Schloßborner B-LOC B-LOC
-Sportplatzes I-LOC O
+Sportplatzes I-LOC I-LOC
 hat O O
 die O O
 Gemeindevertretung O O
@@ -39225,14 +39225,14 @@ Möglichkeit O O
 mit O O
 dem O O
 dioxinverseuchten O O
-Kieselrot O O
+Kieselrot O B-LOC
 umzugehen O O
 . O O
 
 -DOCSTART- O O
 
 Die O O
-Sau O O
+Sau O B-ORG
 in O O
 der O O
 Südkurve O B-LOC
@@ -39242,7 +39242,7 @@ Woche O O
 : O O
 
 " O O
-Schweinsgalopp O O
+Schweinsgalopp O B-MISC
 " O O
 und O O
 " O O
@@ -39250,7 +39250,7 @@ Schweine-Rennen O B-MISC
 " O O
 
 Im O O
-Blättchen O O
+Blättchen O B-ORG
 stand O O
 unlängst O O
 zu O O
@@ -39271,12 +39271,12 @@ was O O
 naturgemäß O O
 die O O
 ehrenwerte O O
-Gilde O O
+Gilde O B-ORG
 der O O
 Tierschützer O O
 auf O O
 die O O
-Palme O O
+Palme O B-LOC
 jagte O O
 . O O
 
@@ -39294,16 +39294,16 @@ als O O
 intelligent O O
 gepriesene O O
 deutsche O B-MISC
-Hausschwein O O
+Hausschwein O B-MISC
 flinker O O
 zu O O
-Huf O O
+Huf O B-MISC
 sei O O
 als O O
 etwa O O
 das O O
 französische O B-MISC
-Périgordschwein O B-MISC
+Périgordschwein O B-ORG
 . O O
 
 Denn O O
@@ -39318,7 +39318,7 @@ Spieler O O
 , O O
 aber O O
 keinen O O
-Eber O O
+Eber O B-MISC
 in O O
 Streß O O
 und O O
@@ -39407,7 +39407,7 @@ Oder O O
 es O O
 gibt O O
 schwarze O O
-Pech-Thaler O B-MISC
+Pech-Thaler O O
 . O O
 
 Die O O
@@ -39741,7 +39741,7 @@ als O O
 ständiges O O
 schnelles O O
 " O O
-Zwischenhinein-Spiel O O
+Zwischenhinein-Spiel O B-MISC
 " O O
 festgesetzt O O
 und O O
@@ -40025,7 +40025,7 @@ dabei O O
 gelingt O O
 , O O
 ein O O
-Schwein O B-MISC
+Schwein O O
 an O O
 die O O
 Spitze O O
@@ -40372,11 +40372,11 @@ Verhalten O O
 Zum O O
 Beispiel O O
 die O O
-Eichhörnchen O O
+Eichhörnchen O B-MISC
 : O O
 
 junge O O
-Eichhörnchen O O
+Eichhörnchen O B-MISC
 müssen O O
 erst O O
 lernen O O
@@ -40478,7 +40478,7 @@ werden O O
 . O O
 
 GUSTL B-PER O
-MÜLLER-DECHENT I-PER B-PER
+MÜLLER-DECHENT I-PER B-ORG
 
 Ein O O
 Buch O O
@@ -40501,7 +40501,7 @@ Lang I-PER I-PER
 BLV-Verlagsgesellschaft B-ORG B-ORG
 München I-ORG I-ORG
 , O O
-DM B-MISC B-MISC
+DM B-MISC O
 14,80 O O
 . O O
 
@@ -40519,8 +40519,8 @@ auf O O
 bisher O O
 ungewohnten O O
 Pfaden O O
-Frische O O
-Nachtluft O O
+Frische O B-MISC
+Nachtluft O I-MISC
 wirkt O O
 sich O O
 positiv O O
@@ -40711,7 +40711,7 @@ Bundesliga- O B-MISC
 , O O
 Europapokal- O B-MISC
 und O O
-Länderspiele O O
+Länderspiele O B-MISC
 . O O
 
 Wie O O
@@ -40743,7 +40743,7 @@ denn O O
 ein O O
 Teil O O
 der O O
-Gladbacher O B-MISC
+Gladbacher O B-ORG
 Fans O O
 reagierte O O
 auf O O
@@ -40977,7 +40977,7 @@ verletzt O O
 
 Wie O O
 die O O
-Polizei O B-LOC
+Polizei O B-ORG
 gestern O O
 mitteilte O O
 , O O
@@ -41050,13 +41050,13 @@ und O O
 vom O O
 Gegner O O
 Kampfbetontes O O
-Lokal-Derby O O
+Lokal-Derby O B-MISC
 / O O
 Daniela B-PER B-PER
 Stumpf I-PER I-PER
 mit O O
 langem O O
-Atem O O
+Atem O B-MISC
 / O O
 Praunheim B-ORG B-ORG
 - O O
@@ -41081,7 +41081,7 @@ vergangenen O O
 Woche O O
 hatten O O
 die O O
-Praunheimer O B-ORG
+Praunheimer O B-MISC
 Organisatoren O O
 noch O O
 überlegt O O
@@ -41142,7 +41142,7 @@ mit O O
 viel O O
 Spannung O O
 erwartete O O
-Lokal-Derby O O
+Lokal-Derby O B-MISC
 zwischen O O
 SG B-ORG B-ORG
 Praunheim I-ORG I-ORG
@@ -41211,7 +41211,7 @@ der O O
 Gäste O O
 in O O
 die O O
-Maschen O O
+Maschen O B-LOC
 . O O
 
 Zuvor O O
@@ -41222,7 +41222,7 @@ bereits O O
 lichterloh O O
 in O O
 der O O
-SG-Hintermannschaft O B-MISC
+SG-Hintermannschaft O B-ORG
 gebrannt O O
 . O O
 
@@ -41231,7 +41231,7 @@ konnte O O
 die O O
 glänzend O O
 aufgelegte O O
-SG-Torsteherin O B-MISC
+SG-Torsteherin O B-ORG
 Susanne B-PER B-PER
 Becker I-PER I-PER
 " O O
@@ -41268,20 +41268,20 @@ verfing O O
 sich O O
 dann O O
 nach O O
-Flanke O B-PER
+Flanke O B-LOC
 von O O
 Sandra B-PER B-PER
 Minnert I-PER I-PER
 zum O O
 Führungstreffer O O
 im O O
-Netz O O
+Netz O B-LOC
 . O O
 
 Aber O O
 auch O O
 die O O
-FSV-Abwehr O B-MISC
+FSV-Abwehr O B-ORG
 befand O O
 sich O O
 nicht O O
@@ -41296,7 +41296,7 @@ neue O O
 alte O O
 und O O
 wiedergenesene O O
-Libero O B-PER
+Libero O B-ORG
 Andrea B-PER B-PER
 Heinrich I-PER I-PER
 insgesamt O O
@@ -41407,9 +41407,9 @@ Ansteckendes O O
 . O O
 
 Auf O O
-Biegen O O
+Biegen O B-LOC
 und O O
-Brechen O O
+Brechen O B-LOC
 betrieben O O
 die O O
 Kontrahenten O O
@@ -41569,7 +41569,7 @@ hat O O
 er O O
 in O O
 die O O
-Elf O B-ORG
+Elf O O
 integriert O O
 , O O
 sie O O
@@ -41653,12 +41653,12 @@ Gebühr O O
 einen O O
 über O O
 den O O
-Durst O B-PER
+Durst O O
 zu O O
 trinken O O
 . O O
 
-Praunheim B-LOC B-PER
+Praunheim B-LOC B-ORG
 : O O
 
 Becker B-PER B-PER
@@ -41754,7 +41754,7 @@ Frankfurter B-MISC B-MISC
 Gauturnfest I-MISC I-MISC
 : O O
 
-Dreikämpfe O O
+Dreikämpfe O B-MISC
 , O O
 Männerklasse O O
 1 O O
@@ -41920,8 +41920,8 @@ Kl.6 O O
 J. B-PER B-PER
 Bangert I-PER I-PER
 ( O O
-FTG B-ORG B-MISC
-47 I-ORG I-MISC
+FTG B-ORG B-ORG
+47 I-ORG I-ORG
 ) O O
 21,50 O O
 P. O O
@@ -42009,7 +42009,7 @@ Frankfurt B-LOC B-LOC
 Ein O O
 gelungener O O
 Neubeginn O O
-Fitneßtests O O
+Fitneßtests O B-MISC
 fanden O O
 Resonanz O O
 / O O
@@ -42019,7 +42019,7 @@ Sylvia B-PER B-PER
 Schenk I-PER I-PER
 
 Dem O O
-Breitensport O O
+Breitensport O B-MISC
 gewidmet O O
 war O O
 das O O
@@ -42062,7 +42062,7 @@ gelungen O O
 Volleyballmannschaften O O
 sowie O O
 33 O O
-Prellballteams O O
+Prellballteams O B-MISC
 spielten O O
 um O O
 Sieg O O
@@ -42181,7 +42181,7 @@ einem O O
 Dank O O
 an O O
 den O O
-Turngauvorstand O O
+Turngauvorstand O B-ORG
 ( O O
 Vorsitzender O O
 : O O
@@ -42227,7 +42227,7 @@ erhielten O O
 eine O O
 Erinnerungsmedaille O O
 des O O
-Turngaues B-ORG O
+Turngaues B-ORG B-ORG
 . O O
 
 Ergebnisse O O
@@ -42435,7 +42435,7 @@ J. B-PER B-PER
 Bangert I-PER I-PER
 ( O O
 FTG B-ORG B-ORG
-47 I-ORG O
+47 I-ORG I-ORG
 ) O O
 21,50 O O
 P. O B-PER
@@ -42554,7 +42554,7 @@ beim O O
 Fußballturnier O O
 des O O
 Vereinsrings O B-MISC
-Gallus B-LOC I-MISC
+Gallus B-LOC B-LOC
 am O O
 Samstag O O
 , O O
@@ -42611,8 +42611,8 @@ außerhalb O O
 die O O
 Vertretungen O O
 des O O
-Leipziger B-ORG B-MISC
-Sportvereins B-ORG B-ORG
+Leipziger B-ORG B-ORG
+Sportvereins B-ORG I-ORG
 Südwest I-ORG I-ORG
 und O O
 des O O
@@ -42656,7 +42656,7 @@ Linda B-PER B-PER
 Reisch I-PER I-PER
 hat O O
 einen O O
-Fairneßpokal O O
+Fairneßpokal O B-MISC
 zur O O
 Verfügung O O
 gestellt O O
@@ -42800,7 +42800,7 @@ macht O O
 die O O
 Marching O B-ORG
 Band O I-ORG
-" O O
+" O B-ORG
 The B-ORG B-ORG
 Sound I-ORG I-ORG
 of I-ORG I-ORG
@@ -42971,7 +42971,7 @@ es O O
 unter O O
 der O O
 Sindlinger O B-LOC
-Autobahnbrücke O O
+Autobahnbrücke O I-LOC
 am O O
 Mainufer O B-LOC
 . O O
@@ -42989,10 +42989,10 @@ Boesen I-PER I-PER
 , O O
 Chef O O
 des O O
-Kanu-Klubs O B-MISC
+Kanu-Klubs O B-ORG
 " O O
-Kapitän B-ORG B-PER
-Romer I-ORG I-PER
+Kapitän B-ORG O
+Romer I-ORG B-PER
 " O O
 , O O
 schärft O O
@@ -43008,7 +43008,7 @@ Denn O O
 das O O
 Herunterwürgen O O
 staubtrockener O O
-Semmeln O O
+Semmeln O B-MISC
 gehört O O
 bei O O
 der O O
@@ -43033,15 +43033,15 @@ weiß O O
 Boesen B-PER B-PER
 aus O O
 zehnjähriger O O
-Regatta-Erfahrung O O
+Regatta-Erfahrung O B-MISC
 . O O
 
 Aus O O
 einem O O
-Jux O O
+Jux O B-MISC
 zum O O
 50. O O
-Vereinsgeburtstag O O
+Vereinsgeburtstag O B-MISC
 vor O O
 elf O O
 Jahren O O
@@ -43049,7 +43049,7 @@ geboren O O
 , O O
 gehört O O
 die O O
-Gauditour O O
+Gauditour O B-MISC
 über O O
 den O O
 Main B-LOC B-LOC
@@ -43095,7 +43095,7 @@ ausgeflippt O O
 " O O
 
 Dem O O
-Kanu-Klub O B-MISC
+Kanu-Klub O B-ORG
 blieb O O
 deshalb O O
 gar O O
@@ -43173,7 +43173,7 @@ Sprint O O
 über O O
 die O O
 rutschige O O
-Wiese O O
+Wiese O B-LOC
 zur O O
 Verpflegungsstelle O O
 , O O
@@ -43191,7 +43191,7 @@ Weck O B-MISC
 ) O O
 und O O
 die O O
-Hartwurst O O
+Hartwurst O B-MISC
 ( O O
 " O O
 Worscht O B-MISC
@@ -43203,7 +43203,7 @@ anschließend O O
 ein O O
 Glas O O
 voll O O
-Apfelwein O O
+Apfelwein O B-MISC
 ( O O
 " O O
 Woi O B-MISC
@@ -43218,8 +43218,8 @@ und O O
 Karl-Heinz B-PER B-PER
 Holz I-PER I-PER
 vom O O
-Sindlinger B-ORG B-ORG
-Schwimmclub I-ORG I-ORG
+Sindlinger B-ORG B-LOC
+Schwimmclub I-ORG I-LOC
 legen O O
 eine O O
 gute O O
@@ -43236,7 +43236,7 @@ brauchen O O
 sie O O
 für O O
 die O O
-Paddel-Tour O O
+Paddel-Tour O B-MISC
 samt O O
 " O O
 Fastfood-Triathlon O B-MISC
@@ -43321,7 +43321,7 @@ Manche O O
 stürzen O O
 das O O
 " O O
-Stöffsche O O
+Stöffsche O B-MISC
 " O O
 hinunter O O
 , O O
@@ -43368,7 +43368,7 @@ Roger B-PER B-PER
 Podstatny I-PER I-PER
 fährt O O
 der O O
-Sozialdemokrat O O
+Sozialdemokrat O B-MISC
 vom O O
 Kelsterbacher O B-LOC
 Ufer O I-LOC
@@ -43451,12 +43451,12 @@ Zeit O O
 , O O
 die O O
 die O O
-Polit-Paddler O O
+Polit-Paddler O B-MISC
 über O O
 die O O
 etwa O O
 250 O O
-Main-Meter O O
+Main-Meter O B-MISC
 gebraucht O O
 haben O O
 , O O
@@ -43476,7 +43476,7 @@ kommt O O
 auch O O
 Metz B-PER B-PER
 ins O O
-Schlucken O O
+Schlucken O B-LOC
 . O O
 " O O
 
@@ -43514,7 +43514,7 @@ letzten O O
 Tröpfchen O O
 aus O O
 dem O O
-Gerippten O B-PER
+Gerippten O O
 bei O O
 sechs O O
 Minuten O O
@@ -43567,7 +43567,7 @@ SCHWAB I-PER O
 -DOCSTART- O O
 
 Inspiriert O O
-Johannes-Goldbach-Quartett B-ORG B-MISC
+Johannes-Goldbach-Quartett B-ORG B-ORG
 
 Zugegeben O O
 : O O
@@ -43581,11 +43581,11 @@ sie O O
 wolle O O
 " O O
 The O B-MISC
-Great O B-MISC
+Great O I-MISC
 Music O I-MISC
-of O B-ORG
-the O I-ORG
-Modern B-ORG B-MISC
+of O I-MISC
+the O I-MISC
+Modern B-ORG I-MISC
 Jazz I-ORG I-MISC
 Quartet I-ORG I-MISC
 " O O
@@ -43595,12 +43595,12 @@ so O O
 wie O O
 es O O
 das O O
-Johannes-Goldbach-Quartett B-ORG B-MISC
+Johannes-Goldbach-Quartett B-ORG B-ORG
 für O O
 seinen O O
 Autritt O O
 im O O
-Jazzkeller B-LOC B-MISC
+Jazzkeller B-LOC B-LOC
 getan O O
 hat O O
 , O O
@@ -43612,7 +43612,7 @@ angebracht O O
 Meistens O O
 kommt O O
 bei O O
-Kopisten O O
+Kopisten O B-LOC
 ein O O
 müder O O
 Abklatsch O O
@@ -43702,7 +43702,7 @@ Spiel O O
 das O O
 ohne O O
 schwülstigen O O
-Hall O B-PER
+Hall O B-LOC
 auskommt O O
 - O O
 zu O O
@@ -43887,15 +43887,15 @@ Mit O O
 dem O O
 Glücksrad O O
 für O O
-Bibellektüre O O
+Bibellektüre O B-MISC
 geworben O O
 Markt O O
 wollte O O
 Neugier O O
 auf O O
 die O O
-Heilige B-MISC O
-Schrift I-MISC O
+Heilige B-MISC B-MISC
+Schrift I-MISC I-MISC
 wecken O O
 
 Johannes B-PER B-PER
@@ -43990,12 +43990,12 @@ hinzu O O
 Deswegen O O
 müsse O O
 die O O
-Kirche O B-LOC
+Kirche O O
 auch O O
 raus O O
 aus O O
 den O O
-Gemeindemauern O O
+Gemeindemauern O B-LOC
 , O O
 " O O
 ran O O
@@ -44023,12 +44023,12 @@ Katharinenkirche B-LOC B-LOC
 der O O
 von O O
 der O O
-evangelischen O B-MISC
+evangelischen O O
 Landeskirche O B-LOC
 , O O
 den O O
-evangelischen O B-MISC
-Freikirchen O B-ORG
+evangelischen O O
+Freikirchen O B-LOC
 und O O
 der O O
 katholischen O B-MISC
@@ -44108,8 +44108,8 @@ der O O
 Rummel O O
 um O O
 die O O
-Heilige B-MISC O
-Schrift I-MISC O
+Heilige B-MISC B-MISC
+Schrift I-MISC I-MISC
 die O O
 Neugierigen O O
 locken O O
@@ -44123,7 +44123,7 @@ frühere O O
 Pfarrer O O
 aus O O
 der O O
-Mennoniten-Gemeinde B-ORG B-MISC
+Mennoniten-Gemeinde B-ORG B-ORG
 , O O
 " O O
 machen O O
@@ -44201,8 +44201,8 @@ jetzt O O
 . O O
 
 Die O O
-Heilige B-MISC O
-Schrift I-MISC O
+Heilige B-MISC B-MISC
+Schrift I-MISC I-MISC
 im O O
 Zeitalter O O
 des O O
@@ -44228,10 +44228,10 @@ der O O
 Niederräder O B-ORG
 Gemeinde O I-ORG
 " O O
-Mutter B-ORG O
+Mutter B-ORG B-MISC
 vom I-ORG O
 guten I-ORG O
-Rat I-ORG O
+Rat I-ORG B-MISC
 " O O
 am O O
 Glücksrad O O
@@ -44316,7 +44316,7 @@ fügt O O
 der O O
 Beauftragte O O
 der O O
-evangelischen O B-MISC
+evangelischen O O
 Kirche O B-ORG
 für O I-ORG
 Mission O I-ORG
@@ -44596,14 +44596,14 @@ das O O
 verschmitzte O O
 Lächeln O O
 der O O
-Mickey B-PER B-PER
-Mouse I-PER I-PER
+Mickey B-PER B-MISC
+Mouse I-PER I-MISC
 und O O
 die O O
 schillernden O O
 Flügel O O
 eines O O
-Schmetterlings O O
+Schmetterlings O B-MISC
 waren O O
 beliebte O O
 Motive O O
@@ -44647,8 +44647,8 @@ Rollenrutschbahn O O
 des O O
 Vereins O O
 " O O
-Abenteuerspielplatz B-ORG B-LOC
-Riederwald I-ORG I-LOC
+Abenteuerspielplatz B-ORG B-ORG
+Riederwald I-ORG I-ORG
 " O O
 . O O
 
@@ -44694,7 +44694,7 @@ hätte O O
 sie O O
 die O O
 schillernden O O
-Schmetterlingsflügel O O
+Schmetterlingsflügel O B-MISC
 nicht O O
 malen O O
 können O O
@@ -44703,7 +44703,7 @@ da O O
 war O O
 sich O O
 die O O
-Siebenjährige O O
+Siebenjährige O B-MISC
 sicher O O
 . O O
 
@@ -44733,7 +44733,7 @@ Die O O
 anderen O O
 Kinder O O
 beim O O
-Sommerfest O O
+Sommerfest O B-MISC
 der O O
 SPD B-ORG B-ORG
 und O O
@@ -44773,7 +44773,7 @@ Angebote O O
 und O O
 Spiele O O
 der O O
-Nordend-Sozialdemokraten O B-MISC
+Nordend-Sozialdemokraten O B-ORG
 und O O
 des O O
 Vereins O O
@@ -44859,8 +44859,8 @@ das O O
 verschmitzte O O
 Lächeln O O
 der O O
-Mickey B-PER B-PER
-Mouse I-PER I-PER
+Mickey B-PER B-MISC
+Mouse I-PER I-MISC
 waren O O
 häufige O O
 Wünsche O O
@@ -44914,15 +44914,15 @@ Rollenrutschbahn O O
 des O O
 Vereins O O
 " O O
-Abenteuerspielplatz B-ORG B-LOC
-Riederwald I-ORG I-LOC
+Abenteuerspielplatz B-ORG B-ORG
+Riederwald I-ORG I-ORG
 " O O
 . O O
 
 Begeistert O O
 sausten O O
 die O O
-Kleinen O O
+Kleinen O B-MISC
 in O O
 roten O O
 Plastikkisten O O
@@ -44930,14 +44930,14 @@ vom O O
 1,50 O O
 Meter O O
 hohen O O
-Turm O B-LOC
+Turm O O
 aus O O
 über O O
 die O O
 Rollen O O
 des O O
 ehemaligen O O
-Industrieförderbandes O O
+Industrieförderbandes O B-ORG
 zu O O
 Boden O O
 . O O
@@ -44990,14 +44990,14 @@ ums O O
 Spielmobil O O
 des O O
 Riederwälder O B-LOC
-Abenteuerspielplatzes O O
+Abenteuerspielplatzes O I-LOC
 stürzten O O
 sich O O
 die O O
 Kinder O O
 , O O
 spielten O O
-SoftTennis O O
+SoftTennis O B-MISC
 , O O
 tippten O O
 auf O O
@@ -45152,7 +45152,7 @@ wollte O O
 konnte O O
 mit O O
 den O O
-Sozialdemokraten O O
+Sozialdemokraten O B-MISC
 über O O
 Spielstraßen O O
 , O O
@@ -45212,7 +45212,7 @@ Berggemeinde O B-LOC
 
 " O O
 Fliegendes O O
-Chaos O O
+Chaos O B-MISC
 " O O
 begeisterte O O
 Gäste O O
@@ -45289,9 +45289,9 @@ und O O
 das O O
 Jonglage-Duo O O
 " O O
-Das B-ORG O
+Das B-ORG B-MISC
 fliegende I-ORG O
-Chaos I-ORG O
+Chaos I-ORG B-MISC
 " O O
 begeisterte O O
 die O O
@@ -45393,7 +45393,7 @@ Gemeinde O O
 zusammen O O
 mit O O
 der O O
-Bastelgruppe O O
+Bastelgruppe O B-ORG
 organisiert O O
 . O O
 
@@ -45411,7 +45411,7 @@ des O O
 Flohmarktes O O
 kommt O O
 dem O O
-Basar O B-LOC
+Basar O B-ORG
 der O O
 Berggemeinde O B-LOC
 im O O
@@ -45433,12 +45433,12 @@ Siebenbürgen B-LOC B-LOC
 , O O
 an O O
 die O O
-Frankfurter O B-MISC
-Obdachlosenambulanz O B-ORG
+Frankfurter O B-ORG
+Obdachlosenambulanz O I-ORG
 und O O
 an O O
 das O O
-Christopherushaus B-LOC B-ORG
+Christopherushaus B-LOC B-LOC
 - O O
 einer O O
 Einrichtung O O
@@ -45459,9 +45459,9 @@ Spenden O O
 rief O O
 auch O O
 der O O
-Aufbauverein O O
+Aufbauverein O B-ORG
 der O O
-Berggemeinde O B-LOC
+Berggemeinde O B-ORG
 auf O O
 . O O
 
@@ -46117,12 +46117,12 @@ Für O O
 Ausländer O B-MISC
 und O O
 Deutsche O B-MISC
-Heddernheim B-LOC B-LOC
+Heddernheim B-LOC B-ORG
 feiert O O
 internationales O O
 Fest O O
 
-HEDDERNHEIM B-LOC B-LOC
+HEDDERNHEIM B-LOC B-MISC
 . O O
 
 Unter O O
@@ -46165,7 +46165,7 @@ zum O O
 vierten O O
 Mal O O
 ein O O
-Sommerfest O O
+Sommerfest O B-MISC
 mit O O
 Darbietungen O O
 in O O
@@ -46180,9 +46180,9 @@ musiziert O O
 der O O
 Musikzug O O
 der O O
-Turnerschaft B-ORG O
-1860 I-ORG B-LOC
-Heddernheim I-ORG I-LOC
+Turnerschaft B-ORG B-ORG
+1860 I-ORG B-ORG
+Heddernheim I-ORG I-ORG
 . O O
 
 Um O O
@@ -46215,7 +46215,7 @@ Folkloregruppe O O
 sowie O O
 die O O
 Rockgruppe O O
-" O O
+" O B-ORG
 Little B-ORG B-ORG
 Paris I-ORG I-ORG
 " O O
@@ -46271,7 +46271,7 @@ dazu O O
 beim O O
 " O O
 Frankfurter B-MISC B-MISC
-Kommunikationsmarkt I-MISC O
+Kommunikationsmarkt I-MISC I-MISC
 " O O
 auf O O
 dem O O
@@ -46544,8 +46544,8 @@ sowie O O
 die O O
 Beschäftigten O O
 der O O
-Bremer B-ORG B-MISC
-Stadtwerke I-ORG B-ORG
+Bremer B-ORG B-ORG
+Stadtwerke I-ORG I-ORG
 bis O O
 zum O O
 Frühjahr O O
@@ -46697,7 +46697,7 @@ hatten O O
 Dies O O
 meldete O O
 die O O
-Polizei O B-ORG
+Polizei O O
 . O O
 
 Am O O
@@ -46708,7 +46708,7 @@ Uhr O O
 war O O
 der O O
 34jähriger O O
-Mofafahrer O B-MISC
+Mofafahrer O O
 mit O O
 Alkohol O O
 im O O
@@ -46782,7 +46782,7 @@ ist O O
 , O O
 so O O
 die O O
-Polizei O B-ORG
+Polizei O O
 , O O
 hatte O O
 er O O
@@ -46983,7 +46983,7 @@ einem O O
 42 O O
 Jahre O O
 alten O O
-Schotten O O
+Schotten O B-MISC
 bei O O
 der O O
 Ankunft O O
@@ -47081,7 +47081,7 @@ einem O O
 Wagen O O
 aus O O
 Steinbach B-LOC B-LOC
-/ O O
+/ O B-LOC
 Taunus B-LOC B-LOC
 zusammengestoßen O O
 . O O
@@ -47109,7 +47109,7 @@ der O O
 rechten O O
 Leitplanke O O
 zum O O
-Stehen O B-LOC
+Stehen O O
 . O O
 
 Der O O
@@ -47130,7 +47130,7 @@ auf O O
 dem O O
 Transport O O
 ins O O
-Krankenhaus O B-LOC
+Krankenhaus O O
 starb O O
 . O O
 
@@ -47195,7 +47195,7 @@ denen O O
 der O O
 " O O
 VVN B-ORG B-ORG
-- I-ORG O
+- I-ORG I-ORG
 Bund I-ORG B-ORG
 der I-ORG I-ORG
 Antifaschisten I-ORG I-ORG
@@ -47238,7 +47238,7 @@ NSVerstrickungen O B-ORG
 entflochtenen O O
 und O O
 zerlegten O O
-Chemiekonzerns O O
+Chemiekonzerns O B-ORG
 wird O O
 von O O
 Antifaschisten O B-MISC
@@ -47266,7 +47266,7 @@ von O O
 mehreren O O
 hundert O O
 Millionen O O
-Mark B-MISC O
+Mark B-MISC B-MISC
 . O O
 
 Peter B-PER B-PER
@@ -47434,7 +47434,7 @@ Gallus B-LOC B-LOC
 5000 O O
 feierten O O
 mit O O
-Arbeiterwohlfahrt O B-MISC
+Arbeiterwohlfahrt O B-ORG
 im O O
 Sommerhoffpark B-LOC B-LOC
 
@@ -47468,9 +47468,9 @@ Zum O O
 Mal O O
 feierte O O
 der O O
-Kreisverband B-ORG O
-der I-ORG O
-Arbeiterwohlfahrt I-ORG B-ORG
+Kreisverband B-ORG B-ORG
+der I-ORG I-ORG
+Arbeiterwohlfahrt I-ORG I-ORG
 am O O
 Sonntag O O
 sein O O
@@ -47505,7 +47505,7 @@ bayerische O B-MISC
 Blasmusik O O
 , O O
 indische O B-MISC
-Folkore O O
+Folkore O B-MISC
 und O O
 aztekische O B-MISC
 Tänze O O
@@ -47577,10 +47577,10 @@ engen O O
 Kontakt O O
 zwischen O O
 der O O
-Arbeiterwohlfahrt B-ORG O
+Arbeiterwohlfahrt B-ORG B-ORG
 und O O
 dem O O
-Amt B-ORG O
+Amt B-ORG B-ORG
 für I-ORG O
 multikulturelle I-ORG O
 Angelegenheiten I-ORG O
@@ -47599,11 +47599,11 @@ einfallen O O
 lassen O O
 : O O
 
-Streichelzoo O O
+Streichelzoo O B-LOC
 , O O
-Luftkissenspringburg O O
+Luftkissenspringburg O B-LOC
 und O O
-Kasperletheater O O
+Kasperletheater O B-LOC
 sorgten O O
 dafür O O
 , O O
@@ -47740,7 +47740,7 @@ Erlös O O
 kommt O O
 dem O O
 geplanten O O
-Blindenaltenzentrum O O
+Blindenaltenzentrum O B-MISC
 zugute O O
 . O O
 
@@ -48077,7 +48077,7 @@ Möglich O O
 gemacht O O
 hatte O O
 das O O
-Sommerfest O O
+Sommerfest O B-MISC
 Schornsteinfegermeister O O
 Wolfgang B-PER B-PER
 Misch I-PER I-PER
@@ -48132,7 +48132,7 @@ beispielhaft O O
 " O O
 
 Das O O
-Sommerfest O O
+Sommerfest O B-MISC
 war O O
 ein O O
 voller O O
@@ -48164,14 +48164,14 @@ Begegnungsstätte O O
 als O O
 Teil O O
 einer O O
-Altenwohnanlage O O
+Altenwohnanlage O B-MISC
 fertiggestellt O O
 . O O
 
 Vermieter O O
 der O O
 vom O O
-Wohnungsamt O O
+Wohnungsamt O B-ORG
 vergebenen O O
 Sozialwohnungen O O
 ist O O
@@ -48280,7 +48280,7 @@ ist O O
 vielfältig O O
 , O O
 die O O
-Volkshochschule O O
+Volkshochschule O B-ORG
 bietet O O
 Kurse O O
 an O O
@@ -48288,7 +48288,7 @@ an O O
 
 Englisch O B-MISC
 , O O
-Bridge O O
+Bridge O B-MISC
 , O O
 Tanzen O O
 , O O
@@ -48337,7 +48337,7 @@ im O O
 Bastelraum O O
 in O O
 der O O
-Seidenmalerei O O
+Seidenmalerei O B-LOC
 an O O
 . O O
 
@@ -48408,7 +48408,7 @@ zwei O O
 Stunden O O
 in O O
 der O O
-Cafeteria O O
+Cafeteria O B-LOC
 , O O
 um O O
 Vorträge O O
@@ -48478,7 +48478,7 @@ drei O O
 Jahren O O
 in O O
 der O O
-Altenwohnanlage O O
+Altenwohnanlage O B-LOC
 lebt O O
 , O O
 daß O O
@@ -48715,7 +48715,7 @@ Wunsch O O
 spielt O O
 der O O
 " O O
-Hauspianist O O
+Hauspianist O B-MISC
 " O O
 ein O O
 Stück O O
@@ -48757,7 +48757,7 @@ Stadtpark O O
 ist O O
 " O O
 vergiftetes O O
-Bonbon O O
+Bonbon O B-MISC
 " O O
 
 NIEDER-ESCHBACH B-LOC B-LOC
@@ -48849,7 +48849,7 @@ der O O
 sich O O
 vom O O
 Bad B-LOC B-LOC
-Homburger I-LOC I-LOC
+Homburger I-LOC B-LOC
 Kreuz I-LOC I-LOC
 bis O O
 zum O O
@@ -48881,7 +48881,7 @@ Wiedergutmachung O O
 für O O
 den O O
 geplanten O O
-Schlachthof O O
+Schlachthof O B-LOC
 , O O
 SPD B-ORG B-ORG
 und O O
@@ -48967,13 +48967,13 @@ Westend B-LOC B-ORG
 " O O
 und O O
 Rot-Weiss B-ORG B-ORG
-Karnevalisten I-ORG O
+Karnevalisten I-ORG I-ORG
 wollen O O
 zusammenarbeiten O O
 
-FRANKFURT B-LOC B-LOC
-A. I-LOC I-LOC
-M. I-LOC I-LOC
+FRANKFURT B-LOC B-ORG
+A. I-LOC I-ORG
+M. I-LOC I-ORG
 Noch O O
 mehr O O
 Gemeinsamkeit O O
@@ -49092,8 +49092,8 @@ Gaststätte O O
 Malepartus B-LOC B-LOC
 " O O
 , O O
-Bornheimer B-LOC B-LOC
-Landwehr I-LOC I-LOC
+Bornheimer B-LOC B-ORG
+Landwehr I-LOC I-ORG
 59. O O
 dixi O O
 
@@ -49112,7 +49112,7 @@ MAINTAL B-LOC B-LOC
 Die O O
 Teilnahme O O
 am O O
-Nachbarschaftsfest O O
+Nachbarschaftsfest O B-MISC
 in O O
 der O O
 Flüchtlingsunterkunft O O
@@ -49125,8 +49125,8 @@ Mittelpunkt O O
 des O O
 Treffens O O
 der O O
-Maintaler B-ORG B-MISC
-Arbeitsgemeinschaft I-ORG B-ORG
+Maintaler B-ORG B-ORG
+Arbeitsgemeinschaft I-ORG I-ORG
 sozialdemokratischer I-ORG O
 und I-ORG O
 politisch I-ORG O
@@ -49155,7 +49155,7 @@ um O O
 19.30 O O
 Uhr O O
 ins O O
-Colleg O B-LOC
+Colleg O O
 des O O
 Bürgerhauses O O
 Wachenbuchen B-LOC B-LOC
@@ -49196,7 +49196,7 @@ das O O
 Fünfjährige O B-MISC
 " O O
 
-ECKENHEIM B-LOC B-ORG
+ECKENHEIM B-LOC B-MISC
 . O O
 
 Manfred B-PER B-PER
@@ -49239,7 +49239,7 @@ in O O
 der O O
 Ecke O O
 seines O O
-Schankraumes O O
+Schankraumes O B-LOC
 , O O
 als O O
 sei O O
@@ -49360,7 +49360,7 @@ Jetzt O O
 feiert O O
 " O O
 der O O
-Manfred B-PER B-PER
+Manfred B-PER B-MISC
 " O O
 sein O O
 Fünfjähriges O O
@@ -49593,8 +49593,8 @@ hat O O
 er O O
 bis O O
 heute O O
-Eckenheimer O B-MISC
-Senioren O O
+Eckenheimer O B-ORG
+Senioren O I-ORG
 zu O O
 sich O O
 eingeladen O O
@@ -49769,7 +49769,7 @@ bleiben O O
 
 -DOCSTART- O O
 
-Grüne B-ORG B-PER
+Grüne B-ORG B-MISC
 zu O O
 Kurswechsel O O
 gedrängt O O
@@ -49807,7 +49807,7 @@ erreichen O O
 daß O O
 auch O O
 die O O
-rot-grüne O O
+rot-grüne O B-MISC
 Koalition O B-ORG
 in O O
 Wiesbaden B-LOC B-LOC
@@ -49820,7 +49820,7 @@ beim O O
 Asylrecht O O
 und O O
 zu O O
-Bundeswehreinsätzen O B-MISC
+Bundeswehreinsätzen O O
 der O O
 Vereinten B-ORG B-ORG
 Nationen I-ORG I-ORG
@@ -49881,7 +49881,7 @@ sei O O
 es O O
 , O O
 das O O
-Asylrecht O O
+Asylrecht O B-MISC
 von O O
 " O O
 Massenverfahren O O
@@ -49937,8 +49937,8 @@ Hand O O
 zusammengefaßt O O
 und O O
 im O O
-Zirndorfer O B-ORG
-Bundesamt O I-ORG
+Zirndorfer O B-LOC
+Bundesamt O B-ORG
 " O O
 endlich O O
 alle O O
@@ -50091,7 +50091,7 @@ sei O O
 ( O O
 Interview O O
 im O O
-Hessenteil B-MISC B-LOC
+Hessenteil B-MISC B-ORG
 Seite O O
 18 O O
 ) O O
@@ -50139,8 +50139,8 @@ des O O
 umweltpolitischen O O
 Sprechers O O
 der O O
-Frankfurter O B-MISC
-FDP B-ORG B-ORG
+Frankfurter O B-ORG
+FDP B-ORG I-ORG
 , O O
 Thomas B-PER B-PER
 Schimpff I-PER I-PER
@@ -50226,7 +50226,7 @@ entsorgungspflichtige O O
 Kommunen O O
 und O O
 der O O
-Umlandverband O O
+Umlandverband O B-ORG
 häufig O O
 die O O
 Hand O O
@@ -50295,7 +50295,7 @@ Spiel O O
 wie O O
 bedeutungsvoll O O
 das O O
-Derby O O
+Derby O B-MISC
 für O O
 den O O
 weiteren O O
@@ -50365,14 +50365,14 @@ falschen O O
 Trikotfarben O O
 der O O
 beiden O O
-Lokalrivalen O O
+Lokalrivalen O B-MISC
 . O O
 
 Während O O
 die O O
 Bockenheimer O B-ORG
 in O O
-Blau O B-MISC
+Blau O B-LOC
 antraten O O
 , O O
 spielte O O
@@ -50488,7 +50488,7 @@ Michael B-PER B-PER
 Sandt I-PER I-PER
 , O O
 den O O
-FSVTrainer O B-ORG
+FSVTrainer O O
 Dörenberg B-PER B-PER
 als O O
 seinen O O
@@ -50587,7 +50587,7 @@ ersten O O
 45 O O
 Minuten O O
 vier O O
-Gelbe O O
+Gelbe O B-MISC
 Karten O O
 und O O
 eine O O
@@ -50692,7 +50692,7 @@ scheiterte O O
 erneut O O
 Roth B-PER B-PER
 an O O
-FSVSchlußmann O B-MISC
+FSVSchlußmann O O
 Marcus B-PER B-PER
 Croonen I-PER I-PER
 , O O
@@ -50814,10 +50814,10 @@ Bezirksoberliga B-MISC B-MISC
 West I-MISC I-MISC
 : O O
 
-Spitzen-Trio O O
+Spitzen-Trio O B-ORG
 mit O O
-Aufsteiger O O
-Nieder-Weisel B-ORG B-ORG
+Aufsteiger O B-ORG
+Nieder-Weisel B-ORG I-ORG
 
 Nach O O
 dem O O
@@ -50833,8 +50833,8 @@ II I-ORG I-ORG
 , O O
 Ockstadt B-LOC B-ORG
 und O O
-Aufsteiger O O
-Nieder-Weisel B-LOC B-ORG
+Aufsteiger O B-ORG
+Nieder-Weisel B-LOC I-ORG
 an O O
 der O O
 Tabellenspitze O O
@@ -50879,8 +50879,8 @@ ohne O O
 Punktgewinn O O
 Ober-Erlenbach B-LOC B-ORG
 sowie O O
-Aufsteiger O O
-Tempelsee B-LOC B-ORG
+Aufsteiger O B-ORG
+Tempelsee B-LOC I-ORG
 . O O
 
 1 O O
@@ -50897,14 +50897,14 @@ Tempelsee I-ORG I-ORG
 ) O O
 . O O
 
-Rödelheims B-LOC B-PER
-Kling B-PER B-PER
+Rödelheims B-LOC B-ORG
+Kling B-PER I-ORG
 zeigte O O
 seine O O
 Stürmerqualitäten O O
 gegen O O
-Aufsteiger O O
-Tempelsee B-LOC B-ORG
+Aufsteiger O B-ORG
+Tempelsee B-LOC I-ORG
 . O O
 
 Dem O O
@@ -50959,8 +50959,8 @@ Spieler O O
 der O O
 Gäste O O
 war O O
-Torwart O O
-Scholl B-PER B-PER
+Torwart O B-PER
+Scholl B-PER I-PER
 , O O
 der O O
 weitere O O
@@ -50980,7 +50980,7 @@ Karte O O
 . O O
 
 FV B-ORG B-ORG
-Bad I-ORG B-ORG
+Bad I-ORG I-ORG
 Vilbel I-ORG I-ORG
 II I-ORG I-ORG
 - O O
@@ -51114,7 +51114,7 @@ beherrschten O O
 die O O
 Gäste O O
 aus O O
-Reichelheim B-LOC B-LOC
+Reichelheim B-LOC B-ORG
 über O O
 die O O
 volle O O
@@ -51177,7 +51177,7 @@ stoppte O O
 er O O
 mit O O
 der O O
-Brust O O
+Brust O B-PER
 , O O
 ließ O O
 den O O
@@ -51245,7 +51245,7 @@ Schmidt B-PER B-PER
 die O O
 Gäste O O
 in O O
-Front O B-LOC
+Front O O
 . O O
 
 Simmon B-PER B-PER
@@ -51335,7 +51335,7 @@ Dem O O
 1:0 O O
 folgten O O
 weitere O O
-Chanchen O O
+Chanchen O B-PER
 . O O
 
 Den O O
@@ -51390,7 +51390,7 @@ Fechenheimer O B-PER
 sowie O O
 Kresic B-PER B-PER
 aus O O
-Dietzenbacher O B-PER
+Dietzenbacher O B-ORG
 Seite O O
 , O O
 zeichneten O O
@@ -51480,7 +51480,7 @@ Früchte O O
 
 Nach O O
 einem O O
-Gewühl O O
+Gewühl O B-PER
 im O O
 Strafraum O O
 brachte O O
@@ -51488,7 +51488,7 @@ Likar B-PER B-PER
 den O O
 Ball O O
 im O O
-Nieder-Weiseler O B-LOC
+Nieder-Weiseler O B-ORG
 Tor O O
 unter O O
 . O O
@@ -51637,7 +51637,7 @@ alle O O
 Beteiligten O O
 der O O
 ersten O O
-Triathlon-Weltmeisterschaft B-MISC O
+Triathlon-Weltmeisterschaft B-MISC B-MISC
 der I-MISC O
 Studentinnen I-MISC O
 und I-MISC O
@@ -51950,7 +51950,7 @@ seine O O
 Rehabilitierung O O
 bemüht O O
 ( O O
-FR B-ORG B-LOC
+FR B-ORG B-ORG
 vom O O
 14. O O
 8. O O
@@ -52062,7 +52062,7 @@ Kammergerichts O I-ORG
 , O O
 das O O
 einem O O
-Springerblatt O O
+Springerblatt O B-ORG
 erlaubte O O
 , O O
 die O O
@@ -52142,7 +52142,7 @@ rechtsstaalicher O O
 als O O
 aus O O
 politischem O O
-Opportunismus O O
+Opportunismus O B-MISC
 erfolgen O O
 würde O O
 : O O
@@ -52332,7 +52332,7 @@ ob O O
 es O O
 Erfahrungen O O
 anderer O O
-deutscher O O
+deutscher O B-MISC
 Städte O O
 mit O O
 diesen O O
@@ -52345,8 +52345,8 @@ gebe O O
 Park O O
 nur O O
 ohne O O
-Schlachthof O O
-Bürgerinitiative O O
+Schlachthof O B-LOC
+Bürgerinitiative O B-ORG
 sammelt O O
 Unterschriften O O
 gegen O O
@@ -52404,7 +52404,7 @@ Ruhe O O
 die O O
 Idee O O
 eines O O
-Stadtparks O O
+Stadtparks O B-MISC
 planerisch O O
 entwickeln O O
 " O O
@@ -52483,7 +52483,7 @@ mitgeteilt O O
 , O O
 solle O O
 der O O
-Stadtpark O O
+Stadtpark O B-MISC
 auf O O
 einer O O
 Fläche O O
@@ -52782,8 +52782,8 @@ weitere O O
 Aktive O O
 den O O
 Führerschein O O
-Klasse O B-MISC
-II O I-MISC
+Klasse O O
+II O B-MISC
 machen O O
 können O O
 . O O
@@ -52812,7 +52812,7 @@ werden O O
 
 Die O O
 Schneidhainer O B-LOC
-Mehrzweckhalle O O
+Mehrzweckhalle O I-LOC
 bekommt O O
 einen O O
 Gasanschluß O O
@@ -52837,7 +52837,7 @@ kann O O
 . O O
 
 Im O O
-Bürgerhaus B-LOC O
+Bürgerhaus B-LOC B-LOC
 Falkenstein I-LOC B-LOC
 wird O O
 die O O
@@ -52936,7 +52936,7 @@ Parkplätze O O
 geschaffen O O
 . O O
 
-Schneidhain B-LOC B-LOC
+Schneidhain B-LOC B-ORG
 erhält O O
 Geld O O
 für O O
@@ -52947,7 +52947,7 @@ der O O
 Parkplatz O O
 am O O
 Bürgerhaus O B-LOC
-Falkenstein B-LOC B-LOC
+Falkenstein B-LOC I-LOC
 soll O O
 besser O O
 ausgeleuchtet O O
@@ -53062,7 +53062,7 @@ den O O
 " O O
 neuen O O
 alten O O
-Hasen O O
+Hasen O B-MISC
 " O O
 , O O
 den O O
@@ -53167,7 +53167,7 @@ werden O O
 können O O
 . O O
 
-AW O B-ORG
+AW O O
 
 -DOCSTART- O O
 
@@ -53192,7 +53192,7 @@ weckte O O
 das O O
 Interesse O O
 an O O
-Spartips O O
+Spartips O B-ORG
 
 OBERURSEL B-LOC B-LOC
 / O O
@@ -53208,8 +53208,8 @@ hausgemacht O O
 , O O
 erklärt O O
 die O O
-Oberurseler B-ORG B-MISC
-Waldjugend I-ORG B-ORG
+Oberurseler B-ORG B-ORG
+Waldjugend I-ORG I-ORG
 zu O O
 dem O O
 seit O O
@@ -53429,7 +53429,7 @@ reduzieren O O
 und O O
 mit O O
 jedem O O
-Lieter O B-MISC
+Lieter O O
 Wasser O O
 bewußt O O
 umzugehen O O
@@ -53599,8 +53599,8 @@ Lebens O O
 
 -DOCSTART- O O
 
-Tote O B-PER
-Hasen O I-PER
+Tote O O
+Hasen O B-MISC
 an O O
 der O O
 Kuckucksuhr O B-LOC
@@ -53623,8 +53623,8 @@ Halle O B-LOC
 , O O
 die O O
 " O O
-Schmuck B-MISC B-MISC
-Europa I-MISC I-MISC
+Schmuck B-MISC O
+Europa I-MISC B-MISC
 92 O I-MISC
 " O O
 und O O
@@ -53665,7 +53665,7 @@ der O O
 von O O
 Perlen O O
 , O O
-Korallen O O
+Korallen O B-MISC
 und O O
 Lapislazuli O O
 funkelnden O O
@@ -53714,11 +53714,11 @@ Schmuck O O
 
 Auch O O
 " O O
-Himmelsterne O O
+Himmelsterne O B-MISC
 " O O
 aus O O
 buntem O O
-Emaille O O
+Emaille O B-MISC
 , O O
 in O O
 Silber O O
@@ -53806,8 +53806,8 @@ betonen O O
 kamen O O
 Tänzer O O
 vom O O
-Stuttgarter O B-MISC
-Ballett O I-MISC
+Stuttgarter O B-ORG
+Ballett O I-ORG
 . O O
 
 Sie O O
@@ -53823,15 +53823,15 @@ Krauß I-PER I-PER
 aus O O
 Gold O O
 , O O
-Platin O O
+Platin O B-MISC
 , O O
-Diamanten O O
+Diamanten O B-MISC
 , O O
 Perlen O O
 , O O
-Korallen O O
+Korallen O B-MISC
 und O O
-Aquamarinen O O
+Aquamarinen O B-MISC
 als O O
 Pantomime O O
 unter O O
@@ -53886,9 +53886,9 @@ Kreationen O O
 sehen O O
 , O O
 würdig O O
-Walküren O O
+Walküren O B-MISC
 oder O O
-Tycoone O O
+Tycoone O B-MISC
 zu O O
 schmücken O O
 . O O
@@ -53912,18 +53912,18 @@ einmalig O O
 So O O
 auch O O
 jene O O
-Kuckucksuhren O O
+Kuckucksuhren O B-MISC
 , O O
 auf O O
 denen O O
 eine O O
 ganze O O
-Bierwirtschaft O O
+Bierwirtschaft O B-MISC
 oder O O
-Almen O O
+Almen O B-MISC
 mit O O
 glücklichen O O
-Kühen O O
+Kühen O B-MISC
 untergebracht O O
 sind O O
 . O O
@@ -53933,11 +53933,11 @@ einer O O
 droht O O
 ein O O
 kapitaler O O
-Hirsch O O
+Hirsch O B-MISC
 , O O
 und O O
 tote O O
-Hasen O O
+Hasen O B-MISC
 und O O
 Vögel O O
 hängen O O
@@ -53948,23 +53948,23 @@ Seiten O O
 . O O
 " O O
 
-Weidmannsheil O O
+Weidmannsheil O B-LOC
 " O O
 heißt O O
 das O O
 in O O
 der O O
-Jägersprache O O
+Jägersprache O B-MISC
 . O O
 
-E-S O B-ORG
+E-S O O
 
 -DOCSTART- O O
 
 Doppelschlag O O
 nahm O O
-Schwung O O
-Verdienter O O
+Schwung O B-ORG
+Verdienter O I-ORG
 Sieg O O
 / O O
 Bürstadt B-LOC B-ORG
@@ -53988,7 +53988,7 @@ VfR B-ORG B-ORG
 Bürstadt I-ORG I-ORG
 in O O
 der O O
-hessischen O O
+hessischen O B-MISC
 Oberliga O B-MISC
 . O O
 
@@ -54137,8 +54137,8 @@ Akzente O O
 
 Brandl B-PER B-PER
 bediente O O
-da B-PER B-PER
-Silva I-PER I-PER
+da B-PER O
+Silva I-PER B-PER
 , O O
 der O O
 zum O O
@@ -54168,7 +54168,7 @@ Situationen O O
 wirkte O O
 die O O
 Bürstädter O B-MISC
-Abwehr O O
+Abwehr O I-MISC
 um O O
 Libero O B-PER
 Vukadinovic B-PER I-PER
@@ -54246,7 +54246,7 @@ ernüchternde O O
 1:3 O O
 . O O
 
-VfR-Torwart O B-ORG
+VfR-Torwart O O
 Gerhard B-PER B-PER
 Schäfer I-PER I-PER
 rettete O O
@@ -54452,8 +54452,8 @@ und O O
 weiteren O O
 Finalplätzen O O
 erreichten O O
-Hessens B-LOC B-MISC
-Leichathleten O O
+Hessens B-LOC B-ORG
+Leichathleten O I-ORG
 bei O O
 den O O
 süddeutschen O B-MISC
@@ -54487,7 +54487,7 @@ der O O
 die O O
 400 O O
 m O O
-Hürden O O
+Hürden O B-MISC
 in O O
 49,85 O O
 Sekunden O O
@@ -54518,7 +54518,7 @@ gewann O O
 die O O
 400 O O
 m O O
-Hürden O O
+Hürden O B-MISC
 in O O
 58,17 O O
 Sekunden O O
@@ -54598,7 +54598,7 @@ Darmstadt I-ORG I-ORG
 über O O
 3000 O O
 m O O
-Hürden O O
+Hürden O B-MISC
 in O O
 8:50,46 O O
 Minuten O O
@@ -54702,7 +54702,7 @@ ch- O O
 Friedliches O O
 Miteinander O O
 der O O
-Nationen O B-ORG
+Nationen O O
 KGV B-ORG B-ORG
 Schwarzbach I-ORG I-ORG
 feierte O O
@@ -54765,7 +54765,7 @@ sonst O O
 war O O
 bei O O
 den O O
-Gärtnern O B-ORG
+Gärtnern O B-MISC
 allerhand O O
 los O O
 , O O
@@ -54776,7 +54776,7 @@ nicht O O
 nur O O
 das O O
 traditionelle O O
-Sommerfest O O
+Sommerfest O B-MISC
 , O O
 sondern O O
 auch O O
@@ -54961,7 +54961,7 @@ im O O
 Sommer O O
 regelmäßig O O
 eine O O
-Disco O O
+Disco O B-MISC
 auf O O
 dem O O
 Gelände O O
@@ -54992,14 +54992,14 @@ Durch O O
 Verbindungen O O
 zwischen O O
 den O O
-Kleingärtnern O O
+Kleingärtnern O B-MISC
 aus O O
 Goldstein B-LOC B-LOC
 und O O
 einer O O
 Schule O O
 für O O
-Körperbehinderte O O
+Körperbehinderte O B-MISC
 in O O
 Würzburg B-LOC B-LOC
 ist O O
@@ -55211,9 +55211,9 @@ ist O O
 Jovicic B-PER B-PER
 im O O
 zuständigen O O
-Garten- O B-ORG
+Garten- O O
 und O O
-Friedhofsamt O B-ORG
+Friedhofsamt O O
 bisher O O
 auf O O
 taube O O
@@ -55255,5 +55255,5 @@ kann O O
 . O O
 " O O
 
-jan O O
+jan O B-PER
 
