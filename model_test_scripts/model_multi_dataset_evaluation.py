@@ -18,12 +18,13 @@ def evaluate_model_and_write_to_file(path_to_model, test_file_name):
 
 def main():
     if len(sys.argv) < 2:
-        print("Usage: python3 model_multi_dataset_evaluation.py <final_model_path> <cuda_device>")
+        print("Usage: python3 model_multi_dataset_evaluation.py <path_to_models> <model_name> <cuda_device>")
         return
-    flair.device = f'cuda:{sys.argv[2]}'
-    name_split = sys.argv[1].split("/")
-    model_name = f"{name_split[-2]}_test_ger"
-    evaluate_model_and_write_to_file(sys.argv[1], model_name)
+    flair.device = f'cuda:{sys.argv[3]}'
+    for i in range(1, 4):
+        path = f"{sys.argv[1]}/{sys.argv[2].format(run = i)}"
+        model_name = f"{sys.argv[2].format(run = i)}_test_ger"
+        evaluate_model_and_write_to_file(path, model_name)
 
 
 if __name__ == '__main__':
