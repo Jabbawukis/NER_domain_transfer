@@ -29,8 +29,8 @@ for run in range(1, 4):
     trainer.fine_tune(f'resources/taggers/conll_eng_ner_roberta_large_run_{run}_ger_test_as_dev',
                       learning_rate=5.0e-6,
                       mini_batch_size=4,
-                      monitor_test=True,
-                      monitor_dev=True,
+                      **{"monitor_test": True,
+                         "monitor_dev": True}
                       )
     del tagger
     del trainer
