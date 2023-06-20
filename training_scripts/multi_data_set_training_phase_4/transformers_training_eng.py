@@ -39,7 +39,6 @@ for run in range(1, 4):
                   embeddings_storage_mode="none",
                   use_final_model_for_eval=True,
                   monitor_test=True,
-                  monitor_dev=True,
                   )
     del tagger
     del trainer
