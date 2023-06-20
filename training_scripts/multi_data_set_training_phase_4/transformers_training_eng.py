@@ -38,7 +38,6 @@ for run in range(1, 4):
                   mini_batch_size=4,
                   embeddings_storage_mode="none",
                   use_final_model_for_eval=True,
-                  decoder_lr_factor=1.0,
                   monitor_test=True,
                   monitor_dev=True,
                   )
