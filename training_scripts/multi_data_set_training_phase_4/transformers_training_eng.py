@@ -5,7 +5,7 @@ from flair.embeddings import TransformerWordEmbeddings
 from flair.models import SequenceTagger
 from flair.trainers import ModelTrainer
 flair.device = f'cuda:{sys.argv[1]}'
-corpus = CONLL_03()
+corpus = CONLL_03(base_path="CONLL_03_ENG_GER_combination")
 label_type = 'ner'
 label_dict = corpus.make_label_dictionary(label_type=label_type)
 for run in range(1, 4):
