@@ -12,9 +12,7 @@ from flair.optim import LinearSchedulerWithWarmup
 flair.device = f'cuda:{sys.argv[1]}'
 eng_corpus = CONLL_03()
 dutch_corpus = CONLL_03_DUTCH()
-
 eng_corpus._dev = CONLL_03_GERMAN(base_path="../../model_test_scripts/CONLL_03_GER").test
-dutch_corpus._dev = CONLL_03_GERMAN(base_path="../../model_test_scripts/CONLL_03_GER").test
 
 corpus = MultiCorpus([dutch_corpus, eng_corpus])
 label_type = 'ner'
