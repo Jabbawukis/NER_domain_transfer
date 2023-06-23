@@ -43,12 +43,12 @@ def calculate_statistics(values):
 
 def main():
     if len(sys.argv) < 2:
-        print("Usage: python script.py <directory_path> [--main]")
+        print("Usage: python script.py <directory_path> [--test]")
         return
 
     directory_path = sys.argv[1]
 
-    if len(sys.argv) == 3 and sys.argv[2] == "--main":
+    if len(sys.argv) == 3 and sys.argv[2] == "--test":
         main_score_values = find_values_in_directory(directory_path, True)
         if not main_score_values:
             print("No matching lines found in the directory.")

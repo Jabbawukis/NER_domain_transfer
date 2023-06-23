@@ -165,3 +165,26 @@
 * F-score (micro) - Average: 74.69  ±  0.62
 #### test Multi-Corpus (Eng+Dutch) full fine-tuning (lp-lr 0.3) BitFit
 * F-score (micro) - Average: 67.96  ±  1.41
+
+## Phase 04 (full fine-tuning + CoNLL-03 German Test-Split as Dev-Split)
+### Params:
+* model='xlm-roberta-large'
+* layers="-1"
+* subtoken_pooling="first"
+* fine_tune=True
+* use_context=True
+* hidden_size=256
+* use_crf=False,
+* use_rnn=False,
+* reproject_embeddings=False
+* learning_rate=5.0e-6
+* mini_batch_size=4
+
+### Train Results
+#### train Single Corpus (Eng + Dev-Split => CoNLL-03 German Test-Split)
+* F-score (micro) - Average: 93.79  ±  0.12
+* F-score (macro) - Average: 92.49  ±  0.15
+* Accuracy - Average: 90.72  ±  0.18
+### Test Results on Conll_03 German
+#### test Single Corpus (Eng + Dev-Split => CoNLL-03 German Test-Split)
+* F-score (micro) - Average: 77.02  ±  0.1
