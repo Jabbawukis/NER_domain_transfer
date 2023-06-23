@@ -8,13 +8,11 @@ from flair.trainers import ModelTrainer
 import torch
 from flair.optim import LinearSchedulerWithWarmup
 
-
 flair.device = f'cuda:{sys.argv[1]}'
-eng_corpus = CONLL_03()
-dutch_corpus = CONLL_03_DUTCH()
-eng_corpus._dev = CONLL_03_GERMAN(base_path="../../model_test_scripts/CONLL_03_GER").test
+corpus = MultiCorpus([CONLL_03_DUTCH(), CONLL_03()])
 
-corpus = MultiCorpus([dutch_corpus, eng_corpus])
+corpus._dev = CONLL_03_GERMAN(base_path="../../model_test_scripts/CONLL_03_GER").test
+
 label_type = 'ner'
 label_dict = corpus.make_label_dictionary(label_type=label_type)
 for run in range(1, 4):
