@@ -23,16 +23,19 @@ def calculate_average_f1_scores(f1_scores, epoch):
 
 def plot_average_f1_scores(average_scores, model_names, num_epochs):
     epochs = range(1, num_epochs + 1)
-    plt.figure(figsize=(10, 6))
+    plt.figure(figsize=(10, 6))  # Adjust the figure size as desired
     for i in range(len(model_names)):
         plt.plot(epochs, average_scores[:, i], marker='o', label=model_names[i])
+        # Add text annotations for each data point
+        for j, score in enumerate(average_scores[:, i]):
+            plt.text(epochs[j], score, str(round(score, 4)), ha='center', va='bottom')
     plt.xlabel('Epoch')
     plt.ylabel('Average Dev F1-score')
-    plt.title('Average Dev F1-score at Each Epoch')
-    plt.xlim(1, num_epochs)
-    plt.xticks(rotation=0)
+    plt.title('Average Dev (German Conll_03) F1-score at Each Epoch')
+    plt.xlim(1, num_epochs)  # Set x-axis limits to ensure all epochs are depicted
+    plt.xticks(rotation=0)  # Display x-axis tick labels horizontally
     plt.legend()
-    plt.tight_layout()
+    plt.tight_layout()  # Adjust the layout to prevent labels from being cut off
     plt.show()
 
 
@@ -61,7 +64,8 @@ def process_log_files(directory_list):
 
 
 directories: list[list[str, Path]] = [["Single Corpus (Eng + Dev-Split => CoNLL-03 German Test-Split)",
-                                       "multi_data_set_conll_train_results/Phase_04/conll_eng_ner_roberta_large_training_phase_4/only_full_fine_tuning_ger_test_as_dev"]
-                                     ]
+                                       "multi_data_set_conll_train_results/Phase_04/conll_eng_ner_roberta_large_training_phase_4/only_full_fine_tuning_ger_test_as_dev"],
+                                      ["Multi-Corpus (Eng+Dutch + Dev-Split => CoNLL-03 German Test-Split)",
+                                       "multi_data_set_conll_train_results/Phase_04/conll_eng_dutch_ner_roberta_large_training_phase_4/only_full_fine_tuning_ger_test_as_dev"]]
 
 process_log_files(directories)

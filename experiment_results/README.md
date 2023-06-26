@@ -185,6 +185,12 @@
 * F-score (micro) - Average: 93.79  ±  0.12
 * F-score (macro) - Average: 92.49  ±  0.15
 * Accuracy - Average: 90.72  ±  0.18
+#### train Multi-Corpus (Eng+Dutch + Dev-Split => CoNLL-03 German Test-Split)
+* F-score (micro) - Average: 93.82  ±  0.1
+* F-score (macro) - Average: 93.51  ±  0.11
+* Accuracy - Average: 91.34  ±  0.11
 ### Test Results on Conll_03 German
 #### test Single Corpus (Eng + Dev-Split => CoNLL-03 German Test-Split)
 * F-score (micro) - Average: 77.02  ±  0.1
+#### test Multi-Corpus (Eng+Dutch + Dev-Split => CoNLL-03 German Test-Split)
+* F-score (micro) - Average: 76.32  ±  0.99
