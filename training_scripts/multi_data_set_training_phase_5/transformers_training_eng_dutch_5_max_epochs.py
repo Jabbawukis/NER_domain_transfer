@@ -1,6 +1,7 @@
 import sys
 import flair
-from flair.datasets import CONLL_03, CONLL_03_GERMAN
+from flair.data import MultiCorpus
+from flair.datasets import CONLL_03, CONLL_03_GERMAN, CONLL_03_DUTCH
 from flair.embeddings import TransformerWordEmbeddings
 from flair.models import SequenceTagger
 from flair.trainers import ModelTrainer
@@ -8,8 +9,10 @@ import torch
 from flair.optim import LinearSchedulerWithWarmup
 
 flair.device = f'cuda:{sys.argv[1]}'
-corpus = CONLL_03()
+corpus = MultiCorpus([CONLL_03_DUTCH(), CONLL_03()])
+
 corpus._dev = CONLL_03_GERMAN(base_path="../../model_test_scripts/CONLL_03_GER").test
+
 label_type = 'ner'
 label_dict = corpus.make_label_dictionary(label_type=label_type)
 for run in range(1, 4):
@@ -30,7 +33,7 @@ for run in range(1, 4):
 
     trainer = ModelTrainer(tagger, corpus)
 
-    trainer.train(base_path=f'resources/taggers/conll_eng_ner_roberta_large_5_max_epochs_run_{run}_ger_test_as_dev',
+    trainer.train(base_path=f'resources/taggers/conll_eng_dutch_ner_roberta_large_5_max_epochs_run_{run}_ger_test_as_dev',
                   learning_rate=5.0e-6,
                   max_epochs=5,
                   optimizer=torch.optim.AdamW,
