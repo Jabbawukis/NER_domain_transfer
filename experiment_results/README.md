@@ -14,6 +14,7 @@
 * reproject_embeddings=False
 * learning_rate=5.0e-6
 * mini_batch_size=4
+* max_epochs=10
 
 ### Train Results
 #### train Single Corpus (Eng)
@@ -45,6 +46,7 @@
 * mini_batch_size=32 (linear probing)
 * learning_rate=5.0e-6 (full fine-tuning)
 * mini_batch_size=4 (full fine-tuning)
+* max_epochs=10
 
 ### Train Results
 #### train Single Corpus (Eng) linear probing (lp-lr 0.8)
@@ -111,6 +113,7 @@
 * reproject_embeddings=False
 * learning_rate=5.0e-6
 * mini_batch_size=4
+* max_epochs=10
 
 ### Train Results
 #### train Single Corpus (Eng) BitFit
@@ -142,6 +145,7 @@
 * mini_batch_size=32 (linear probing)
 * learning_rate=5.0e-6 (full fine-tuning)
 * mini_batch_size=4 (full fine-tuning)
+* max_epochs=10
 
 ### Train Results
 #### train Single Corpus (Eng) linear probing (lp-lr 0.3) BitFit
@@ -179,6 +183,7 @@
 * reproject_embeddings=False
 * learning_rate=5.0e-6
 * mini_batch_size=4
+* max_epochs=10
 
 ### Train Results
 #### train Single Corpus (Eng + Dev-Split => CoNLL-03 German Test-Split)
@@ -194,3 +199,33 @@
 * F-score (micro) - Average: 77.02  ±  0.1
 #### test Multi-Corpus (Eng+Dutch + Dev-Split => CoNLL-03 German Test-Split)
 * F-score (micro) - Average: 76.32  ±  0.99
+
+## Phase 05 (full fine-tuning + CoNLL-03 German Test-Split as Dev-Split)
+### Params:
+* model='xlm-roberta-large'
+* layers="-1"
+* subtoken_pooling="first"
+* fine_tune=True
+* use_context=True
+* hidden_size=256
+* use_crf=False,
+* use_rnn=False,
+* reproject_embeddings=False
+* learning_rate=5.0e-6
+* mini_batch_size=4
+* max_epochs=10
+
+### Train Results
+#### train Single Corpus (Dutch + Dev-Split => CoNLL-03 German Test-Split)
+* F-score (micro) - Average: 94.68  ±  0.55
+* F-score (macro) - Average: 94.71  ±  0.56
+* Accuracy - Average: 92.9  ±  0.94
+#### train Multi-Corpus (Eng+Dutch + Dev-Split => CoNLL-03 German Test-Split + max_epochs=5)
+* F-score (micro) - Average: 93.49  ±  0.05
+* F-score (macro) - Average: 93.15  ±  0.05
+* Accuracy - Average: 90.72  ±  0.07
+### Test Results on Conll_03 German
+#### test Single Corpus (Dutch + Dev-Split => CoNLL-03 German Test-Split)
+* F-score (micro) - Average: 74.9  ±  0.82
+#### test Multi-Corpus (Eng+Dutch + Dev-Split => CoNLL-03 German Test-Split + max_epochs=5)
+* F-score (micro) - Average: 76.47  ±  0.84
