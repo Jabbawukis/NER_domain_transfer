@@ -35,17 +35,13 @@ for mini_batch in mini_batches:
 
         trainer = ModelTrainer(tagger, corpus)
 
-        trainer.train(base_path=f'resources/taggers/conll_eng_ner_roberta_large_mini_batch_{mini_batch}_lr_{lr}_ger_test_as_dev',
-                      learning_rate=lr,
-                      max_epochs=10,
-                      optimizer=torch.optim.AdamW,
-                      scheduler=LinearSchedulerWithWarmup,
-                      warmup_fraction=0.1,
-                      mini_batch_size=mini_batch,
-                      embeddings_storage_mode="none",
-                      use_final_model_for_eval=True,
-                      monitor_test=True,
-                      )
+        trainer.fine_tune(
+            base_path=f'resources/taggers/conll_eng_ner_roberta_large_mini_batch_{mini_batch}_lr_{lr}_ger_test_as_dev',
+            learning_rate=lr,
+            max_epochs=10,
+            mini_batch_size=mini_batch,
+            monitor_test=True,
+            )
         del tagger
         del trainer
         del embeddings

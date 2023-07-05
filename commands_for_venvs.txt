@@ -1,0 +1,3 @@
+source ~/.environments/nlp/bin/activate
+conda activate nlp
+pip install . <- install flair setup
