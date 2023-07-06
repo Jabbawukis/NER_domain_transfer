@@ -11,8 +11,8 @@ corpus._dev = CONLL_03_GERMAN(base_path="../../model_test_scripts/CONLL_03_GER")
 label_type = 'ner'
 label_dict = corpus.make_label_dictionary(label_type=label_type)
 
-mini_batches = [40, 400]
-learning_rates = [1.0e-5, 1.0e-4]
+mini_batches = [10, 20, 30]
+learning_rates = [1.0e-5, 5e-4, 5e-3, 5e-2]
 
 for mini_batch in mini_batches:
     for lr in learning_rates:
