@@ -4,8 +4,6 @@ from flair.datasets import CONLL_03, CONLL_03_GERMAN
 from flair.embeddings import TransformerWordEmbeddings
 from flair.models import SequenceTagger
 from flair.trainers import ModelTrainer
-import torch
-from flair.optim import LinearSchedulerWithWarmup
 
 flair.device = f'cuda:{sys.argv[1]}'
 corpus = CONLL_03()
