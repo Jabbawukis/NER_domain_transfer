@@ -1,24 +1,22 @@
 import sys
 import flair
-from flair.datasets import CONLL_03, CONLL_03_GERMAN
+from flair.data import MultiCorpus
+from flair.datasets import CONLL_03, CONLL_03_GERMAN, CONLL_03_DUTCH
 from flair.embeddings import TransformerWordEmbeddings
 from flair.models import SequenceTagger
 from flair.trainers import ModelTrainer
 
 flair.device = f'cuda:{sys.argv[1]}'
-corpus = CONLL_03()
+corpus = MultiCorpus([CONLL_03_DUTCH(), CONLL_03()])
 corpus._dev = CONLL_03_GERMAN(base_path="../../model_test_scripts/CONLL_03_GER").test
 label_type = 'ner'
 label_dict = corpus.make_label_dictionary(label_type=label_type)
 
-combi_1 = [400, 5e-5]
-combi_2 = [100, 5e-5]
-combi_3 = [800, 5e-5]
-for combination in [combi_1, combi_2, combi_3]:
-    for run in range(1, 4):
-        mini_batch = combination[0]
-        lr = combination[1]
+mini_batches = [40, 100, 400]
+learning_rates = [6.0e-5, 7.0e-5, 8.0e-5, 9.0e-5]
 
+for mini_batch in mini_batches:
+    for lr in learning_rates:
         embeddings = TransformerWordEmbeddings(model='xlm-roberta-large',
                                                layers="-1",
                                                subtoken_pooling="first",
@@ -36,14 +34,13 @@ for combination in [combi_1, combi_2, combi_3]:
 
         trainer = ModelTrainer(tagger, corpus)
 
-        trainer.fine_tune(
-            base_path=f'resources/taggers/conll_eng_ner_roberta_large_mini_batch_{mini_batch}_lr_{lr}_run_{run}_ger_test_as_dev',
-            learning_rate=lr,
-            max_epochs=10,
-            mini_batch_size=mini_batch,
-            monitor_test=True,
-            mini_batch_chunk_size=4,
-            )
+        trainer.train(base_path=f'resources/taggers/conll_eng_dutch_ner_roberta_large_mini_batch_{mini_batch}_lr_{lr}_ger_test_as_dev',
+                      learning_rate=lr,
+                      max_epochs=10,
+                      mini_batch_size=mini_batch,
+                      monitor_test=True,
+                      mini_batch_chunk_size=4,
+                      )
         del tagger
         del trainer
         del embeddings
