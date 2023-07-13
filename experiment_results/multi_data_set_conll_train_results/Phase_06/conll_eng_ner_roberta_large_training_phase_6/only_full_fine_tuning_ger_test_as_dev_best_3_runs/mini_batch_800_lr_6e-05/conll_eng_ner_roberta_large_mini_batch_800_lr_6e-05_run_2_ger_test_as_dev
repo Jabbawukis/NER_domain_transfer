@@ -1,0 +1,336 @@
+2023-07-12 10:34:31,461 ----------------------------------------------------------------------------------------------------
+2023-07-12 10:34:31,466 Model: "SequenceTagger(
+  (embeddings): TransformerWordEmbeddings(
+    (model): XLMRobertaModel(
+      (embeddings): XLMRobertaEmbeddings(
+        (word_embeddings): Embedding(250003, 1024)
+        (position_embeddings): Embedding(514, 1024, padding_idx=1)
+        (token_type_embeddings): Embedding(1, 1024)
+        (LayerNorm): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+        (dropout): Dropout(p=0.1, inplace=False)
+      )
+      (encoder): XLMRobertaEncoder(
+        (layer): ModuleList(
+          (0-23): 24 x XLMRobertaLayer(
+            (attention): XLMRobertaAttention(
+              (self): XLMRobertaSelfAttention(
+                (query): Linear(in_features=1024, out_features=1024, bias=True)
+                (key): Linear(in_features=1024, out_features=1024, bias=True)
+                (value): Linear(in_features=1024, out_features=1024, bias=True)
+                (dropout): Dropout(p=0.1, inplace=False)
+              )
+              (output): XLMRobertaSelfOutput(
+                (dense): Linear(in_features=1024, out_features=1024, bias=True)
+                (LayerNorm): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+                (dropout): Dropout(p=0.1, inplace=False)
+              )
+            )
+            (intermediate): XLMRobertaIntermediate(
+              (dense): Linear(in_features=1024, out_features=4096, bias=True)
+              (intermediate_act_fn): GELUActivation()
+            )
+            (output): XLMRobertaOutput(
+              (dense): Linear(in_features=4096, out_features=1024, bias=True)
+              (LayerNorm): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+          )
+        )
+      )
+      (pooler): XLMRobertaPooler(
+        (dense): Linear(in_features=1024, out_features=1024, bias=True)
+        (activation): Tanh()
+      )
+    )
+  )
+  (locked_dropout): LockedDropout(p=0.5)
+  (linear): Linear(in_features=1024, out_features=17, bias=True)
+  (loss_function): CrossEntropyLoss()
+)"
+2023-07-12 10:34:31,467 ----------------------------------------------------------------------------------------------------
+2023-07-12 10:34:31,467 Corpus: 14987 train + 3160 dev + 3684 test sentences
+2023-07-12 10:34:31,467 ----------------------------------------------------------------------------------------------------
+2023-07-12 10:34:31,467 Train:  14987 sentences
+2023-07-12 10:34:31,467         (train_with_dev=False, train_with_test=False)
+2023-07-12 10:34:31,467 ----------------------------------------------------------------------------------------------------
+2023-07-12 10:34:31,467 Training Params:
+2023-07-12 10:34:31,467  - learning_rate: "6e-05" 
+2023-07-12 10:34:31,467  - mini_batch_size: "800"
+2023-07-12 10:34:31,467  - max_epochs: "10"
+2023-07-12 10:34:31,467  - shuffle: "True"
+2023-07-12 10:34:31,468 ----------------------------------------------------------------------------------------------------
+2023-07-12 10:34:31,468 Plugins:
+2023-07-12 10:34:31,468  - LinearScheduler | warmup_fraction: '0.1'
+2023-07-12 10:34:31,468 ----------------------------------------------------------------------------------------------------
+2023-07-12 10:34:31,468 Final evaluation on model after last epoch (final-model.pt)
+2023-07-12 10:34:31,468  - metric: "('micro avg', 'f1-score')"
+2023-07-12 10:34:31,468 ----------------------------------------------------------------------------------------------------
+2023-07-12 10:34:31,468 Computation:
+2023-07-12 10:34:31,468  - compute on device: cuda:3
+2023-07-12 10:34:31,468  - embedding storage: none
+2023-07-12 10:34:31,468 ----------------------------------------------------------------------------------------------------
+2023-07-12 10:34:31,468 Model training base path: "resources/taggers/conll_eng_ner_roberta_large_mini_batch_800_lr_6e-05_run_2_ger_test_as_dev"
+2023-07-12 10:34:31,468 ----------------------------------------------------------------------------------------------------
+2023-07-12 10:34:31,468 Removed gradient clipping
+2023-07-12 10:34:31,468 ----------------------------------------------------------------------------------------------------
+2023-07-12 10:34:31,469 ----------------------------------------------------------------------------------------------------
+2023-07-12 10:34:58,141 epoch 1 - iter 1/19 - loss 2.68967834 - time (sec): 26.67 - samples/sec: 399.11 - lr: 0.000000 - momentum: 0.000000
+2023-07-12 10:35:22,604 epoch 1 - iter 2/19 - loss 2.70446760 - time (sec): 51.13 - samples/sec: 413.66 - lr: 0.000003 - momentum: 0.000000
+2023-07-12 10:35:46,244 epoch 1 - iter 3/19 - loss 2.69646656 - time (sec): 74.77 - samples/sec: 424.74 - lr: 0.000006 - momentum: 0.000000
+2023-07-12 10:36:10,820 epoch 1 - iter 4/19 - loss 2.64975779 - time (sec): 99.35 - samples/sec: 437.07 - lr: 0.000009 - momentum: 0.000000
+2023-07-12 10:36:35,456 epoch 1 - iter 5/19 - loss 2.60067192 - time (sec): 123.98 - samples/sec: 440.83 - lr: 0.000013 - momentum: 0.000000
+2023-07-12 10:37:00,195 epoch 1 - iter 6/19 - loss 2.54038435 - time (sec): 148.72 - samples/sec: 438.87 - lr: 0.000016 - momentum: 0.000000
+2023-07-12 10:37:25,488 epoch 1 - iter 7/19 - loss 2.46675327 - time (sec): 174.02 - samples/sec: 438.63 - lr: 0.000019 - momentum: 0.000000
+2023-07-12 10:37:49,208 epoch 1 - iter 8/19 - loss 2.37146370 - time (sec): 197.74 - samples/sec: 442.84 - lr: 0.000022 - momentum: 0.000000
+2023-07-12 10:38:13,356 epoch 1 - iter 9/19 - loss 2.26267826 - time (sec): 221.88 - samples/sec: 443.51 - lr: 0.000025 - momentum: 0.000000
+2023-07-12 10:38:38,168 epoch 1 - iter 10/19 - loss 2.13652595 - time (sec): 246.70 - samples/sec: 443.82 - lr: 0.000028 - momentum: 0.000000
+2023-07-12 10:39:02,180 epoch 1 - iter 11/19 - loss 2.02648067 - time (sec): 270.71 - samples/sec: 445.72 - lr: 0.000032 - momentum: 0.000000
+2023-07-12 10:39:25,975 epoch 1 - iter 12/19 - loss 1.94030378 - time (sec): 294.50 - samples/sec: 446.78 - lr: 0.000035 - momentum: 0.000000
+2023-07-12 10:39:49,176 epoch 1 - iter 13/19 - loss 1.85830635 - time (sec): 317.70 - samples/sec: 447.94 - lr: 0.000038 - momentum: 0.000000
+2023-07-12 10:40:12,470 epoch 1 - iter 14/19 - loss 1.78556398 - time (sec): 341.00 - samples/sec: 450.39 - lr: 0.000041 - momentum: 0.000000
+2023-07-12 10:40:36,764 epoch 1 - iter 15/19 - loss 1.72107468 - time (sec): 365.29 - samples/sec: 449.21 - lr: 0.000044 - momentum: 0.000000
+2023-07-12 10:41:01,605 epoch 1 - iter 16/19 - loss 1.65819736 - time (sec): 390.13 - samples/sec: 448.56 - lr: 0.000047 - momentum: 0.000000
+2023-07-12 10:41:25,685 epoch 1 - iter 17/19 - loss 1.60425669 - time (sec): 414.21 - samples/sec: 448.65 - lr: 0.000051 - momentum: 0.000000
+2023-07-12 10:41:49,628 epoch 1 - iter 18/19 - loss 1.55200830 - time (sec): 438.16 - samples/sec: 449.00 - lr: 0.000054 - momentum: 0.000000
+2023-07-12 10:42:07,484 epoch 1 - iter 19/19 - loss 1.51628223 - time (sec): 456.01 - samples/sec: 448.60 - lr: 0.000057 - momentum: 0.000000
+2023-07-12 10:42:07,485 ----------------------------------------------------------------------------------------------------
+2023-07-12 10:42:07,485 EPOCH 1 done: loss 1.5163 - lr: 0.000057
+2023-07-12 10:42:49,694 DEV : loss 0.31382042169570923 - f1-score (micro avg)  0.0
+2023-07-12 10:43:32,499 TEST : loss 0.5445561408996582 - f1-score (micro avg)  0.0
+2023-07-12 10:43:32,549 ----------------------------------------------------------------------------------------------------
+2023-07-12 10:44:00,207 epoch 2 - iter 1/19 - loss 0.62867848 - time (sec): 27.66 - samples/sec: 381.44 - lr: 0.000060 - momentum: 0.000000
+2023-07-12 10:44:37,914 epoch 2 - iter 2/19 - loss 0.61543416 - time (sec): 65.36 - samples/sec: 326.61 - lr: 0.000060 - momentum: 0.000000
+2023-07-12 10:45:17,169 epoch 2 - iter 3/19 - loss 0.60178311 - time (sec): 104.62 - samples/sec: 310.90 - lr: 0.000059 - momentum: 0.000000
+2023-07-12 10:45:57,272 epoch 2 - iter 4/19 - loss 0.59528326 - time (sec): 144.72 - samples/sec: 299.51 - lr: 0.000059 - momentum: 0.000000
+2023-07-12 10:46:23,127 epoch 2 - iter 5/19 - loss 0.58887544 - time (sec): 170.58 - samples/sec: 319.88 - lr: 0.000059 - momentum: 0.000000
+2023-07-12 10:46:47,716 epoch 2 - iter 6/19 - loss 0.57439643 - time (sec): 195.17 - samples/sec: 337.09 - lr: 0.000058 - momentum: 0.000000
+2023-07-12 10:47:11,705 epoch 2 - iter 7/19 - loss 0.56656768 - time (sec): 219.15 - samples/sec: 348.29 - lr: 0.000058 - momentum: 0.000000
+2023-07-12 10:47:35,656 epoch 2 - iter 8/19 - loss 0.55619988 - time (sec): 243.10 - samples/sec: 360.34 - lr: 0.000058 - momentum: 0.000000
+2023-07-12 10:47:59,863 epoch 2 - iter 9/19 - loss 0.54322873 - time (sec): 267.31 - samples/sec: 368.45 - lr: 0.000057 - momentum: 0.000000
+2023-07-12 10:48:24,738 epoch 2 - iter 10/19 - loss 0.53615451 - time (sec): 292.19 - samples/sec: 375.00 - lr: 0.000057 - momentum: 0.000000
+2023-07-12 10:48:48,750 epoch 2 - iter 11/19 - loss 0.52539826 - time (sec): 316.20 - samples/sec: 381.61 - lr: 0.000057 - momentum: 0.000000
+2023-07-12 10:49:12,635 epoch 2 - iter 12/19 - loss 0.51418894 - time (sec): 340.08 - samples/sec: 386.61 - lr: 0.000056 - momentum: 0.000000
+2023-07-12 10:49:36,413 epoch 2 - iter 13/19 - loss 0.50427758 - time (sec): 363.86 - samples/sec: 390.99 - lr: 0.000056 - momentum: 0.000000
+2023-07-12 10:50:00,111 epoch 2 - iter 14/19 - loss 0.49488219 - time (sec): 387.56 - samples/sec: 395.71 - lr: 0.000056 - momentum: 0.000000
+2023-07-12 10:50:24,060 epoch 2 - iter 15/19 - loss 0.48605597 - time (sec): 411.51 - samples/sec: 398.89 - lr: 0.000055 - momentum: 0.000000
+2023-07-12 10:50:48,217 epoch 2 - iter 16/19 - loss 0.47702415 - time (sec): 435.67 - samples/sec: 402.18 - lr: 0.000055 - momentum: 0.000000
+2023-07-12 10:51:11,053 epoch 2 - iter 17/19 - loss 0.46808151 - time (sec): 458.50 - samples/sec: 406.21 - lr: 0.000055 - momentum: 0.000000
+2023-07-12 10:51:34,354 epoch 2 - iter 18/19 - loss 0.45996361 - time (sec): 481.80 - samples/sec: 408.99 - lr: 0.000054 - momentum: 0.000000
+2023-07-12 10:51:52,715 epoch 2 - iter 19/19 - loss 0.45415970 - time (sec): 500.16 - samples/sec: 409.00 - lr: 0.000054 - momentum: 0.000000
+2023-07-12 10:51:52,716 ----------------------------------------------------------------------------------------------------
+2023-07-12 10:51:52,716 EPOCH 2 done: loss 0.4542 - lr: 0.000054
+2023-07-12 10:52:37,047 DEV : loss 0.23636214435100555 - f1-score (micro avg)  0.5558
+2023-07-12 10:53:18,105 TEST : loss 0.24366731941699982 - f1-score (micro avg)  0.6943
+2023-07-12 10:53:18,156 ----------------------------------------------------------------------------------------------------
+2023-07-12 10:53:42,517 epoch 3 - iter 1/19 - loss 0.28645871 - time (sec): 24.36 - samples/sec: 457.93 - lr: 0.000054 - momentum: 0.000000
+2023-07-12 10:54:06,761 epoch 3 - iter 2/19 - loss 0.27515993 - time (sec): 48.60 - samples/sec: 452.31 - lr: 0.000053 - momentum: 0.000000
+2023-07-12 10:54:31,183 epoch 3 - iter 3/19 - loss 0.28134968 - time (sec): 73.03 - samples/sec: 449.40 - lr: 0.000053 - momentum: 0.000000
+2023-07-12 10:54:55,269 epoch 3 - iter 4/19 - loss 0.27859723 - time (sec): 97.11 - samples/sec: 449.93 - lr: 0.000053 - momentum: 0.000000
+2023-07-12 10:55:18,425 epoch 3 - iter 5/19 - loss 0.26816876 - time (sec): 120.27 - samples/sec: 459.38 - lr: 0.000052 - momentum: 0.000000
+2023-07-12 10:55:49,688 epoch 3 - iter 6/19 - loss 0.26379243 - time (sec): 151.53 - samples/sec: 438.95 - lr: 0.000052 - momentum: 0.000000
+2023-07-12 10:56:28,279 epoch 3 - iter 7/19 - loss 0.25910710 - time (sec): 190.12 - samples/sec: 405.32 - lr: 0.000052 - momentum: 0.000000
+2023-07-12 10:57:07,408 epoch 3 - iter 8/19 - loss 0.25362589 - time (sec): 229.25 - samples/sec: 384.70 - lr: 0.000051 - momentum: 0.000000
+2023-07-12 10:57:43,786 epoch 3 - iter 9/19 - loss 0.25250290 - time (sec): 265.63 - samples/sec: 373.57 - lr: 0.000051 - momentum: 0.000000
+2023-07-12 10:58:08,985 epoch 3 - iter 10/19 - loss 0.24662308 - time (sec): 290.83 - samples/sec: 379.20 - lr: 0.000051 - momentum: 0.000000
+2023-07-12 10:58:33,856 epoch 3 - iter 11/19 - loss 0.24133664 - time (sec): 315.70 - samples/sec: 383.16 - lr: 0.000050 - momentum: 0.000000
+2023-07-12 10:58:58,593 epoch 3 - iter 12/19 - loss 0.23671453 - time (sec): 340.44 - samples/sec: 386.94 - lr: 0.000050 - momentum: 0.000000
+2023-07-12 10:59:22,682 epoch 3 - iter 13/19 - loss 0.23158689 - time (sec): 364.52 - samples/sec: 390.49 - lr: 0.000050 - momentum: 0.000000
+2023-07-12 10:59:46,807 epoch 3 - iter 14/19 - loss 0.22717576 - time (sec): 388.65 - samples/sec: 394.41 - lr: 0.000049 - momentum: 0.000000
+2023-07-12 11:00:10,936 epoch 3 - iter 15/19 - loss 0.22238009 - time (sec): 412.78 - samples/sec: 397.28 - lr: 0.000049 - momentum: 0.000000
+2023-07-12 11:00:34,897 epoch 3 - iter 16/19 - loss 0.21743137 - time (sec): 436.74 - samples/sec: 399.64 - lr: 0.000049 - momentum: 0.000000
+2023-07-12 11:00:59,736 epoch 3 - iter 17/19 - loss 0.21294024 - time (sec): 461.58 - samples/sec: 401.75 - lr: 0.000048 - momentum: 0.000000
+2023-07-12 11:01:23,679 epoch 3 - iter 18/19 - loss 0.20865632 - time (sec): 485.52 - samples/sec: 404.96 - lr: 0.000048 - momentum: 0.000000
+2023-07-12 11:01:41,362 epoch 3 - iter 19/19 - loss 0.20622178 - time (sec): 503.20 - samples/sec: 406.53 - lr: 0.000048 - momentum: 0.000000
+2023-07-12 11:01:41,363 ----------------------------------------------------------------------------------------------------
+2023-07-12 11:01:41,363 EPOCH 3 done: loss 0.2062 - lr: 0.000048
+2023-07-12 11:02:25,270 DEV : loss 0.2118169665336609 - f1-score (micro avg)  0.6862
+2023-07-12 11:03:08,332 TEST : loss 0.1142352744936943 - f1-score (micro avg)  0.8939
+2023-07-12 11:03:08,389 ----------------------------------------------------------------------------------------------------
+2023-07-12 11:03:32,322 epoch 4 - iter 1/19 - loss 0.11510526 - time (sec): 23.93 - samples/sec: 470.10 - lr: 0.000047 - momentum: 0.000000
+2023-07-12 11:03:56,448 epoch 4 - iter 2/19 - loss 0.11621891 - time (sec): 48.06 - samples/sec: 462.51 - lr: 0.000047 - momentum: 0.000000
+2023-07-12 11:04:20,783 epoch 4 - iter 3/19 - loss 0.11633910 - time (sec): 72.39 - samples/sec: 458.45 - lr: 0.000047 - momentum: 0.000000
+2023-07-12 11:04:45,115 epoch 4 - iter 4/19 - loss 0.11428979 - time (sec): 96.72 - samples/sec: 460.93 - lr: 0.000046 - momentum: 0.000000
+2023-07-12 11:05:09,409 epoch 4 - iter 5/19 - loss 0.11075067 - time (sec): 121.02 - samples/sec: 456.75 - lr: 0.000046 - momentum: 0.000000
+2023-07-12 11:05:33,521 epoch 4 - iter 6/19 - loss 0.11166979 - time (sec): 145.13 - samples/sec: 455.55 - lr: 0.000046 - momentum: 0.000000
+2023-07-12 11:05:57,939 epoch 4 - iter 7/19 - loss 0.10774746 - time (sec): 169.55 - samples/sec: 454.11 - lr: 0.000045 - momentum: 0.000000
+2023-07-12 11:06:22,122 epoch 4 - iter 8/19 - loss 0.10623560 - time (sec): 193.73 - samples/sec: 454.68 - lr: 0.000045 - momentum: 0.000000
+2023-07-12 11:06:44,791 epoch 4 - iter 9/19 - loss 0.10502933 - time (sec): 216.40 - samples/sec: 457.21 - lr: 0.000044 - momentum: 0.000000
+2023-07-12 11:07:07,946 epoch 4 - iter 10/19 - loss 0.10272764 - time (sec): 239.55 - samples/sec: 461.21 - lr: 0.000044 - momentum: 0.000000
+2023-07-12 11:07:41,913 epoch 4 - iter 11/19 - loss 0.10330729 - time (sec): 273.52 - samples/sec: 441.07 - lr: 0.000044 - momentum: 0.000000
+2023-07-12 11:08:19,461 epoch 4 - iter 12/19 - loss 0.10039811 - time (sec): 311.07 - samples/sec: 422.96 - lr: 0.000043 - momentum: 0.000000
+2023-07-12 11:08:58,852 epoch 4 - iter 13/19 - loss 0.09954374 - time (sec): 350.46 - samples/sec: 406.71 - lr: 0.000043 - momentum: 0.000000
+2023-07-12 11:09:34,110 epoch 4 - iter 14/19 - loss 0.09689031 - time (sec): 385.72 - samples/sec: 398.22 - lr: 0.000043 - momentum: 0.000000
+2023-07-12 11:09:59,054 epoch 4 - iter 15/19 - loss 0.09630265 - time (sec): 410.66 - samples/sec: 399.96 - lr: 0.000042 - momentum: 0.000000
+2023-07-12 11:10:23,933 epoch 4 - iter 16/19 - loss 0.09536628 - time (sec): 435.54 - samples/sec: 402.69 - lr: 0.000042 - momentum: 0.000000
+2023-07-12 11:10:48,693 epoch 4 - iter 17/19 - loss 0.09410855 - time (sec): 460.30 - samples/sec: 404.69 - lr: 0.000042 - momentum: 0.000000
+2023-07-12 11:11:13,205 epoch 4 - iter 18/19 - loss 0.09346703 - time (sec): 484.81 - samples/sec: 406.45 - lr: 0.000041 - momentum: 0.000000
+2023-07-12 11:11:30,641 epoch 4 - iter 19/19 - loss 0.09260843 - time (sec): 502.25 - samples/sec: 407.30 - lr: 0.000041 - momentum: 0.000000
+2023-07-12 11:11:30,642 ----------------------------------------------------------------------------------------------------
+2023-07-12 11:11:30,642 EPOCH 4 done: loss 0.0926 - lr: 0.000041
+2023-07-12 11:12:12,725 DEV : loss 0.22093845903873444 - f1-score (micro avg)  0.6938
+2023-07-12 11:12:55,427 TEST : loss 0.09152157604694366 - f1-score (micro avg)  0.9226
+2023-07-12 11:12:55,475 ----------------------------------------------------------------------------------------------------
+2023-07-12 11:13:19,845 epoch 5 - iter 1/19 - loss 0.06312493 - time (sec): 24.37 - samples/sec: 452.24 - lr: 0.000041 - momentum: 0.000000
+2023-07-12 11:13:43,881 epoch 5 - iter 2/19 - loss 0.07348854 - time (sec): 48.40 - samples/sec: 454.54 - lr: 0.000040 - momentum: 0.000000
+2023-07-12 11:14:08,012 epoch 5 - iter 3/19 - loss 0.07167648 - time (sec): 72.54 - samples/sec: 453.09 - lr: 0.000040 - momentum: 0.000000
+2023-07-12 11:14:31,450 epoch 5 - iter 4/19 - loss 0.07006283 - time (sec): 95.97 - samples/sec: 457.56 - lr: 0.000040 - momentum: 0.000000
+2023-07-12 11:14:54,079 epoch 5 - iter 5/19 - loss 0.07096066 - time (sec): 118.60 - samples/sec: 464.39 - lr: 0.000039 - momentum: 0.000000
+2023-07-12 11:15:17,363 epoch 5 - iter 6/19 - loss 0.06772476 - time (sec): 141.89 - samples/sec: 465.87 - lr: 0.000039 - momentum: 0.000000
+2023-07-12 11:15:46,005 epoch 5 - iter 7/19 - loss 0.06615707 - time (sec): 170.53 - samples/sec: 452.35 - lr: 0.000039 - momentum: 0.000000
+2023-07-12 11:16:10,036 epoch 5 - iter 8/19 - loss 0.06439372 - time (sec): 194.56 - samples/sec: 451.42 - lr: 0.000038 - momentum: 0.000000
+2023-07-12 11:16:34,175 epoch 5 - iter 9/19 - loss 0.06297407 - time (sec): 218.70 - samples/sec: 448.94 - lr: 0.000038 - momentum: 0.000000
+2023-07-12 11:16:59,219 epoch 5 - iter 10/19 - loss 0.06271775 - time (sec): 243.74 - samples/sec: 446.37 - lr: 0.000038 - momentum: 0.000000
+2023-07-12 11:17:26,802 epoch 5 - iter 11/19 - loss 0.06133716 - time (sec): 271.33 - samples/sec: 441.15 - lr: 0.000037 - momentum: 0.000000
+2023-07-12 11:17:52,565 epoch 5 - iter 12/19 - loss 0.06089514 - time (sec): 297.09 - samples/sec: 437.94 - lr: 0.000037 - momentum: 0.000000
+2023-07-12 11:18:15,458 epoch 5 - iter 13/19 - loss 0.06062275 - time (sec): 319.98 - samples/sec: 442.33 - lr: 0.000037 - momentum: 0.000000
+2023-07-12 11:18:40,553 epoch 5 - iter 14/19 - loss 0.05975614 - time (sec): 345.08 - samples/sec: 443.23 - lr: 0.000036 - momentum: 0.000000
+2023-07-12 11:19:03,821 epoch 5 - iter 15/19 - loss 0.05931944 - time (sec): 368.34 - samples/sec: 444.77 - lr: 0.000036 - momentum: 0.000000
+2023-07-12 11:19:27,113 epoch 5 - iter 16/19 - loss 0.05879095 - time (sec): 391.64 - samples/sec: 446.51 - lr: 0.000036 - momentum: 0.000000
+2023-07-12 11:19:55,132 epoch 5 - iter 17/19 - loss 0.05823571 - time (sec): 419.66 - samples/sec: 443.24 - lr: 0.000035 - momentum: 0.000000
+2023-07-12 11:20:32,484 epoch 5 - iter 18/19 - loss 0.05846643 - time (sec): 457.01 - samples/sec: 430.64 - lr: 0.000035 - momentum: 0.000000
+2023-07-12 11:21:02,048 epoch 5 - iter 19/19 - loss 0.05793112 - time (sec): 486.57 - samples/sec: 420.43 - lr: 0.000035 - momentum: 0.000000
+2023-07-12 11:21:02,049 ----------------------------------------------------------------------------------------------------
+2023-07-12 11:21:02,049 EPOCH 5 done: loss 0.0579 - lr: 0.000035
+2023-07-12 11:24:21,875 DEV : loss 0.19944830238819122 - f1-score (micro avg)  0.707
+2023-07-12 11:25:03,264 TEST : loss 0.08738644421100616 - f1-score (micro avg)  0.9202
+2023-07-12 11:25:03,321 ----------------------------------------------------------------------------------------------------
+2023-07-12 11:25:27,102 epoch 6 - iter 1/19 - loss 0.04107566 - time (sec): 23.78 - samples/sec: 429.53 - lr: 0.000034 - momentum: 0.000000
+2023-07-12 11:25:51,348 epoch 6 - iter 2/19 - loss 0.04547565 - time (sec): 48.03 - samples/sec: 456.05 - lr: 0.000034 - momentum: 0.000000
+2023-07-12 11:26:15,070 epoch 6 - iter 3/19 - loss 0.04366168 - time (sec): 71.75 - samples/sec: 448.97 - lr: 0.000034 - momentum: 0.000000
+2023-07-12 11:26:38,817 epoch 6 - iter 4/19 - loss 0.04507031 - time (sec): 95.49 - samples/sec: 456.59 - lr: 0.000033 - momentum: 0.000000
+2023-07-12 11:27:03,282 epoch 6 - iter 5/19 - loss 0.04396078 - time (sec): 119.96 - samples/sec: 456.12 - lr: 0.000033 - momentum: 0.000000
+2023-07-12 11:27:27,006 epoch 6 - iter 6/19 - loss 0.04567353 - time (sec): 143.68 - samples/sec: 458.06 - lr: 0.000033 - momentum: 0.000000
+2023-07-12 11:27:51,382 epoch 6 - iter 7/19 - loss 0.04522819 - time (sec): 168.06 - samples/sec: 452.51 - lr: 0.000032 - momentum: 0.000000
+2023-07-12 11:28:15,766 epoch 6 - iter 8/19 - loss 0.04548427 - time (sec): 192.44 - samples/sec: 448.65 - lr: 0.000032 - momentum: 0.000000
+2023-07-12 11:28:40,431 epoch 6 - iter 9/19 - loss 0.04584406 - time (sec): 217.11 - samples/sec: 447.50 - lr: 0.000032 - momentum: 0.000000
+2023-07-12 11:29:04,306 epoch 6 - iter 10/19 - loss 0.04592216 - time (sec): 240.98 - samples/sec: 450.86 - lr: 0.000031 - momentum: 0.000000
+2023-07-12 11:29:27,266 epoch 6 - iter 11/19 - loss 0.04511198 - time (sec): 263.94 - samples/sec: 451.69 - lr: 0.000031 - momentum: 0.000000
+2023-07-12 11:29:50,212 epoch 6 - iter 12/19 - loss 0.04538784 - time (sec): 286.89 - samples/sec: 453.82 - lr: 0.000031 - momentum: 0.000000
+2023-07-12 11:30:13,837 epoch 6 - iter 13/19 - loss 0.04567324 - time (sec): 310.51 - samples/sec: 455.22 - lr: 0.000030 - momentum: 0.000000
+2023-07-12 11:30:37,850 epoch 6 - iter 14/19 - loss 0.04544943 - time (sec): 334.53 - samples/sec: 456.30 - lr: 0.000030 - momentum: 0.000000
+2023-07-12 11:31:02,123 epoch 6 - iter 15/19 - loss 0.04490304 - time (sec): 358.80 - samples/sec: 454.92 - lr: 0.000030 - momentum: 0.000000
+2023-07-12 11:31:26,485 epoch 6 - iter 16/19 - loss 0.04489275 - time (sec): 383.16 - samples/sec: 455.86 - lr: 0.000029 - momentum: 0.000000
+2023-07-12 11:31:50,568 epoch 6 - iter 17/19 - loss 0.04508847 - time (sec): 407.25 - samples/sec: 455.43 - lr: 0.000029 - momentum: 0.000000
+2023-07-12 11:32:14,513 epoch 6 - iter 18/19 - loss 0.04519812 - time (sec): 431.19 - samples/sec: 454.64 - lr: 0.000029 - momentum: 0.000000
+2023-07-12 11:32:32,328 epoch 6 - iter 19/19 - loss 0.04480911 - time (sec): 449.01 - samples/sec: 455.60 - lr: 0.000028 - momentum: 0.000000
+2023-07-12 11:32:32,329 ----------------------------------------------------------------------------------------------------
+2023-07-12 11:32:32,329 EPOCH 6 done: loss 0.0448 - lr: 0.000028
+2023-07-12 11:33:16,398 DEV : loss 0.19395393133163452 - f1-score (micro avg)  0.7133
+2023-07-12 11:33:59,466 TEST : loss 0.08018209785223007 - f1-score (micro avg)  0.9308
+2023-07-12 11:33:59,515 ----------------------------------------------------------------------------------------------------
+2023-07-12 11:34:35,471 epoch 7 - iter 1/19 - loss 0.03774738 - time (sec): 35.95 - samples/sec: 305.51 - lr: 0.000028 - momentum: 0.000000
+2023-07-12 11:35:14,763 epoch 7 - iter 2/19 - loss 0.04195902 - time (sec): 75.25 - samples/sec: 297.39 - lr: 0.000028 - momentum: 0.000000
+2023-07-12 11:35:53,994 epoch 7 - iter 3/19 - loss 0.04021766 - time (sec): 114.48 - samples/sec: 292.96 - lr: 0.000027 - momentum: 0.000000
+2023-07-12 11:36:26,742 epoch 7 - iter 4/19 - loss 0.03990192 - time (sec): 147.23 - samples/sec: 298.87 - lr: 0.000027 - momentum: 0.000000
+2023-07-12 11:36:52,224 epoch 7 - iter 5/19 - loss 0.04009768 - time (sec): 172.71 - samples/sec: 320.22 - lr: 0.000027 - momentum: 0.000000
+2023-07-12 11:37:16,970 epoch 7 - iter 6/19 - loss 0.03810232 - time (sec): 197.45 - samples/sec: 336.01 - lr: 0.000026 - momentum: 0.000000
+2023-07-12 11:37:41,516 epoch 7 - iter 7/19 - loss 0.03715353 - time (sec): 222.00 - samples/sec: 348.32 - lr: 0.000026 - momentum: 0.000000
+2023-07-12 11:38:05,643 epoch 7 - iter 8/19 - loss 0.03694006 - time (sec): 246.13 - samples/sec: 358.50 - lr: 0.000026 - momentum: 0.000000
+2023-07-12 11:38:30,306 epoch 7 - iter 9/19 - loss 0.03606996 - time (sec): 270.79 - samples/sec: 364.98 - lr: 0.000025 - momentum: 0.000000
+2023-07-12 11:38:54,876 epoch 7 - iter 10/19 - loss 0.03592162 - time (sec): 295.36 - samples/sec: 371.15 - lr: 0.000025 - momentum: 0.000000
+2023-07-12 11:39:19,375 epoch 7 - iter 11/19 - loss 0.03565819 - time (sec): 319.86 - samples/sec: 376.92 - lr: 0.000025 - momentum: 0.000000
+2023-07-12 11:39:44,487 epoch 7 - iter 12/19 - loss 0.03666234 - time (sec): 344.97 - samples/sec: 379.63 - lr: 0.000024 - momentum: 0.000000
+2023-07-12 11:40:08,911 epoch 7 - iter 13/19 - loss 0.03756130 - time (sec): 369.39 - samples/sec: 383.72 - lr: 0.000024 - momentum: 0.000000
+2023-07-12 11:40:32,991 epoch 7 - iter 14/19 - loss 0.03749308 - time (sec): 393.47 - samples/sec: 387.47 - lr: 0.000024 - momentum: 0.000000
+2023-07-12 11:40:56,698 epoch 7 - iter 15/19 - loss 0.03734560 - time (sec): 417.18 - samples/sec: 391.06 - lr: 0.000023 - momentum: 0.000000
+2023-07-12 11:41:20,375 epoch 7 - iter 16/19 - loss 0.03704601 - time (sec): 440.86 - samples/sec: 393.84 - lr: 0.000023 - momentum: 0.000000
+2023-07-12 11:41:43,249 epoch 7 - iter 17/19 - loss 0.03693743 - time (sec): 463.73 - samples/sec: 400.39 - lr: 0.000023 - momentum: 0.000000
+2023-07-12 11:42:05,981 epoch 7 - iter 18/19 - loss 0.03653472 - time (sec): 486.46 - samples/sec: 403.23 - lr: 0.000022 - momentum: 0.000000
+2023-07-12 11:42:22,734 epoch 7 - iter 19/19 - loss 0.03661578 - time (sec): 503.22 - samples/sec: 406.52 - lr: 0.000022 - momentum: 0.000000
+2023-07-12 11:42:22,735 ----------------------------------------------------------------------------------------------------
+2023-07-12 11:42:22,735 EPOCH 7 done: loss 0.0366 - lr: 0.000022
+2023-07-12 11:43:05,531 DEV : loss 0.2103549987077713 - f1-score (micro avg)  0.7109
+2023-07-12 11:43:47,779 TEST : loss 0.09239800274372101 - f1-score (micro avg)  0.9283
+2023-07-12 11:43:47,834 ----------------------------------------------------------------------------------------------------
+2023-07-12 11:44:11,861 epoch 8 - iter 1/19 - loss 0.03230040 - time (sec): 24.02 - samples/sec: 465.69 - lr: 0.000022 - momentum: 0.000000
+2023-07-12 11:44:36,253 epoch 8 - iter 2/19 - loss 0.03364546 - time (sec): 48.42 - samples/sec: 454.04 - lr: 0.000021 - momentum: 0.000000
+2023-07-12 11:45:00,760 epoch 8 - iter 3/19 - loss 0.03095189 - time (sec): 72.92 - samples/sec: 450.43 - lr: 0.000021 - momentum: 0.000000
+2023-07-12 11:45:24,813 epoch 8 - iter 4/19 - loss 0.03161211 - time (sec): 96.98 - samples/sec: 447.90 - lr: 0.000021 - momentum: 0.000000
+2023-07-12 11:45:48,693 epoch 8 - iter 5/19 - loss 0.03197468 - time (sec): 120.86 - samples/sec: 452.63 - lr: 0.000020 - momentum: 0.000000
+2023-07-12 11:46:11,519 epoch 8 - iter 6/19 - loss 0.03179584 - time (sec): 143.68 - samples/sec: 460.01 - lr: 0.000020 - momentum: 0.000000
+2023-07-12 11:46:34,907 epoch 8 - iter 7/19 - loss 0.03216512 - time (sec): 167.07 - samples/sec: 458.94 - lr: 0.000020 - momentum: 0.000000
+2023-07-12 11:47:10,412 epoch 8 - iter 8/19 - loss 0.03181231 - time (sec): 202.58 - samples/sec: 434.40 - lr: 0.000019 - momentum: 0.000000
+2023-07-12 11:47:47,253 epoch 8 - iter 9/19 - loss 0.03103187 - time (sec): 239.42 - samples/sec: 412.01 - lr: 0.000019 - momentum: 0.000000
+2023-07-12 11:48:26,346 epoch 8 - iter 10/19 - loss 0.03127200 - time (sec): 278.51 - samples/sec: 394.00 - lr: 0.000019 - momentum: 0.000000
+2023-07-12 11:49:01,049 epoch 8 - iter 11/19 - loss 0.03146855 - time (sec): 313.21 - samples/sec: 384.39 - lr: 0.000018 - momentum: 0.000000
+2023-07-12 11:49:25,293 epoch 8 - iter 12/19 - loss 0.03142845 - time (sec): 337.46 - samples/sec: 389.23 - lr: 0.000018 - momentum: 0.000000
+2023-07-12 11:49:49,819 epoch 8 - iter 13/19 - loss 0.03151825 - time (sec): 361.98 - samples/sec: 391.72 - lr: 0.000018 - momentum: 0.000000
+2023-07-12 11:50:14,245 epoch 8 - iter 14/19 - loss 0.03157036 - time (sec): 386.41 - samples/sec: 393.91 - lr: 0.000017 - momentum: 0.000000
+2023-07-12 11:50:38,251 epoch 8 - iter 15/19 - loss 0.03164327 - time (sec): 410.41 - samples/sec: 397.27 - lr: 0.000017 - momentum: 0.000000
+2023-07-12 11:51:02,692 epoch 8 - iter 16/19 - loss 0.03152354 - time (sec): 434.86 - samples/sec: 400.01 - lr: 0.000017 - momentum: 0.000000
+2023-07-12 11:51:26,439 epoch 8 - iter 17/19 - loss 0.03144529 - time (sec): 458.60 - samples/sec: 403.62 - lr: 0.000016 - momentum: 0.000000
+2023-07-12 11:51:50,568 epoch 8 - iter 18/19 - loss 0.03074938 - time (sec): 482.73 - samples/sec: 406.06 - lr: 0.000016 - momentum: 0.000000
+2023-07-12 12:09:02,130 epoch 8 - iter 19/19 - loss 0.03031418 - time (sec): 1514.29 - samples/sec: 135.09 - lr: 0.000016 - momentum: 0.000000
+2023-07-12 12:09:02,131 ----------------------------------------------------------------------------------------------------
+2023-07-12 12:09:02,131 EPOCH 8 done: loss 0.0303 - lr: 0.000016
+2023-07-12 12:09:43,826 DEV : loss 0.20858030021190643 - f1-score (micro avg)  0.7149
+2023-07-12 12:10:24,635 TEST : loss 0.08990269899368286 - f1-score (micro avg)  0.9298
+2023-07-12 12:10:24,698 ----------------------------------------------------------------------------------------------------
+2023-07-12 12:10:47,842 epoch 9 - iter 1/19 - loss 0.02934806 - time (sec): 23.14 - samples/sec: 448.89 - lr: 0.000015 - momentum: 0.000000
+2023-07-12 12:11:10,506 epoch 9 - iter 2/19 - loss 0.03035163 - time (sec): 45.81 - samples/sec: 458.68 - lr: 0.000015 - momentum: 0.000000
+2023-07-12 12:11:32,886 epoch 9 - iter 3/19 - loss 0.03016832 - time (sec): 68.19 - samples/sec: 462.24 - lr: 0.000014 - momentum: 0.000000
+2023-07-12 12:11:57,626 epoch 9 - iter 4/19 - loss 0.02993163 - time (sec): 92.93 - samples/sec: 462.17 - lr: 0.000014 - momentum: 0.000000
+2023-07-12 12:12:22,195 epoch 9 - iter 5/19 - loss 0.02821556 - time (sec): 117.49 - samples/sec: 455.03 - lr: 0.000014 - momentum: 0.000000
+2023-07-12 12:12:46,508 epoch 9 - iter 6/19 - loss 0.02885509 - time (sec): 141.81 - samples/sec: 460.77 - lr: 0.000013 - momentum: 0.000000
+2023-07-12 12:13:11,112 epoch 9 - iter 7/19 - loss 0.02868163 - time (sec): 166.41 - samples/sec: 460.84 - lr: 0.000013 - momentum: 0.000000
+2023-07-12 12:13:35,057 epoch 9 - iter 8/19 - loss 0.02873555 - time (sec): 190.36 - samples/sec: 463.12 - lr: 0.000013 - momentum: 0.000000
+2023-07-12 12:13:58,977 epoch 9 - iter 9/19 - loss 0.02927833 - time (sec): 214.28 - samples/sec: 461.68 - lr: 0.000012 - momentum: 0.000000
+2023-07-12 12:14:23,105 epoch 9 - iter 10/19 - loss 0.02918530 - time (sec): 238.40 - samples/sec: 460.51 - lr: 0.000012 - momentum: 0.000000
+2023-07-12 12:14:47,043 epoch 9 - iter 11/19 - loss 0.02875392 - time (sec): 262.34 - samples/sec: 459.74 - lr: 0.000012 - momentum: 0.000000
+2023-07-12 12:15:09,681 epoch 9 - iter 12/19 - loss 0.02846642 - time (sec): 284.98 - samples/sec: 459.25 - lr: 0.000011 - momentum: 0.000000
+2023-07-12 12:15:33,030 epoch 9 - iter 13/19 - loss 0.02865906 - time (sec): 308.33 - samples/sec: 459.56 - lr: 0.000011 - momentum: 0.000000
+2023-07-12 12:15:58,595 epoch 9 - iter 14/19 - loss 0.02851269 - time (sec): 333.89 - samples/sec: 459.07 - lr: 0.000011 - momentum: 0.000000
+2023-07-12 12:16:36,852 epoch 9 - iter 15/19 - loss 0.02835358 - time (sec): 372.15 - samples/sec: 440.87 - lr: 0.000010 - momentum: 0.000000
+2023-07-12 12:17:14,726 epoch 9 - iter 16/19 - loss 0.02797421 - time (sec): 410.03 - samples/sec: 427.61 - lr: 0.000010 - momentum: 0.000000
+2023-07-12 12:17:52,406 epoch 9 - iter 17/19 - loss 0.02803346 - time (sec): 447.71 - samples/sec: 415.33 - lr: 0.000010 - momentum: 0.000000
+2023-07-12 12:18:22,376 epoch 9 - iter 18/19 - loss 0.02799407 - time (sec): 477.68 - samples/sec: 412.72 - lr: 0.000009 - momentum: 0.000000
+2023-07-12 12:18:42,118 epoch 9 - iter 19/19 - loss 0.02828003 - time (sec): 497.42 - samples/sec: 411.26 - lr: 0.000009 - momentum: 0.000000
+2023-07-12 12:18:42,118 ----------------------------------------------------------------------------------------------------
+2023-07-12 12:18:42,118 EPOCH 9 done: loss 0.0283 - lr: 0.000009
+2023-07-12 12:19:24,675 DEV : loss 0.1965217888355255 - f1-score (micro avg)  0.7287
+2023-07-12 12:20:05,554 TEST : loss 0.08622454106807709 - f1-score (micro avg)  0.9321
+2023-07-12 12:20:05,603 ----------------------------------------------------------------------------------------------------
+2023-07-12 12:20:29,513 epoch 10 - iter 1/19 - loss 0.02954183 - time (sec): 23.91 - samples/sec: 455.44 - lr: 0.000009 - momentum: 0.000000
+2023-07-12 12:20:53,199 epoch 10 - iter 2/19 - loss 0.02994293 - time (sec): 47.59 - samples/sec: 446.42 - lr: 0.000008 - momentum: 0.000000
+2023-07-12 12:21:17,293 epoch 10 - iter 3/19 - loss 0.02926044 - time (sec): 71.69 - samples/sec: 451.69 - lr: 0.000008 - momentum: 0.000000
+2023-07-12 12:21:41,436 epoch 10 - iter 4/19 - loss 0.02913365 - time (sec): 95.83 - samples/sec: 450.73 - lr: 0.000008 - momentum: 0.000000
+2023-07-12 12:22:05,047 epoch 10 - iter 5/19 - loss 0.02856019 - time (sec): 119.44 - samples/sec: 454.97 - lr: 0.000007 - momentum: 0.000000
+2023-07-12 12:22:28,711 epoch 10 - iter 6/19 - loss 0.02750109 - time (sec): 143.11 - samples/sec: 455.25 - lr: 0.000007 - momentum: 0.000000
+2023-07-12 12:22:53,013 epoch 10 - iter 7/19 - loss 0.02673618 - time (sec): 167.41 - samples/sec: 452.56 - lr: 0.000007 - momentum: 0.000000
+2023-07-12 12:23:15,940 epoch 10 - iter 8/19 - loss 0.02661698 - time (sec): 190.33 - samples/sec: 452.78 - lr: 0.000006 - momentum: 0.000000
+2023-07-12 12:23:39,061 epoch 10 - iter 9/19 - loss 0.02693568 - time (sec): 213.46 - samples/sec: 452.66 - lr: 0.000006 - momentum: 0.000000
+2023-07-12 12:24:01,205 epoch 10 - iter 10/19 - loss 0.02684778 - time (sec): 235.60 - samples/sec: 458.54 - lr: 0.000006 - momentum: 0.000000
+2023-07-12 12:24:24,199 epoch 10 - iter 11/19 - loss 0.02659500 - time (sec): 258.59 - samples/sec: 459.72 - lr: 0.000005 - momentum: 0.000000
+2023-07-12 12:24:49,140 epoch 10 - iter 12/19 - loss 0.02637294 - time (sec): 283.54 - samples/sec: 459.08 - lr: 0.000005 - momentum: 0.000000
+2023-07-12 12:25:13,909 epoch 10 - iter 13/19 - loss 0.02582974 - time (sec): 308.30 - samples/sec: 459.05 - lr: 0.000005 - momentum: 0.000000
+2023-07-12 12:25:38,370 epoch 10 - iter 14/19 - loss 0.02560547 - time (sec): 332.77 - samples/sec: 460.99 - lr: 0.000004 - momentum: 0.000000
+2023-07-12 12:26:01,596 epoch 10 - iter 15/19 - loss 0.02557686 - time (sec): 355.99 - samples/sec: 461.17 - lr: 0.000004 - momentum: 0.000000
+2023-07-12 12:26:25,916 epoch 10 - iter 16/19 - loss 0.02520192 - time (sec): 380.31 - samples/sec: 461.25 - lr: 0.000004 - momentum: 0.000000
+2023-07-12 12:26:49,538 epoch 10 - iter 17/19 - loss 0.02519491 - time (sec): 403.93 - samples/sec: 461.64 - lr: 0.000003 - momentum: 0.000000
+2023-07-12 12:27:13,376 epoch 10 - iter 18/19 - loss 0.02588575 - time (sec): 427.77 - samples/sec: 460.47 - lr: 0.000003 - momentum: 0.000000
+2023-07-12 12:27:31,057 epoch 10 - iter 19/19 - loss 0.02622453 - time (sec): 445.45 - samples/sec: 459.23 - lr: 0.000003 - momentum: 0.000000
+2023-07-12 12:27:31,057 ----------------------------------------------------------------------------------------------------
+2023-07-12 12:27:31,057 EPOCH 10 done: loss 0.0262 - lr: 0.000003
+2023-07-12 12:28:17,863 DEV : loss 0.20142315328121185 - f1-score (micro avg)  0.7223
+2023-07-12 12:29:14,156 TEST : loss 0.08621356636285782 - f1-score (micro avg)  0.9329
+2023-07-12 12:29:26,102 ----------------------------------------------------------------------------------------------------
+2023-07-12 12:29:26,108 Testing using last state of model ...
+2023-07-12 12:30:36,479 
+Results:
+- F-score (micro) 0.9329
+- F-score (macro) 0.9181
+- Accuracy 0.9011
+
+By class:
+              precision    recall  f1-score   support
+
+         ORG     0.9075    0.9386    0.9228      1661
+         LOC     0.9502    0.9371    0.9436      1668
+         PER     0.9839    0.9802    0.9820      1617
+        MISC     0.7898    0.8618    0.8243       702
+
+   micro avg     0.9254    0.9405    0.9329      5648
+   macro avg     0.9078    0.9294    0.9181      5648
+weighted avg     0.9273    0.9405    0.9336      5648
+
+2023-07-12 12:30:36,479 ----------------------------------------------------------------------------------------------------
