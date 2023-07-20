@@ -13,12 +13,7 @@ label_dict = corpus.make_label_dictionary(label_type=label_type)
 
 combi_1 = [400, 6.0e-5]
 combi_2 = [100, 8e-05]
-combi_3 = [800, 6e-05]
-
-combi_4 = [400, 5e-5]
-combi_5 = [100, 5e-5]
-combi_6 = [800, 5e-5]
-for combination in [combi_1, combi_2, combi_3, combi_4, combi_5, combi_6]:
+for combination in [combi_1, combi_2]:
     for run in range(1, 4):
         mini_batch = combination[0]
         lr = combination[1]
