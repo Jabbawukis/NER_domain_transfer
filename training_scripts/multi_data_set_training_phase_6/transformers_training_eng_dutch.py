@@ -34,13 +34,14 @@ for mini_batch in mini_batches:
 
         trainer = ModelTrainer(tagger, corpus)
 
-        trainer.train(base_path=f'resources/taggers/conll_eng_dutch_ner_roberta_large_mini_batch_{mini_batch}_lr_{lr}_ger_test_as_dev',
-                      learning_rate=lr,
-                      max_epochs=10,
-                      mini_batch_size=mini_batch,
-                      monitor_test=True,
-                      mini_batch_chunk_size=4,
-                      )
+        trainer.fine_tune(
+            base_path=f'resources/taggers/conll_eng_dutch_ner_roberta_large_mini_batch_{mini_batch}_lr_{lr}_ger_test_as_dev',
+            learning_rate=lr,
+            max_epochs=10,
+            mini_batch_size=mini_batch,
+            monitor_test=True,
+            mini_batch_chunk_size=4,
+        )
         del tagger
         del trainer
         del embeddings
